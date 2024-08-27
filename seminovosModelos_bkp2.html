@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daitan</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">   
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="lib/vertical-responsive/css/easy-responsive-tabs.css">
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+
+<body>
+    <header>
+      <div id="top">
+          <div class="container">
+              <div class="d-flex align-items-center justify-content-between">
+                  <div class="locate">
+                      <span>
+                        Sua Daitan mais próxima está em: <b>São Paulo</b>, <a href="#">troque aqui</a>.
+                      </span>
+                  </div>
+                  <ul class="topnav">
+                      <li class="topnav-item">
+                        <a href="#" class="topnav-link">A Daitan</a>
+                      </li>
+                      <li class="topnav-item">
+                        <a href="#" class="topnav-link">Política de Privacidade</a>
+                      </li>
+                      <li class="topnav-item">                          
+                        <a href="#" class="topnav-link">Trabalhe Conosco</a>
+                      </li>
+                  </ul>                        
+              </div>                
+          </div>            
+      </div>
+      <div id="header">
+        <div class="container">
+          <div class="r-flex">
+            <a href="/">
+              <img id="logo" src="img/logo-daitan.svg" width="210" alt="Logo Daitan">
+            </a>
+            <div id="media">
+              <ul class="socialmedia">
+                <li>
+                  <a href="https://www.facebook.com/HondaDaitan/" target="_blank">
+                    <img src="img/rs-facebook.svg" alt="Facebook Oficial da Daitan">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/hondadaitan/" target="_blank">
+                    <img src="img/rs-instagram.svg" alt="Instagram Oficial da Daitan">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/honda-daitan/" target="_blank">
+                    <img src="img/rs-linkedin.svg" alt="LinkedIn Oficial da Daitan">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/channel/UCFTCzhHYqbpGrM6oLcP2f5A" target="_blank">
+                    <img src="img/rs-youtube.svg" alt="YouTube Oficial da Daitan">
+                  </a>
+                </li>                  
+              </ul>
+              <button class="btn btn-primary">
+                Tenho Interesse
+              </button>
+            </div>
+            <button id="btn-navbar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <img src="img/bars-solid.svg" class="w-100" alt="">
+            </button>                
+          </div>            
+        </div>
+      </div>
+      <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">  
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Modelos
+                </a>
+                <div class="dropdown-menu">
+                  <div id="modelo-filters" class="row">
+
+                  </div>
+                  <ul id="dropModelos">
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/newhrv.png" class="d-block m-auto" alt="New Honda HR-V">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">New HR-V</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>                      
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/newcity.png" class="d-block m-auto" alt="New Honda City">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">New City</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/newcityhb.png" class="d-block m-auto" alt="New City Hatchback">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">New City Hatchback</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/civic_2023.png" class="d-block m-auto" alt="New Honda Civic Híbrido">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">Civic Híbrido</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/type_r.png" class="d-block m-auto" alt="New Honda HR-V">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">Civic Type-R</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                  </ul> 
+                </div>                                                    
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Seminovos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Serviços
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Oficinas</a></li>
+                  <li><a class="dropdown-item" href="#">Agende a sua revisão</a></li>
+                  <li><a class="dropdown-item" href="#">Peças e Acessórios</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Consórcio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Vendas Especiais
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="vendasDiretas-pcd.html">Pessoas com Deficiência</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-taxista.html">Taxistas</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-diplomata.html">Diplomatas</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-pj.html">Pessoa Jurídica</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-prodrural.html">Produtor Rural</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contato
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Escreva para Nós</a></li>
+                  <li><a class="dropdown-item" href="#">Ouvidoria</a></li>
+                  <li><a class="dropdown-item" href="#">Cadastro de E-mail</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>        
+    </header>
+
+    <main>
+        <section id="search" class="py-3 bg-gray-0">
+            <div class="container">
+                <div class="input-group input-group-lg">
+                    <input type="search" class="form-control" id="floatingInput" placeholder="O que você procura?">
+                    <button class="btn btn-light" type="button">
+                        <i class="fa-solid fa-magnifying-glass color-red"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        
+          <div class="container">
+            <nav style="--bs-breadcrumb-divider: '>';" class="mt-2 py-4" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                  <li id="seminovosFilter" class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Seminovos</li>
+              </ol>
+            </nav>           
+          </div>
+
+          <section class="mb-4">
+            <div class="container">
+              <nav id="seminovosFilter" class="navbar bg-gray-3 px-3 py-2">
+                <div>
+                  <a class="navbar-brand" href="#">
+                    <img src="img/icons/sn-filtro.svg" class="me-2" alt="">
+                    Ocultar filtro
+                  </a>
+  
+                  <a class="navbar-brand" href="#">
+                    <i class="fa-solid fa-trash-can me-2"></i>
+                    Limpar
+                  </a>                 
+                </div>
+                
+                <div id="seminovosRelevancia" class="d-flex align-items-center">
+                  <p class="mb-0 flex-wrap">Ordenar por: </p>
+                  <select class="form-select form-select-sm">
+                    <option selected>Selecione...</option>
+                    <option value="1">Relevância</option>
+                    <option value="2">Menor preço</option>
+                    <option value="3">Maior preço</option>
+                  </select>
+                </div>
+                
+              </nav>
+            </div>
+          </section><!--Filtro e ordenar-->
+
+
+        <div class="container">
+          <div class="row d-flex">
+            <div id="sidebar" class="col-sm-12 col-md-3 col-lg-3">
+              <div class="accordion" id="accordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                      <img src="img/icons/sn-localizacao.svg" class="me-2" alt="">
+                      Unidades
+                    </button>
+                  </h2>
+                  <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
+                    <div class="accordion-body p-0">
+                      <ul class="list-group rounded-0 border-0">
+                        <li class="list-group-item">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="selectAll">
+                            <label class="form-check-label" for="selectAll">
+                              Selecionar Tudo
+                            </label>
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="uni1">
+                            <label class="form-check-label" for="uni1">
+                              Ibirapuera (n)
+                            </label>
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="uni2">
+                            <label class="form-check-label" for="uni2">
+                              Jabaquara (n)
+                            </label>
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="uni3">
+                            <label class="form-check-label" for="uni3">
+                              Pompéia (n)
+                            </label>
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="uni4">
+                            <label class="form-check-label" for="uni4">
+                              Sumaré (n)
+                            </label>
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="uni5">
+                            <label class="form-check-label" for="uni5">
+                              Sumaré (n)
+                            </label>
+                          </div>
+                        </li>
+                      </ul>                      
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                      <img src="img/icons/sn-modelo.svg" class="me-2" alt="">
+                      Marca e Modelo
+                    </button>
+                  </h2>
+                  <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
+                    <div class="accordion-body p-0">
+                      <!-- Busca -->
+                      <div class="input-group input-group-sm bg-gray-3 p-3">
+                        <input type="search" class="form-control" id="floatingInput" placeholder="O que você procura?">
+                        <button class="btn btn-search-seminovos" type="button">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </div>
+                      <!-- Accordion, Início -->
+                      <div class="accordion accordion-flush" id="accordionMarcas">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                              Honda
+                            </button>
+                          </h2>
+                          <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionMarcas">
+                            <div class="accordion-body p-0">
+                              <ul class="list-group rounded-0 border-0">
+                                <li class="list-group-item"><a href="#">Carro 1 (20)</a></li>
+                                <li class="list-group-item"><a href="#">Carro 2 (12)</a></li>
+                                <li class="list-group-item"><a href="#">Carro 3 (16)</a></li>
+                              </ul>  
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                              Audi
+                            </button>
+                          </h2>
+                          <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionMarcas">
+                            <div class="accordion-body p-0">
+                              <ul class="list-group rounded-0 border-0">
+                                <li class="list-group-item"><a href="#">Carro 1 (20)</a></li>
+                                <li class="list-group-item"><a href="#">Carro 2 (12)</a></li>
+                                <li class="list-group-item"><a href="#">Carro 3 (16)</a></li>
+                              </ul>  
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                              Chevrolet
+                            </button>
+                          </h2>
+                          <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionMarcas">
+                            <div class="accordion-body p-0">
+                              <ul class="list-group rounded-0 border-0">
+                                <li class="list-group-item"><a href="#">Carro 1 (20)</a></li>
+                                <li class="list-group-item"><a href="#">Carro 2 (12)</a></li>
+                                <li class="list-group-item"><a href="#">Carro 3 (16)</a></li>
+                              </ul>  
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-heading4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                              Fiat
+                            </button>
+                          </h2>
+                          <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionMarcas">
+                            <div class="accordion-body p-0">
+                              <ul class="list-group rounded-0 border-0">
+                                <li class="list-group-item"><a href="#">Carro 1 (20)</a></li>
+                                <li class="list-group-item"><a href="#">Carro 2 (12)</a></li>
+                                <li class="list-group-item"><a href="#">Carro 3 (16)</a></li>
+                              </ul>  
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                      </div>
+                      <!-- Accordion, Fim -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                      <img src="img/icons/sn-valor.svg" class="me-2" alt="">
+                      Preço
+                    </button>
+                  </h2>
+                  <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                      <div class="row py-2">
+                        <div class="col-6">
+                          <div class="mb-3">
+                            <label for="inputValormin" class="form-label"><small>Valor mín.</small></label>
+                            <input type="text" class="form-control form-control-sm" id="inputValormin" aria-describedby="inputValormin">
+                          </div>
+                        </div>
+                        <div class="col-6">
+                          <div class="mb-3">
+                            <label for="inputValormax" class="form-label"><small>Valor max.</small></label>
+                            <input type="text" class="form-control form-control-sm" id="inputValormax" aria-describedby="inputValormax">
+                          </div>
+                        </div>
+                      </div>  
+                      
+                      <div class="row py-2">
+                        <img src="img/valor-barras.png" class="w-100" alt="">
+                        <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                      <img src="img/icons/sn-ano.svg" class="me-2" alt="">
+                      Ano
+                    </button>
+                  </h2>
+                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
+                    <div class="accordion-body p-0">
+                      <ul class="list-group rounded-0 border-0">
+                        <li class="list-group-item"><a href="#">2020 (20)</a></li>
+                        <li class="list-group-item"><a href="#">2017 (20)</a></li>
+                        <li class="list-group-item"><a href="#">2015 (20)</a></li>
+                      </ul>                   
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                      <img src="img/icons/sn-Tipo.svg" class="me-2" alt="">
+                      Carroceria
+                    </button>
+                  </h2>
+                  <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion">
+                    <div class="accordion-body p-0">
+                      <ul class="list-group rounded-0 border-0">
+                        <li class="list-group-item"><a href="#">Hatch (20)</a></li>
+                        <li class="list-group-item"><a href="#">Sedan (20)</a></li>
+                        <li class="list-group-item"><a href="#">Mini Van (20)</a></li>
+                      </ul>                      
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                      <img src="img/icons/sn-quilometragem.svg" class="me-2" alt="">
+                      Quilometragem
+                    </button>
+                  </h2>
+                  <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordion">
+                    <div class="accordion-body p-0">
+                      <ul class="list-group rounded-0 border-0">
+                        <li class="list-group-item"><a href="#">10.000 (20)</a></li>
+                        <li class="list-group-item"><a href="#">20.000 (20)</a></li>
+                        <li class="list-group-item"><a href="#">30.000 (20)</a></li>
+                      </ul>                   
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading8">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                      <img src="img/icons/sn-status.svg" class="me-2" alt="">
+                      Opcionais
+                    </button>
+                  </h2>
+                  <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordion">
+                    <div class="accordion-body p-0">
+                      <div class="input-group input-group-sm p-3 bg-gray-3">
+                        <input type="search" class="form-control" id="floatingInput" placeholder="O que você procura?">
+                        <button class="btn btn-search-seminovos" type="button">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </div>
+                      <ul class="list-group rounded-0 border-0">
+                        <li class="list-group-item"><a href="#">Freio ABS (20)</a></li>
+                        <li class="list-group-item"><a href="#">Air-bag duplo (12)</a></li>
+                        <li class="list-group-item"><a href="#">Vidro elétrico dianteiro (16)</a></li>
+                        <li class="list-group-item"><a href="#">Teto solar panorâmico (5)</a></li>
+                        <li class="list-group-item"><a href="#">Sistema start/stop (10)</a></li>
+                      </ul>    
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading9">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                      <img src="img/icons/sn-combustivel.svg" class="me-2" alt="">
+                      Combustível
+                    </button>
+                  </h2>
+                  <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordion">
+                    <div class="accordion-body p-0">
+                      <ul class="list-group rounded-0 border-0">
+                        <li class="list-group-item"><a href="#">Gasolina (20)</a></li>
+                        <li class="list-group-item"><a href="#">Etanol (20)</a></li>
+                        <li class="list-group-item"><a href="#">Flex (20)</a></li>
+                      </ul>                  
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading10">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                      <img src="img/icons/sn-cores.svg" class="me-2" alt="">
+                      Cor
+                    </button>
+                  </h2>
+                  <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordion">
+                    <div class="accordion-body p-0">
+                      <ul class="list-group rounded-0 border-0">
+                        <li class="list-group-item">
+                          <a href="#">
+                            <div class="d-flex align-items-center">
+                              <div id="vermelho" class="cor me-2"></div>
+                              Vermelho (20)
+                            </div>                            
+                          </a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#">
+                            <div class="d-flex align-items-center">
+                              <div id="preto" class="cor me-2"></div>
+                              Preto (20)
+                            </div>   
+                          </a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#">
+                            <div class="d-flex align-items-center">
+                              <div id="branco" class="cor me-2"></div>
+                              Branco (20)
+                            </div>   
+                          </a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#">
+                            <div class="d-flex align-items-center">
+                              <div id="perolado" class="cor me-2"></div>
+                              Perolado (20)
+                            </div>   
+                          </a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#">
+                            <div class="d-flex align-items-center">
+                              <div id="grafite" class="cor me-2"></div>
+                              Grafite (20)
+                            </div>   
+                          </a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#">
+                            <div class="d-flex align-items-center">
+                              <div id="azul" class="cor me-2"></div>
+                              Azul (20)
+                            </div> 
+                          </a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#">
+                            <div class="d-flex align-items-center">
+                              <div id="prata" class="cor me-2"></div>
+                              Prata (20)
+                            </div> 
+                          </a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#">
+                            <div class="d-flex align-items-center">
+                              <div id="verde" class="cor me-2"></div>
+                              Verde (20)
+                            </div> 
+                          </a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#">
+                            <div class="d-flex align-items-center">
+                              <div id="dourado" class="cor me-2"></div>
+                              Dourado (20)
+                            </div> 
+                          </a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#">
+                            <div class="d-flex align-items-center">
+                              <div id="roxo" class="cor me-2"></div>
+                              Roxo (20)
+                            </div> 
+                          </a>
+                        </li>
+                      </ul>                  
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading11">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                      <img src="img/icons/sn-placa.svg" class="me-2" alt="">
+                      Final de Placa
+                    </button>
+                  </h2>
+                  <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordion">
+                    <div class="accordion-body p-0">
+                      <ul class="list-group rounded-0 border-0">
+                        <li class="list-group-item"><a href="#">1 (20)</a></li>
+                        <li class="list-group-item"><a href="#">2 (20)</a></li>
+                        <li class="list-group-item"><a href="#">3 (20)</a></li>
+                        <li class="list-group-item"><a href="#">4 (20)</a></li>
+                        <li class="list-group-item"><a href="#">5 (20)</a></li>
+                        <li class="list-group-item"><a href="#">6 (20)</a></li>
+                        <li class="list-group-item"><a href="#">7 (20)</a></li>
+                        <li class="list-group-item"><a href="#">8 (20)</a></li>
+                        <li class="list-group-item"><a href="#">9 (20)</a></li>
+                        <li class="list-group-item"><a href="#">0 (20)</a></li>
+                      </ul>                  
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div id="seminovosContent" class="col-sm-12 col-md-9 col-lg-9">
+
+              <div id="badgeList">
+                <div class="row">
+                  <div class="col-12">
+                    <span class="badge">
+                      <span class="me-2">Example Tag 1</span>
+                      <a href="#">
+                        <i class="fa-solid fa-xmark"></i>
+                      </a> 
+                    </span>
+                    <span class="badge">
+                      <span class="me-2">Example Tag 2</span>
+                      <a href="#">
+                        <i class="fa-solid fa-xmark"></i>
+                      </a> 
+                    </span>
+                    <span class="badge">
+                      <span class="me-2">Example Tag 3 </span>
+                      <a href="#">
+                        <i class="fa-solid fa-xmark"></i>
+                      </a> 
+                    </span>
+                    <span class="badge">
+                      <span class="me-2">Example Tag 4</span>
+                      <a href="#">
+                        <i class="fa-solid fa-xmark"></i>
+                      </a> 
+                    </span>
+                    <span class="badge">
+                      <span class="me-2">Example Tag 5</span>
+                      <a href="#">
+                        <i class="fa-solid fa-xmark"></i>
+                      </a> 
+                    </span>
+                  </div>
+                </div>
+              </div><!--Badge Lista-->
+
+              <div id="seminovosCatalogo">
+                <div class="row">
+                  <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <div class="card card-modelo w-100">
+                      <div class="card-modelo-img">
+                        <a href="" class="share btn btn-outline-primary circle rounded-circle">
+                          <i class="fa-solid fa-share-nodes py-1"></i>
+                        </a>
+                        <a href="seminovosSingle.html">                        
+                          <img src="img/seminovosModelo-1.webp" class="card-img-top" alt="...">
+                          <div class="garantia">
+                            <p class="mb-0 text-center"><small>
+                              <i class="fa-solid fa-award color-red me-1"></i>
+                              1 ano de garantia
+                            </small></p>
+                          </div>
+                        </a>                          
+                      </div>
+                      
+                      <div class="card-body">
+                        <div class="row mt-2 mb-3">
+                          <span class="tag">2017/2017</span><span class="tag">64.965 km</span>
+                        </div>
+                        <h3 id="cardModelo" class="mb-0">Chevrolet Prisma</h3>
+                        <p id="cardVersao" class="mb-3">1.4 AT LTZ</p>
+
+                        <p class="color-gray-0">
+                          <i class="fa-solid fa-location-dot me-1"></i>
+                          Unidade Pompéia
+                        </p>
+                        <h3 class="color-red mb-0">R$ 63.900,00</h3>
+                        <p><small>Entrada + parcelas de <b>R$ 0.000,00</b></small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <div class="card card-modelo w-100">
+                      <div class="card-modelo-img">
+                        <a href="" class="share btn btn-outline-primary circle rounded-circle">
+                          <i class="fa-solid fa-share-nodes py-1"></i>
+                        </a>
+                        <a href="seminovosSingle.html">                        
+                          <img src="img/seminovosModelo-1.webp" class="card-img-top" alt="...">
+                          <div class="garantia">
+                            <p class="mb-0 text-center"><small>
+                              <i class="fa-solid fa-award color-red me-1"></i>
+                              1 ano de garantia
+                            </small></p>
+                          </div>
+                        </a>                          
+                      </div>
+                      
+                      <div class="card-body">
+                        <div class="row mt-2 mb-3">
+                          <span class="tag">2017/2017</span><span class="tag">64.965 km</span>
+                        </div>
+                        <h3 id="cardModelo" class="mb-0">Chevrolet Prisma</h3>
+                        <p id="cardVersao" class="mb-3">1.4 AT LTZ</p>
+
+                        <p class="color-gray-0">
+                          <i class="fa-solid fa-location-dot me-1"></i>
+                          Unidade Pompéia
+                        </p>
+                        <h3 class="color-red mb-0">R$ 63.900,00</h3>
+                        <p><small>Entrada + parcelas de <b>R$ 0.000,00</b></small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <div class="card card-modelo w-100">
+                      <div class="card-modelo-img">
+                        <a href="" class="share btn btn-outline-primary circle rounded-circle">
+                          <i class="fa-solid fa-share-nodes py-1"></i>
+                        </a>
+                        <a href="seminovosSingle.html">                        
+                          <img src="img/seminovosModelo-1.webp" class="card-img-top" alt="...">
+                          <div class="garantia">
+                            <p class="mb-0 text-center"><small>
+                              <i class="fa-solid fa-award color-red me-1"></i>
+                              1 ano de garantia
+                            </small></p>
+                          </div>
+                        </a>                          
+                      </div>
+                      
+                      <div class="card-body">
+                        <div class="row mt-2 mb-3">
+                          <span class="tag">2017/2017</span><span class="tag">64.965 km</span>
+                        </div>
+                        <h3 id="cardModelo" class="mb-0">Chevrolet Prisma</h3>
+                        <p id="cardVersao" class="mb-3">1.4 AT LTZ</p>
+
+                        <p class="color-gray-0">
+                          <i class="fa-solid fa-location-dot me-1"></i>
+                          Unidade Pompéia
+                        </p>
+                        <h3 class="color-red mb-0">R$ 63.900,00</h3>
+                        <p><small>Entrada + parcelas de <b>R$ 0.000,00</b></small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <div class="card card-modelo w-100">
+                      <div class="card-modelo-img">
+                        <a href="" class="share btn btn-outline-primary circle rounded-circle">
+                          <i class="fa-solid fa-share-nodes py-1"></i>
+                        </a>
+                        <a href="seminovosSingle.html">                        
+                          <img src="img/seminovosModelo-1.webp" class="card-img-top" alt="...">
+                          <div class="garantia">
+                            <p class="mb-0 text-center"><small>
+                              <i class="fa-solid fa-award color-red me-1"></i>
+                              1 ano de garantia
+                            </small></p>
+                          </div>
+                        </a>                          
+                      </div>
+                      
+                      <div class="card-body">
+                        <div class="row mt-2 mb-3">
+                          <span class="tag">2017/2017</span><span class="tag">64.965 km</span>
+                        </div>
+                        <h3 id="cardModelo" class="mb-0">Chevrolet Prisma</h3>
+                        <p id="cardVersao" class="mb-3">1.4 AT LTZ</p>
+
+                        <p class="color-gray-0">
+                          <i class="fa-solid fa-location-dot me-1"></i>
+                          Unidade Pompéia
+                        </p>
+                        <h3 class="color-red mb-0">R$ 63.900,00</h3>
+                        <p><small>Entrada + parcelas de <b>R$ 0.000,00</b></small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <div class="card card-modelo w-100">
+                      <div class="card-modelo-img">
+                        <a href="" class="share btn btn-outline-primary circle rounded-circle">
+                          <i class="fa-solid fa-share-nodes py-1"></i>
+                        </a>
+                        <a href="seminovosSingle.html">                        
+                          <img src="img/seminovosModelo-1.webp" class="card-img-top" alt="...">
+                          <div class="garantia">
+                            <p class="mb-0 text-center"><small>
+                              <i class="fa-solid fa-award color-red me-1"></i>
+                              1 ano de garantia
+                            </small></p>
+                          </div>
+                        </a>                          
+                      </div>
+                      
+                      <div class="card-body">
+                        <div class="row mt-2 mb-3">
+                          <span class="tag">2017/2017</span><span class="tag">64.965 km</span>
+                        </div>
+                        <h3 id="cardModelo" class="mb-0">Chevrolet Prisma</h3>
+                        <p id="cardVersao" class="mb-3">1.4 AT LTZ</p>
+
+                        <p class="color-gray-0">
+                          <i class="fa-solid fa-location-dot me-1"></i>
+                          Unidade Pompéia
+                        </p>
+                        <h3 class="color-red mb-0">R$ 63.900,00</h3>
+                        <p><small>Entrada + parcelas de <b>R$ 0.000,00</b></small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <div class="card card-modelo w-100">
+                      <div class="card-modelo-img">
+                        <a href="" class="share btn btn-outline-primary circle rounded-circle">
+                          <i class="fa-solid fa-share-nodes py-1"></i>
+                        </a>
+                        <a href="seminovosSingle.html">                        
+                          <img src="img/seminovosModelo-1.webp" class="card-img-top" alt="...">
+                          <div class="garantia">
+                            <p class="mb-0 text-center"><small>
+                              <i class="fa-solid fa-award color-red me-1"></i>
+                              1 ano de garantia
+                            </small></p>
+                          </div>
+                        </a>                          
+                      </div>
+                      
+                      <div class="card-body">
+                        <div class="row mt-2 mb-3">
+                          <span class="tag">2017/2017</span><span class="tag">64.965 km</span>
+                        </div>
+                        <h3 id="cardModelo" class="mb-0">Chevrolet Prisma</h3>
+                        <p id="cardVersao" class="mb-3">1.4 AT LTZ</p>
+
+                        <p class="color-gray-0">
+                          <i class="fa-solid fa-location-dot me-1"></i>
+                          Unidade Pompéia
+                        </p>
+                        <h3 class="color-red mb-0">R$ 63.900,00</h3>
+                        <p><small>Entrada + parcelas de <b>R$ 0.000,00</b></small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <div class="card card-modelo w-100">
+                      <div class="card-modelo-img">
+                        <a href="" class="share btn btn-outline-primary circle rounded-circle">
+                          <i class="fa-solid fa-share-nodes py-1"></i>
+                        </a>
+                        <a href="seminovosSingle.html">                        
+                          <img src="img/seminovosModelo-1.webp" class="card-img-top" alt="...">
+                          <div class="garantia">
+                            <p class="mb-0 text-center"><small>
+                              <i class="fa-solid fa-award color-red me-1"></i>
+                              1 ano de garantia
+                            </small></p>
+                          </div>
+                        </a>                          
+                      </div>
+                      
+                      <div class="card-body">
+                        <div class="row mt-2 mb-3">
+                          <span class="tag">2017/2017</span><span class="tag">64.965 km</span>
+                        </div>
+                        <h3 id="cardModelo" class="mb-0">Chevrolet Prisma</h3>
+                        <p id="cardVersao" class="mb-3">1.4 AT LTZ</p>
+
+                        <p class="color-gray-0">
+                          <i class="fa-solid fa-location-dot me-1"></i>
+                          Unidade Pompéia
+                        </p>
+                        <h3 class="color-red mb-0">R$ 63.900,00</h3>
+                        <p><small>Entrada + parcelas de <b>R$ 0.000,00</b></small></p>
+                      </div>
+                    </div>
+                  </div><!-- Card -->
+
+                  <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <div class="card card-modelo w-100">
+                      <div class="card-modelo-img">
+                        <a href="" class="share btn btn-outline-primary circle rounded-circle">
+                          <i class="fa-solid fa-share-nodes py-1"></i>
+                        </a>
+                        <a href="seminovosSingle.html">                        
+                          <img src="img/seminovosModelo-1.webp" class="card-img-top" alt="...">
+                          <div class="garantia">
+                            <p class="mb-0 text-center"><small>
+                              <i class="fa-solid fa-award color-red me-1"></i>
+                              1 ano de garantia
+                            </small></p>
+                          </div>
+                        </a>                          
+                      </div>
+                      
+                      <div class="card-body">
+                        <div class="row mt-2 mb-3">
+                          <span class="tag">2017/2017</span><span class="tag">64.965 km</span>
+                        </div>
+                        <h3 id="cardModelo" class="mb-0">Chevrolet Prisma</h3>
+                        <p id="cardVersao" class="mb-3">1.4 AT LTZ</p>
+
+                        <p class="color-gray-0">
+                          <i class="fa-solid fa-location-dot me-1"></i>
+                          Unidade Pompéia
+                        </p>
+                        <h3 class="color-red mb-0">R$ 63.900,00</h3>
+                        <p><small>Entrada + parcelas de <b>R$ 0.000,00</b></small></p>
+                      </div>
+                    </div>
+                  </div><!-- Card -->
+
+                  <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <div class="card card-modelo w-100">
+                      <div class="card-modelo-img">
+                        <a href="" class="share btn btn-outline-primary circle rounded-circle">
+                          <i class="fa-solid fa-share-nodes py-1"></i>
+                        </a>
+                        <a href="seminovosSingle.html">                        
+                          <img src="img/seminovosModelo-1.webp" class="card-img-top" alt="...">
+                          <div class="garantia">
+                            <p class="mb-0 text-center"><small>
+                              <i class="fa-solid fa-award color-red me-1"></i>
+                              1 ano de garantia
+                            </small></p>
+                          </div>
+                        </a>                          
+                      </div>
+                      
+                      <div class="card-body">
+                        <div class="row mt-2 mb-3">
+                          <span class="tag">2017/2017</span><span class="tag">64.965 km</span>
+                        </div>
+                        <h3 id="cardModelo" class="mb-0">Chevrolet Prisma</h3>
+                        <p id="cardVersao" class="mb-3">1.4 AT LTZ</p>
+
+                        <p class="color-gray-0">
+                          <i class="fa-solid fa-location-dot me-1"></i>
+                          Unidade Pompéia
+                        </p>
+                        <h3 class="color-red mb-0">R$ 63.900,00</h3>
+                        <p><small>Entrada + parcelas de <b>R$ 0.000,00</b></small></p>
+                      </div>
+                    </div>
+                  </div><!-- Card -->
+                </div>
+
+                <div class="row mt-4">
+                  <nav class="d-flex justify-content-end">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row py-4">
+            <div class="col-12">
+              <div id="seminovosPopulares">
+                <h2 class="text-center mb-5"><b>
+                  Pesquisas Populares
+                </b></h2>
+
+                <a href="#" class="badge">Honda Fit</a>
+                <a href="#" class="badge">Honda City</a>
+                <a href="#" class="badge">Honda Civic</a>
+                <a href="#" class="badge">Honda HRV</a>
+
+                <a href="#" class="badge">Carros Até 45 Mil Reais</a>
+                <a href="#" class="badge">Carros Economicos</a>
+                <a href="#" class="badge">Carros Até 70 Mil Reais</a>
+                <a href="#" class="badge">Carros SUV</a>
+                <a href="#" class="badge">Carros 4x4 Mais Baratos</a>
+                <a href="#" class="badge">Carros 1.0</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+      <div id="fixed_button" class="position-fixed btn-whatsapp rounded-circle shadow-sm dropstart">
+        <a id="whatsapp_fixed" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="wa-item"><a href="#" target="_blank">Agende a sua revisão</a></li>
+          <li class="wa-item"><a href="#" target="_blank">Vendas</a></li>
+          <li class="wa-item"><a href="#" target="_blank">Mande uma mensagem</a></li>
+        </ul>
+      </div>
+      <div id="footerEndereco">
+        <div class="row">
+          <div id="regiao">
+            <p class="text-center"><small>Selecione a Região:</small></p>
+            <div id="regiaoNav" class="mb-1">
+              <a href="#" id="btn-sp" class="btn btn-primary">São Paulo</a>
+              <a href="#" id="btn-vp" class="btn btn-outline-primary">Vale do Paraíba</a>
+            </div>
+          </div>          
+          <div id="parentVerticalTab">
+            <ul class="resp-tabs-list hor_1">
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Ibirapuera 
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Jabaquara
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Pompéia
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Sumaré
+                </li>
+            </ul>
+            <div class="resp-tabs-container hor_1">
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Ibirapuera, 2771 - Indianópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5536-9966
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                      <img src="img/unidades/sp-ibirapuera.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Jabaquara, 2371 - Mirandópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5591-0140
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                      <img src="img/unidades/sp-jabaquara.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                R. Carlos Vicari, 154 - Barra Funda,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 2102-0999
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                      <img src="img/unidades/sp-pompeia.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Sumaré, 1421 - Perdizes,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 3675-0655
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                      <img src="img/unidades/sp-sumare.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+            </div>
+          </div> 
+        </div>               
+      </div>  
+      <div id="footerLinks" class="py-5">
+        <div id="rowLink" class="pb-5">
+          <div class="row">
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">MODELOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Civic Type R</a></li>
+                <li><a href="#">Civic Híbrido</a></li>
+                <li><a href="#">New HR-V</a></li>
+                <li><a href="#">New City Hatchback</a></li>
+                <li><a href="#">New City Sedan</a></li>
+                <li><a href="#">Seminovos</a></li>              
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">SERVIÇOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Agendamento</a></li>
+                <li><a href="#">Revisão Programada</a></li>
+                <li><a href="#">Reparos</a></li>
+                <li><a href="#">Catálogo de Peças</a></li>
+                <li><a href="#">Honda Access</a></li>         
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">CONSÓRCIO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Consórcio HR-V</a></li>
+                <li><a href="#">Consórcio New City</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">VENDAS ESPECIAIS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Honda Conduz</a></li>
+                <li><a href="#">Taxistas</a></li>
+                <li><a href="#">Diplomatas</a></li>
+                <li><a href="#">Pessoa Jurídica</a></li>
+                <li><a href="#">Produtor Rural</a></li>
+              </ul>
+            </div>
+            
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">A DAITAN</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Sobre a Empresa</a></li>
+                <li><a href="#">Blog da Daitan</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">FALE CONOSCO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Escreva para Nós</a></li>
+                <li><a href="#">Linha Direta</a></li>
+                <li><a href="#">Cadastro de E-mail</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+              </ul>
+            </div>   
+          </div>
+        </div>      
+          
+          <div class="row">
+            <div id="footerCopyright">
+              <img src="img/footer-ibama.webp" id="footerIbama" alt="Minha escolha faz a diferença no trânsito.">
+              <div id="footerLogo">
+                <img src="img/logo-daitan.svg" alt="">
+                <p>
+                  <small>
+                    © Daitan Comércio de Veículos Ltda <br>
+                    CNPJ 67.375.899/0001-06. <a href="#">Políticas de Privacidade</a>
+                  </small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          
+        
+      </div>
+    </footer>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="lib/vertical-responsive/js/easyResponsiveTabs.js"></script>
+    <script src="js/main.js" crossorigin="anonymous"></script> 
+    
+</body>
+</html>

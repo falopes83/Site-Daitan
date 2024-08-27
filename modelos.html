@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daitan</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">   
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="lib/vertical-responsive/css/easy-responsive-tabs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css">
+    <link rel="stylesheet" href="lib/gallery/gallery.css">
+    <link rel="stylesheet" href="lib/slick/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div id="top">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="locate">
+                        <span>
+                          Sua Daitan mais próxima está em: <b>São Paulo</b>, <a href="#">troque aqui</a>.
+                        </span>
+                    </div>
+                    <ul class="topnav">
+                        <li class="topnav-item">
+                          <a href="#" class="topnav-link">A Daitan</a>
+                        </li>
+                        <li class="topnav-item">
+                          <a href="#" class="topnav-link">Política de Privacidade</a>
+                        </li>
+                        <li class="topnav-item">                          
+                          <a href="#" class="topnav-link">Trabalhe Conosco</a>
+                        </li>
+                    </ul>                        
+                </div>                
+            </div>            
+        </div>
+        <div id="heading">
+          <div id="header">
+            <div class="container">
+              <div class="r-flex">
+                <a href="#">
+                  <img id="logo" src="img/logo-daitan.svg" width="210" alt="Logo Daitan">
+                </a>
+                <div id="media">
+                    <div class="dropdown">
+                      <button id="btnTelefone" class="btn btn-outline-primary rounded-pill dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-phone me-2"></i>
+                        Telefones
+                      </button>     
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li>
+                          <a class="dropdown-item" href="tel:+551155369966">
+                            <small><b>Ibirapuera</b></small><br>
+                            (11) 5536-9966
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="tel:+551155910140">
+                            <small><b>Jabaquara</b></small><br>
+                            (11) 5591-0140
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="tel:+551121020999">
+                            <small><b>Pompéia</b></small><br>
+                            (11) 2102-0999
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="tel:+551136750655">
+                            <small><b>Sumaré</b></small><br>
+                            (11) 3675-0655
+                          </a>
+                        </li>
+                      </ul>  
+                    </div>         
+                  <button class="btn btn-primary rounded-pill">
+                    Tenho Interesse
+                  </button>
+                  <ul class="socialmedia">
+                    <li>
+                      <a href="https://www.facebook.com/HondaDaitan/" target="_blank">
+                        <img src="img/rs-facebook.svg" alt="Facebook Oficial da Daitan">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/hondadaitan/" target="_blank">
+                        <img src="img/rs-instagram.svg" alt="Instagram Oficial da Daitan">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/honda-daitan/" target="_blank">
+                        <img src="img/rs-linkedin.svg" alt="LinkedIn Oficial da Daitan">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCFTCzhHYqbpGrM6oLcP2f5A" target="_blank">
+                        <img src="img/rs-youtube.svg" alt="YouTube Oficial da Daitan">
+                      </a>
+                    </li>                  
+                  </ul>
+                </div>
+                <button id="btn-navbar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <img src="img/bars-solid.svg" class="w-100" alt="">
+                </button>                
+              </div>            
+            </div>
+          </div>
+          <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">  
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Modelos
+                    </a>
+                    <div class="dropdown-menu">
+                      <div id="modelo-filters" class="row">
+
+                      </div>
+                      <ul id="dropModelos">
+                        <li class="py-3">
+                          <a class="dropdown-car" href="#">
+                            <img src="img/modelos/newhrv.png" class="d-block m-auto" alt="New Honda HR-V">
+                          </a>
+                          <p class="text-center text-uppercase mb-1">New HR-V</p>
+                          <div class="text-center">
+                            <button class="btn btn-primary btn-sm m-auto w-btn">
+                              <i class="fa-solid fa-plus"></i>
+                              Saiba Mais
+                            </button>
+                          </div>                      
+                        </li>
+                        <li class="py-3">
+                          <a class="dropdown-car" href="#">
+                            <img src="img/modelos/newcity.png" class="d-block m-auto" alt="New Honda City">
+                          </a>
+                          <p class="text-center text-uppercase mb-1">New City</p>
+                          <div class="text-center">
+                            <button class="btn btn-primary btn-sm m-auto w-btn">
+                              <i class="fa-solid fa-plus"></i>
+                              Saiba Mais
+                            </button>
+                          </div>    
+                        </li>
+                        <li class="py-3">
+                          <a class="dropdown-car" href="#">
+                            <img src="img/modelos/newcityhb.png" class="d-block m-auto" alt="New City Hatchback">
+                          </a>
+                          <p class="text-center text-uppercase mb-1">New City Hatchback</p>
+                          <div class="text-center">
+                            <button class="btn btn-primary btn-sm m-auto w-btn">
+                              <i class="fa-solid fa-plus"></i>
+                              Saiba Mais
+                            </button>
+                          </div>    
+                        </li>
+                        <li class="py-3">
+                          <a class="dropdown-car" href="#">
+                            <img src="img/modelos/civic_2023.png" class="d-block m-auto" alt="New Honda Civic Híbrido">
+                          </a>
+                          <p class="text-center text-uppercase mb-1">Civic Híbrido</p>
+                          <div class="text-center">
+                            <button class="btn btn-primary btn-sm m-auto w-btn">
+                              <i class="fa-solid fa-plus"></i>
+                              Saiba Mais
+                            </button>
+                          </div>    
+                        </li>
+                        <li class="py-3">
+                          <a class="dropdown-car" href="#">
+                            <img src="img/modelos/type_r.png" class="d-block m-auto" alt="New Honda HR-V">
+                          </a>
+                          <p class="text-center text-uppercase mb-1">Civic Type-R</p>
+                          <div class="text-center">
+                            <button class="btn btn-primary btn-sm m-auto w-btn">
+                              <i class="fa-solid fa-plus"></i>
+                              Saiba Mais
+                            </button>
+                          </div>    
+                        </li>
+                      </ul> 
+                    </div>                                                    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Seminovos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Serviços
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Oficinas</a></li>
+                      <li><a class="dropdown-item" href="#">Agende a sua revisão</a></li>
+                      <li><a class="dropdown-item" href="#">Peças e Acessórios</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Consórcio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Vendas Especiais
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="vendasDiretas-pcd.html">Pessoas com Deficiência</a></li>
+                      <li><a class="dropdown-item" href="vendasDiretas-taxista.html">Taxistas</a></li>
+                      <li><a class="dropdown-item" href="vendasDiretas-diplomata.html">Diplomatas</a></li>
+                      <li><a class="dropdown-item" href="vendasDiretas-pj.html">Pessoa Jurídica</a></li>
+                      <li><a class="dropdown-item" href="vendasDiretas-prodrural.html">Produtor Rural</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contato
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Escreva para Nós</a></li>
+                      <li><a class="dropdown-item" href="#">Ouvidoria</a></li>
+                      <li><a class="dropdown-item" href="#">Cadastro de E-mail</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+          
+    </header>
+
+    <main>
+      <section id="modeloBanner">
+        <div id="capaModelo">
+          <div id="item1" class="banner-item">
+            <img src="img/modelBanner-1.webp" class="w-100 desktop" alt="">
+            <img src="img/modelBannerMob-1.webp" class="w-100 mobile" alt="">
+          </div>
+
+          <div id="item2" class="banner-item d-none">
+            <div class="content">
+              <h1>Chave com função<br>
+                Smart Entry</h1> 
+              <p class="desktop">Chave com função Smart Entry que permite que as portas sejam travadas e destravadas automaticamente pelo sensor de aproximação. 
+                Conveniência nos pequenos detalhes.</p>
+            </div> 
+            <img src="img/modelBanner-2.webp" class="w-100 desktop" alt="">
+            <img src="img/modelBannerMob-2.webp" class="w-100 mobile" alt="">
+          </div>
+
+          <div id="item3" class="banner-item d-none">
+            <div class="content">
+              <h1>Botão de partida<br>
+                do motor (Start/Stop)</h1> 
+              <p class="desktop">O acionamento do motor pode ser feito através de um simples toque do botão de partida Start/Stop. Inovação e tecnologia que destacam a experiência única que é dirigir o Honda HR-V.</p>
+            </div>            
+            <img src="img/modelBanner-3.webp" class="w-100 desktop" alt="">
+            <img src="img/modelBannerMob-3.webp" class="w-100 mobile" alt="">
+          </div>
+
+          <div id="item4" class="banner-item d-none">
+            <div class="content">
+              <h1>Freio de estacionamento <br>
+                eletrônico + função Brake-Hold</h1> 
+              <p class="desktop">Um simples toque no botão aciona o moderno freio de estacionamento eletrônico. Em situações de trânsito, a função Brake-Hold mantém o veículo parado até o pedal do acelerador ser acionado.</p>
+            </div>            
+            <img src="img/modelBanner-4.webp" class="w-100 desktop" alt="">
+            <img src="img/modelBannerMob-4.webp" class="w-100 mobile" alt="">
+          </div>
+
+          <div id="item5" class="banner-item d-none">
+            <div class="content">
+              <h1>MyHonda<br>
+                Connect</h1> 
+              <p class="desktop">Através da conexão entre o aplicativo e o New HR-V é possível executar controles remotos, obter informações e se relacionar com a Honda. Conectividade que aproxima ainda mais o usuário de seu veículo.</p>
+            </div>            
+            <img src="img/modelBanner-5.webp" class="w-100 desktop" alt="">
+            <img src="img/modelBannerMob-5.webp" class="w-100 mobile" alt="">
+          </div>
+
+          <div id="item6" class="banner-item d-none">
+            <div class="content">
+              <h1>Multimídia 8” Apple<br>
+                CarPlay e Android Auto</h1> 
+              <p class="desktop">Navegação mais amigável e intuitiva: áudio, Bluetooth® , câmera de marcha à ré, controles no volante e muito mais.</p>
+            </div>            
+            <img src="img/modelBanner-6.webp" class="w-100 desktop" alt="">
+            <img src="img/modelBannerMob-6.webp" class="w-100 mobile" alt="">
+          </div>
+
+          <div id="item7" class="banner-item d-none">
+            <div class="content">
+              <h1>Painel digital TFT 7”<br>
+                de alta resolução</h1> 
+              <p class="desktop">O painel tem função de controle e diagnóstico do veículo, e garante maior autonomia e agilidade na leitura das informações, tornando a experiência a bordo ainda mais prática.</p>
+            </div>            
+            <img src="img/modelBanner-7.webp" class="w-100 desktop" alt="">
+            <img src="img/modelBannerMob-7.webp" class="w-100 mobile" alt="">
+          </div>
+
+        </div>
+
+        <div id="topNav" class="py-3">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-3 col-lg-3">             
+                <button id="btnCotacao" class="btn btn-primary w-100 d-block mb-2">Peça uma cotação</button>
+                <button id="btnTestdrive" class="btn btn-outline-light w-100 d-block">Test Drive</button>
+              </div>
+              <div class="col-sm-6 col-md-9 col-lg-9">
+                <div class="row-nav desktop d-flex justify-content-between">
+                  <button id="btn1" class="btn btn-modelo active">
+                    Honda<br>
+                    New HR-V
+                  </button>
+                  <button id="btn2" class="btn btn-modelo">
+                    Função<br>                  
+                    Smart Entry
+                  </button>
+                  <button id="btn3" class="btn btn-modelo">
+                    Botão de<br>
+                    Partida
+                  </button>
+                  <button id="btn4" class="btn btn-modelo">
+                    Função <br>
+                    Brake-Hold
+                  </button>
+                  <button id="btn5" class="btn btn-modelo">
+                    MyHonda<br>
+                    Connect
+                  </button>
+                  <button id="btn6" class="btn btn-modelo">
+                    Navegação +<br>
+                    Amigável
+                  </button>
+                  <button id="btn7" class="btn btn-modelo">
+                    Painel<br>
+                    Digital TFT
+                  </button>
+                </div>    
+                <div class="mobile-nav mobile">
+                  <div class="d-flex">
+                    <button id="btnPrev" class="btn btn-light me-1 w-100">
+                      <i class="fa-solid fa-angles-left text-center"></i>
+                    </button>
+
+                    <button id="btnNext" class="btn btn-light ms-1 w-100">
+                      <i class="fa-solid fa-angles-right text-center"></i>
+                    </button>
+                  </div>
+                </div>          
+              </div>              
+            </div>            
+          </div>
+        </div>
+
+      </section>
+
+      <section id="modeloVersoes" class="py-5">
+        
+          <h1 class="h1estilo mb-5">Conheça todas as <b>Versões</b></h1>
+
+          <div id="modelVersoes" class="py-2 mb-5">
+                <a id="touring" href="" class="btn btn-versao text-center mx-2 active">
+                  <img src="img/modelos/hrv-touring.webp" width="220" class="m-auto d-block" alt="">
+                  Touring
+                </a>
+  
+                <a id="advance" href="" class="btn btn-versao text-center mx-2">
+                  <img src="img/modelos/hrv-touring.webp" width="220" class="m-auto d-block" alt="">
+                  Advance
+                </a>
+  
+                <a id="exl" href="" class="btn btn-versao text-center mx-2">
+                  <img src="img/modelos/hrv-touring.webp" width="220" class="m-auto d-block" alt="">
+                  EXL Honda SENSING
+                </a>
+  
+                <a id="ex" href="" class="btn btn-versao text-center mx-2">
+                  <img src="img/modelos/hrv-touring.webp" width="220" class="m-auto d-block" alt="">
+                  EX Honda SENSING
+                </a>
+          </div>
+
+          <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <img src="img/modelos/cores/1-hrv-branco-tafeta.webp" class="w-100 d-block m-auto mb-3" alt="">
+
+                <div id="colorNav" class="mb-3">                  
+                  <button id="btnColor1" class="btn btn-color active mx-2">
+                    &nbsp;
+                  </button>
+                  <button id="btnColor2" class="btn btn-color mx-2">
+                    &nbsp;
+                  </button>
+                  <button id="btnColor3" class="btn btn-color mx-2">
+                    &nbsp;
+                  </button>
+                  <button id="btnColor4" class="btn btn-color mx-2">
+                    &nbsp;
+                  </button>
+                  <button id="btnColor5" class="btn btn-color mx-2">
+                    &nbsp;
+                  </button>
+                  <button id="btnColor6" class="btn btn-color mx-2">
+                    &nbsp;
+                  </button>
+                  <button id="btnColor7" class="btn btn-color mx-2">
+                    &nbsp;
+                  </button>
+                  <button id="btnColor8" class="btn btn-color mx-2">
+                    &nbsp;
+                  </button>                  
+                </div>
+
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="versao-box p-4 my-4">
+                  <h3 class="h2estilo"><span>Touring</span></h3>
+                  <p><b><i>Diferenciais do New HR-V Touring</i></b></p>
+
+                  <ul class="versao-list">
+                    <li>Novo motor 1.5L VTEC Turbo Flex com injeção direta de 177cv</li>
+                    <li>Honda Sensing - Pacote de segurança e assistência ao condutor</li>
+                    <li>myHonda Connect - Conexão única entre você e seu Honda</li>
+                    <li>Porta-malas com fechamento automático com função Hands Free</li>
+                    <li>Ajuste elétrico do banco do motorista</li>
+                    <li>Revestimento interior refinado em couro*</li>
+                  </ul>
+
+                  <div class="footer-nav">
+                    <a href="#modeloFichatecnica" class="btn btn-outline-primary mx-1">Ficha Técnica</a>
+                    <a href="tenho-interesse.html" class="btn btn-primary mx-1">Tenho Interesse</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </section>
+
+      <section id="modeloGaleria" class="py-5">
+        <div class="container">
+          <h1 class="h1estilo mb-5">Todos os ângulos do seu HR-V</h1>
+
+          <div class="row">
+            <div class="swiper-container-wrapper">
+              <div class="swiper-container gallery-top">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-01.jpg');"></div>
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-02.jpg');"></div>
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-03.jpg');"></div>
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-04.jpg');"></div>
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-05.jpg');"></div>
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-06.jpg');"></div>
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-07.jpg');"></div>
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-08.jpg');"></div>
+                </div>
+                <!-- Setas -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+              <!-- Slider thumbnail container -->
+              <div class="swiper-container gallery-thumbs">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-01.jpg');"></div>
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-02.jpg');"></div>
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-03.jpg');"></div>
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-04.jpg');"></div>
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-05.jpg');"></div>
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-06.jpg');"></div>
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-07.jpg');"></div>
+                  <div class="swiper-slide" style="background-image: url('img/modelos/galeria_hrv/hrv-08.jpg');"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </section>
+
+      <section id="hondaSensing" class="py-5">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <img src="img/logos/honda-sensing.png" class="d-block mb-3" alt="Honda Sensing">
+
+              <h2 class="h1estilo text-start color-gray" style="text-transform: initial;">O melhor da segurança, <b>tecnologia e assistência ao condutor</b></h2>
+
+              <p class="my-4">Um novo nível de segurança e conforto para você e sua família, disponível em todas as versões do New HR-V.</p>
+
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <div class="versao-box">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="acc-tab" data-bs-toggle="tab" data-bs-target="#acc" type="button" role="tab" aria-controls="acc" aria-selected="true">
+                      ACC
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="lkas-tab" data-bs-toggle="tab" data-bs-target="#lkas" type="button" role="tab" aria-controls="lkas" aria-selected="false">
+                      LKAS
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="cmbs-tab" data-bs-toggle="tab" data-bs-target="#cmbs" type="button" role="tab" aria-controls="cmbs" aria-selected="false">
+                      CMBS
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="rdm-tab" data-bs-toggle="tab" data-bs-target="#rdm" type="button" role="tab" aria-controls="rdm" aria-selected="false">
+                      RDM
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="ahb-tab" data-bs-toggle="tab" data-bs-target="#ahb" type="button" role="tab" aria-controls="ahb" aria-selected="false">
+                      AHB
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active p-3" id="acc" role="tabpanel" aria-labelledby="acc-tab">
+                    <h3 class="color-red mb-4">ACC - Controle de cruzeiro adaptativo com LSF - Low Speed Follow</h3>
+                    <div class="row d-flex align-items-center">                      
+                      <div class="col-sm-12 col-md-7 col-lg-7">
+                        <div class="video-container mb-3">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/3d_6NiuqzAQ?si=_I1Hfdy7RKKibby7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-5">
+                        <p>Sistema que auxilia o motorista a manter uma distância segura em relação ao veículo detectado à frente. Agora com uma nova função para acompanhamento em baixa velocidade, ideal para o dia na cidade.</p>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="tab-pane fade p-3" id="lkas" role="tabpanel" aria-labelledby="lkas-tab">
+                    <h3 class="color-red mb-4">LKAS - Sistema de permanência de faixa</h3>
+                    <div class="row d-flex align-items-center">                      
+                      <div class="col-sm-12 col-md-7 col-lg-7">
+                        <div class="video-container mb-3">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/WEwwGPfpTjY?si=apLKZs5kd7MLXUtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-5">
+                        <p>Sistema que detecta as faixas de rodagem e ajusta a direção com o objetivo de auxiliar o motorista a manter o veículo centralizado nas linhas de marcação.</p>
+                      </div>
+                    </div>    
+                  </div>
+                  <div class="tab-pane fade p-3" id="cmbs" role="tabpanel" aria-labelledby="cmbs-tab">
+                    <h3 class="color-red mb-4">CMBS - Sistema de frenagem para mitigação de colisão</h3>
+                    <div class="row d-flex align-items-center">                      
+                      <div class="col-sm-12 col-md-7 col-lg-7">
+                        <div class="video-container mb-3">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/SYnZZceskB0?si=yDwa_APJEHUjsIbO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-5">
+                        <p>Sistema de acionamento de freios ao detectar uma possível colisão frontal com o objetivo de reduzir acidentes.</p>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="tab-pane fade p-3" id="rdm" role="tabpanel" aria-labelledby="rdm-tab">
+                    <h3 class="color-red mb-4">RDM - Sistema para mitigação de evasão de pista</h3>
+                    <div class="row d-flex align-items-center">                      
+                      <div class="col-sm-12 col-md-7 col-lg-7">
+                        <div class="video-container mb-3">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/8Z78k0hEZCI?si=JK-5OtFopLTEIfsj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-5">
+                        <p>Sistema que detecta a saída da pista e ajusta a direção com o objetivo de evitar a evasão e possíveis acidentes.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade p-3" id="ahb" role="tabpanel" aria-labelledby="ahb-tab">
+                    <h3 class="color-red mb-4">AHB - Ajuste automático de farol</h3>
+                    <div class="row d-flex align-items-center">                      
+                      <div class="col-sm-12 col-md-7 col-lg-7">
+                        <div class="video-container mb-3">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/qTcbYjEYSpA?si=z4m8iv0Sp4R8T_Qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-5">
+                        <p>Ajuste automático dos faróis de acordo com a situação. Mais conforto e segurança para você.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>      
+          </div>
+        </div>
+      </section>
+
+      <section id="myhondaConnect" class="py-5">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <img src="img/logos/myHonda-connect.png" class="d-block mb-3" alt="Honda Sensing">
+
+              <h2 class="h1estilo text-start color-gray" style="text-transform: initial;">Informação, segurança e controle <b>na palma da mão</b></h2>
+
+              <p class="my-4">Um novo nível de segurança e conforto para você e sua família, disponível em todas as versões do New HR-V.</p>
+
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <div class="versao-box">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="seguranca-tab" data-bs-toggle="tab" data-bs-target="#seguranca" type="button" role="tab" aria-controls="seguranca" aria-selected="true">
+                      Segurança e Proteção
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="conveniencia-tab" data-bs-toggle="tab" data-bs-target="#conveniencia" type="button" role="tab" aria-controls="conveniencia" aria-selected="false">
+                      Conveniência
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="assistente-tab" data-bs-toggle="tab" data-bs-target="#assistente" type="button" role="tab" aria-controls="assistente" aria-selected="false">
+                      Assistente de Voz
+                    </button>
+                  </li>                  
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active p-3" id="seguranca" role="tabpanel" aria-labelledby="seguranca-tab">
+                    <h3 class="color-red mb-4">Segurança e Proteção</h3>
+                    <div class="row d-flex align-items-center">                      
+                      <div class="col-sm-12 col-md-7 col-lg-7">
+                        <div class="video-container mb-3">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/dojH4NR214k?si=QPIUUw7O7mKsMJgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-5">
+                        <p>Tenha informações do veículo em tempo real no smartphone: notificações em caso de colisão, alarme de segurança, diagnósticos, rastreamento e criação de cercas geográficas para saber quando saiu do local delimitado.</p>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="tab-pane fade p-3" id="conveniencia" role="tabpanel" aria-labelledby="conveniencia-tab">
+                    <h3 class="color-red mb-4">Conveniência</h3>
+                    <div class="row d-flex align-items-center">                      
+                      <div class="col-sm-12 col-md-7 col-lg-7">
+                        <div class="video-container mb-3">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/K5qhbaPaT3w?si=Uq7vk-w3T6yNh7Wj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-5">
+                        <p>Com um simples toque, você pode ligar ou desligar o seu veículo ou ar condicionado. Além de travar e destravar as portas ou até mesmo achar o seu carro, caso tenha perdido no estacionamento.</p>
+                      </div>
+                    </div>    
+                  </div>
+                  <div class="tab-pane fade p-3" id="assistente" role="tabpanel" aria-labelledby="assistente-tab">
+                    <h3 class="color-red mb-4">Assistente de Voz</h3>
+                    <div class="row d-flex align-items-center">                      
+                      <div class="col-sm-12 col-md-7 col-lg-7">
+                        <div class="video-container mb-3">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/5U6CRLBQYpo?si=HHsemuer23rTJl_R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-5">
+                        <p>Se a facilidade do toque ainda não for o bastante, use a sua voz para saber como está a pressão dos pneus, qual a autonomia do seu Honda ou até realizar um diagnóstico do veículo.</p>
+                      </div>
+                    </div>                    
+                  </div>                  
+                </div>
+              </div>
+            </div>      
+          </div>
+        </div>
+      </section>
+
+      <section id="modeloFichatecnica" class="py-5">
+        <div class="container">
+          <h2 class="h1estilo mb-5">Ficha <b>Técnica</b></h2>
+          <div id="parentVerticalTab2" class="d-block mb-5">
+            <ul class="resp-tabs-list hor_2">
+                <li>
+                  <img src="img/icons/gauge-solid.svg" class="me-2" alt="">
+                  Performance
+                </li>
+                <li>
+                  <img src="img/icons/maximize-solid.svg" class="me-2" alt="">
+                  Dimensões
+                </li>
+                <li>
+                  <img src="img/icons/shield.svg" class="me-2" alt="">
+                  Segurança
+                </li>
+                <li>
+                  <img src="img/icons/honda-sensing.svg" class="me-2" alt="">
+                  Honda SENSING
+                </li>
+                <li>
+                  <img src="img/icons/car.svg" class="me-2" alt="">
+                  Acabamento Exterior
+                </li>
+                <li>
+                  <img src="img/icons/chair.svg" class="me-2" alt="">
+                  Conforto e Tecnologia
+                </li>
+                <li>
+                  <img src="img/icons/gear.svg" class="me-2" alt="">
+                  Consumo
+                </li>
+                <li>
+                  <img src="img/icons/droplet-solid.svg" class="me-2" alt="">
+                  Cores
+                </li>
+            </ul>
+            <div class="resp-tabs-container hor_2">
+                <div>
+                  <div class="row">
+                    <div class="container">
+                      <h3 class="color-red desktop">Performance</h3>
+                      <ul class="ficha-list ps-0">
+                        <li>Motor 1.5 DI VTEC Turbo Flex</li>
+                        <li>Potência (Gasolina - Etanol) - 177 cv a 6000rpm</li>
+                        <li>Torque (Gasolina - Etanol) - 24,5 kgfm a 1700 a 4500 rpm (G & E)</li>
+                        <li>Transmissão automática do tipo CVT com Paddle Shifts</li>
+                        <li>Direção com assistência elétrica progressiva EPS</li>
+                        <li>Tração dianteira</li>
+                        <li>Suspensão dianteira MacPherson</li>
+                        <li>Suspensão traseira - Barra de torção</li>
+                        <li>Rodas (pol) - Liga leve - aro 17''</li>
+                        <li>Pneus 215/60R17 96H</li>
+                        <li>Estepe temporário T145 / 90 R16</li>
+                        <li>Assistente de Voz</li>
+                      </ul>
+                    </div>
+                  </div>    
+                </div>
+
+                <div>
+                  <div class="row">
+                    <div class="container">
+                      <h3 class="color-red desktop">Dimensões</h3>
+                      <ul class="ficha-list ps-0">
+                        <li>Distância entre-eixos (mm) 2.610</li>
+                        <li>Comprimento (mm) - 4.385</li>
+                        <li>Altura (mm) 1.590</li>
+                        <li>Largura (mm) 1.790</li>
+                        <li>Peso em ordem de marcha (kg) 1.422</li>
+                        <li>Volume porta-malas (litros) 354</li>
+                        <li>Tanque de combustível (litros) 50</li>
+                        <li>Ângulos de entrada / saída - 16,0° / 20,3°</li>
+                        <li>Altura livre do solo (mm) - 181</li>
+                      </ul>
+                    </div>
+                  </div>                  
+                </div> 
+
+                <div>
+                  <div class="row">
+                    <div class="container">
+                      <h3 class="color-red desktop">Segurança</h3>
+                      <ul class="ficha-list ps-0">
+                        <li>Estrutura de deformação progressiva ACE (Advanced Compatibility Engineering)
+                        </li>
+                        <li>Alarme de segurança com imobilizador ECU
+                        </li>
+                        <li>Freios com sistemas ABS e EBD (Anti-Lock Braking System / Electronic Brake Distribution)
+                        </li>
+                        <li>EBA (Emergency Brake Assist)
+                        </li>
+                        <li>Freio de estacionamento eletrônico EPB (Electric Parking Brake) com função Brake Hold
+                        </li>
+                        <li>Sistema VSA (Vehicle Stability Assist - Assistente de tração e estabilidade)
+                        </li>
+                        <li>Sistema HSA (Hill Start Assist - Assistente de partidas em aclive)
+                        </li>
+                        <li>ESS (Emergency Stop Signal - Sistema de luzes de emergência)
+                        </li>
+                        <li>Sistema AHA (Agile Handling Assist) - Assistente de dirigibilidade ágil
+                        </li>
+                        <li>Assistente de Controle de Descida (HDC - Hill Descent Control)
+                        </li>
+                        <li>Airbags frontais, laterais e de cortina (6 airbags)
+                        </li>
+                        <li>Cinto de segurança de 3 pontos e encosto de cabeça para todos os ocupantes
+                        </li>
+                        <li>Cinto de segurança dianteiro com sistema de tensionamento
+                        </li>
+                        <li>Lembrete de afivelamento dos cintos dianteiros e traseiros
+                        </li>
+                        <li>Trava infantil nas portas traseiras
+                        </li>
+                        <li>Sistema ISOFIX de fixação para cadeirinhas infantis
+                        </li>
+                        <li>Câmera de ré multivisão com linhas dinâmicas (três vistas)
+                        </li>
+                        <li>Alerta de pressão dos pneus (TPMS)
+                        </li>
+                        <li>Lembrete de esquecimento de objetos no banco traseiro
+                        </li>
+                        <li>Sistema Honda LaneWatch - Assistente para redução de ponto cego</li>
+                      </ul>
+                    </div>
+                  </div>                  
+                </div> 
+
+                <div>
+                  <div class="row">
+                    <div class="container">
+                      <img src="img/logos/honda-sensing.png" class="mb-4" alt="Honda Sensing">
+  
+                      <ul class="ficha-list ps-0">
+                        <li>ACC (Adaptive Cruise Control) com LSF (Low Speed Follow) - Sistema que auxilia o motorista a manter uma distância segura em relação ao veículo detectado à sua frente.</li>
+                        <li>CMBS - Sistema de frenagem para mitigação de colisão - Sistema de acionamento de freios ao detectar uma possível colisão frontal com o objetivo de mitigar acidentes.
+                        </li>
+                        <li>LKAS - Sistema de permanência de faixa - Sistema que detecta as faixas de rodagem e ajusta a direção com o objetivo de auxiliar o motorista a manter o veículo centralizado nas linhas de marcação.
+                        </li>
+                        <li>RDM - Sistema para mitigação de evasão de pista - Sistema que detecta a saída da pista e ajusta a direção com o objetivo de evitar a sua evasão e possíveis acidentes.
+                        </li>
+                        <li>AHB - Ajuste automático de farol - Sistema de assistência automática de farol alto, que se ajusta de acordo com a situação.</li>
+                      </ul>
+                    </div> 
+                  </div>
+                </div>
+
+                <div>
+                  <div class="row">
+                    <div class="container">
+                      <h3 class="color-red desktop">Acabamento Exterior</h3>
+                      <ul class="ficha-list ps-0">
+                        <li>Lanternas traseiras em LED
+                        </li>
+                        <li>Luz de placa em LED</li>
+                        <li>Antena tipo Tubarão
+                        </li>
+                        <li>Limpador de para-brisa com função intermitente (variável)
+                        </li>
+                        <li>Espelhos retrovisores na cor do veículo com indicadores em LED e rebatimento elétrico automático
+                        </li>
+                        <li>Conjunto óptico com DRL em LED (Luzes de Rodagem Diurna)
+                        </li>
+                        <li>Faróis com acendimento automático (sensor crepuscular)
+                        </li>
+                        <li>Faróis de neblina em LED
+                        </li>
+                        <li>Para-choques esportivos - Detalhes pintado em preto
+                        </li>
+                        <li>Escapamento Duplo com ponteiras
+                        </li>
+                        <li>Lanternas traseiras com acabamento fumê e barra horizontal em LED - Barra horizontal em LED fumê
+                        </li>
+                        <li>Chave com função Smart Entry com controle remoto, abertura e fechamento dos vidros e destravamento das portas por sensor aproximação na chave</li>
+                      </ul>
+                    </div>
+                  </div>                  
+                </div>
+
+                <div>
+                  <div class="row">
+                    <div class="container">
+                      <h3 class="color-red desktop">Conforto e Tecnologia</h3>
+                      <ul class="ficha-list ps-0">
+                        <li>Sensores de estacionamento com aviso sonoro Dianteiros e Traseiros
+                        </li>
+                        <li>Botão de travamento das portas (motorista e passageiro) com travamento automático de velocidade
+                        </li>
+                        <li>Vidros elétricos com a função de subida automática dos vidros com "um toque" em todas as portas com anti esmagamento
+                        </li>
+                        <li>Alavanca de seta com One-Touch (pisca três vezes com um toque)
+                        </li>
+                        <li>Coluna de direção com ajuste de altura e profundidade
+                        </li>
+                        <li>Banco do motorista com ajuste elétrico
+                        </li>
+                        <li>Banco traseiro com apoio de braço central e porta-copos
+                        </li>
+                        <li>Porta-revistas no banco passageiro e motorista
+                        </li>
+                        <li>Desligamento automático dos fárois após 15 segundos
+                        </li>
+                        <li>Jogo de tapetes com trava antiescorregamento (carpete)
+                        </li>
+                        <li>Espelhos no quebra sol com iluminação
+                        </li>
+                        <li>Espelho retrovisor interno fotocrômico
+                        </li>
+                        <li>Ar-condicionado Digital automático Dual Zone com ventilação para os ocupantes traseiros</li>
+                        <li>Entradas USB - 2 dianteiras + 2 traseiras</li>
+                        <li>Botão de partida do motor (START/STOP)</li>
+                        <li>Banco traseiro Bipartido (60/40) Com exclusiva tecnologia Magic Seat</li>
+                        <li>Volante e alavanca do câmbio revestidos em couro</li>
+                        <li>Acabamento do volante em Black Piano - Comandos e Raio inferior</li>
+                        <li>Revestimento dos bancos - couro na cor Preta ou Cinza Claro</li>
+                        <li>Bancos com Estabilizador Corporal - Maior conforto e ergonomia</li>
+                        <li>Interface para smartphones Apple CarPlay e Android Auto com Voice Tag</li>
+                        <li>Alto-falantes - 4 alto-falantes + 4 Tweeters</li>
+                        <li>Multimídia 8” touchscreen com interface sem-fio para smartphones com Apple CarPlay e Android Auto com Voice Tag, câmera de ré</li>
+                        <li>Controle de áudio no volante</li>
+                        <li>Painel digital TFT de alta resolução (Thin-Film Transistor) - 7"</li>
+                        <li>Carregador por indução</li>
+                        <li>Seleção de modo de condução - Normal + ECON + Sport Inclinação automática de retrovisor ao engatar a ré Sensor de chuva</li>
+                        <li>Tampa traseira automático com sensor de presença (abertura e fechamento) e função Hands Free</li>
+                        <li>Partida remota</li>
+                        <li>myHonda Connect - Conexão única entre você e o seu Honda</li>
+                      </ul>
+                    </div>
+                  </div>                  
+                </div>
+
+                <div>
+                  <div class="row">
+                    <div class="container">
+                      <h3 class="color-red desktop">Conforto e Tecnologia</h3>
+                      <ul class="ficha-list ps-0">
+                        <li>Consumo de combustível - cidade (km/l) - Etanol - 7,9</li>
+                        <li>Consumo de combustível - cidade (km/l) - Gasolina - 11,3</li>
+                        <li>Consumo de combustível - estrada (km/l) - Etanol - 8,8</li>
+                        <li>Consumo de combustível - estrada (km/l) - Gasolina - 12,6</li>
+                        <li>Consumo de combustível - Classificação Categoria (km/l) - D</li>
+                        <li>Consumo de combustível - Classificação Geral (km/l) - C</li>
+                        <li>Nível de emissões B</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="row">
+                    <div class="container">
+                      <h3 class="color-red desktop">Cores</h3>
+                      <ul class="ficha-list ps-0">
+                        <li>Branco Tafetá Sólido</li>
+                        <li>Branco Topázio Perolizado</li>
+                        <li>Preto Cristal Perolizado</li>
+                        <li>Prata Platinum Metálico</li>
+                        <li>Azul Cósmico Metálico</li>
+                        <li>Cinza Basalto Metálico</li>
+                        <li>Cinza Grafeno Perolizado</li>
+                        <li>Vermelho Mercúrio Perolizado</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div><!-- Fim Tab -->
+            </div>
+          </div> 
+
+          <div class="container">
+            <div class="row mt-3">
+                <p><small>
+                  A Honda Automóveis do Brasil reserva-se o direito de modificar equipamentos, especificações técnicas, preços ou cores sem prévia notificação. Garantia de 3 anos sem limite de quilometragem válida na rede de concessionárias Honda. Preço público sugerido em reais, com frete incluso, podendo variar de acordo com a tributação e alíquotas específicas de cada Estado (consulte uma concessionária para mais informações). Alguns itens são revestidos em couro e/ou materiais sintéticos de alta qualidade. *Apple CarPlay é uma marca comercial da Apple Inc. Android Auto é uma marca comercial da Google Inc.
+                </small></p>
+            </div>            
+          </div>    
+        </div>
+      </section>
+
+      <section id="selosPremios" class="py-5">
+        <div class="container">
+          <div class="row">
+            <h1 class="h1estilo mb-5">Selos e <b>Prêmios</b></h1>
+
+            <div id="slideLogos">
+              <section class="customer-logos slider">
+                <div class="slide">
+                  <img src="img/selos/selo-01.webp">
+                  <div class="slide-description">
+                    <h3 class="text-center">Melhor Compra Quatro Rodas</h3>
+                    <p class="text-center">
+                      Grande Vencedor do prêmio de Melhor Compra.<br>
+                      New HR-V foi 1° lugar em três categorias.
+                    </p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <img src="img/selos/selo-02.webp">
+                  <div class="slide-description">
+                    <h3 class="text-center">Assistência 24h</h3>
+                    <p class="text-center">
+                      A Honda Automóveis do Brasil oferece, por um prazo de 2 anos a partir da Nota Fiscal de Vendas do veículo zero, o serviço de Assistência 24 horas, do qual poderá dispor, em caso de acidente, furto, roubo ou pane (de origem elétrica ou mecânica), com cobertura em qualquer parte do Brasil, Argentina, Uruguai ou Paraguai.
+                    </p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <img src="img/selos/selo-03.webp">
+                  <div class="slide-description">
+                    <h3 class="text-center">Exame</h3>
+                    <p class="text-center">
+                      Eleito "Carro mais confiável do Brasil".
+                    </p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <img src="img/selos/selo-04.webp">
+                  <div class="slide-description">
+                    <h3 class="text-center">Garantia de fábrica</h3>
+                    <p class="text-center">A Honda Automóveis do Brasil Ltda. garante que seus veículos distribuídos sob a sua licença pelas Concessionárias Autorizadas Honda, estão de acordo com os termos estabelecidos, desde que, não ocorram quaisquer dos fatos relacionados como excludentes (Concessão da Garantia, itens não cobertos pela Garantia e Extinção da Garantia). A garantia é concebida para o primeiro e demais (subsequentes) proprietários enquanto o período pré-estabelecido perdurar. Essa garantia tem validade de 3 anos sem limite de quilometragem desde que sejam realizadas as revisões programadas na Rede Autorizada Honda, conforme descrito nos termos de Garantia contidos no Manual do Proprietário.</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <img src="img/selos/selo-05.webp">
+                  <div class="slide-description">
+                    <h3 class="text-center">Motor 1</h3>
+                    <p class="text-center">Social Car of The Year 2023.</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <img src="img/selos/selo-06.webp">
+                  <div class="slide-description">
+                    <h3 class="text-center">Auto Esporte</h3>
+                    <p class="text-center">Eleito "Carro do Ano 2023".</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <img src="img/selos/selo-07.webp">
+                  <div class="slide-description">
+                    <h3 class="text-center">Compra do ano – Motor Show</h3>
+                    <p class="text-center">Prêmio de Compra do Ano 2024</p>                  
+                  </div>
+                </div>             
+              </section>
+            </div>            
+          </div>
+        </div>
+      </section>
+
+      <section id="condicoesExclusivas" class="py-5">
+        <div class="container">
+          <h1 class="h1estilo mb-5 color-white">Condições <b>Exclusivas</b></h1>
+
+          <div class="row">
+            <div class="col-sm-12 col-md-3">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="floatingName" placeholder="Nome">
+                <label for="floatingName">Nome</label>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingEMail">E-mail</label>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="floatingCpf" placeholder="000.000.000-00">
+                <label for="floatingCpf">CPF</label>
+              </div>              
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="form-floating">
+                <button class="btn-lg btn btn-primary w-100" style="height: 58px;">
+                  Enviar
+                </button>
+              </div>              
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+    <footer>    
+      <div id="fixed_button" class="position-fixed btn-whatsapp rounded-circle shadow-sm dropstart">
+        <a id="whatsapp_fixed" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="wa-item"><a href="https://api.whatsapp.com/send?phone=5511994326123" target="_blank">Agende a sua revisão</a></li>
+          <li class="wa-item"><a href="https://api.whatsapp.com/send?phone=5511976509981" target="_blank">Vendas</a></li>
+        </ul>
+      </div>
+
+      <div id="footerEndereco">
+        <div class="row">
+          <div id="regiao">
+            <p class="text-center"><small>Selecione a Região:</small></p>
+            <div id="regiaoNav" class="mb-1">
+              <a href="#" id="btn-sp" class="btn btn-primary">São Paulo</a>
+              <a href="#" id="btn-vp" class="btn btn-outline-primary">Vale do Paraíba</a>
+            </div>
+          </div>          
+          <div id="parentVerticalTab">
+            <ul class="resp-tabs-list hor_1">
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Ibirapuera 
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Jabaquara
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Pompéia
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Sumaré
+                </li>
+            </ul>
+            <div class="resp-tabs-container hor_1">
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Ibirapuera, 2771 - Indianópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5536-9966
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-ibirapuera.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Jabaquara, 2371 - Mirandópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5591-0140
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-jabaquara.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                R. Carlos Vicari, 154 - Barra Funda,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 2102-0999
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-pompeia.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Sumaré, 1421 - Perdizes,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 3675-0655
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-sumare.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+            </div>
+          </div> 
+        </div>               
+      </div>  
+      <div id="footerLinks" class="py-5">
+        <div id="rowLink" class="pb-5">
+          <div class="row">
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">MODELOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Civic Type R</a></li>
+                <li><a href="#">Civic Híbrido</a></li>
+                <li><a href="#">New HR-V</a></li>
+                <li><a href="#">New City Hatchback</a></li>
+                <li><a href="#">New City Sedan</a></li>
+                <li><a href="#">Seminovos</a></li>              
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">SERVIÇOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Agendamento</a></li>
+                <li><a href="#">Revisão Programada</a></li>
+                <li><a href="#">Reparos</a></li>
+                <li><a href="#">Catálogo de Peças</a></li>
+                <li><a href="#">Honda Access</a></li>         
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">CONSÓRCIO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Consórcio HR-V</a></li>
+                <li><a href="#">Consórcio New City</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">VENDAS ESPECIAIS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Honda Conduz</a></li>
+                <li><a href="#">Taxistas</a></li>
+                <li><a href="#">Diplomatas</a></li>
+                <li><a href="#">Pessoa Jurídica</a></li>
+                <li><a href="#">Produtor Rural</a></li>
+              </ul>
+            </div>
+            
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">A DAITAN</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Sobre a Empresa</a></li>
+                <li><a href="#">Blog da Daitan</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">FALE CONOSCO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Escreva para Nós</a></li>
+                <li><a href="#">Linha Direta</a></li>
+                <li><a href="#">Cadastro de E-mail</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+              </ul>
+            </div>   
+          </div>
+        </div>      
+          
+          <div class="row">
+            <div id="footerCopyright">
+              <img src="img/footer-ibama.webp" id="footerIbama" alt="Minha escolha faz a diferença no trânsito.">
+              <div id="footerLogo">
+                <img src="img/logo-daitan.svg" alt="">
+                <p><small>
+                  © Daitan Comércio de Veículos Ltda <br>
+                  CNPJ 67.375.899/0001-06. <a href="#">Políticas de Privacidade</a>
+                </small></p>
+              </div>
+            </div>
+          </div>
+
+          
+        
+      </div>
+
+    </footer>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="lib/vertical-responsive/js/easyResponsiveTabs.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+
+    <script src="js/main.js" crossorigin="anonymous"></script> 
+
+    
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function (){ const buttons=document.querySelectorAll(".btn-modelo"); const items=document.querySelectorAll(".banner-item"); const btnPrev=document.getElementById("btnPrev"); const btnNext=document.getElementById("btnNext"); let currentIndex=0; function setActiveButton(index){ buttons.forEach((button)=>{ button.classList.remove("active");}); buttons[index].classList.add("active");} function showItem(index){ items.forEach((item)=>{ item.classList.add("d-none");}); items[index].classList.remove("d-none");} btnPrev.addEventListener("click", ()=>{ currentIndex=(currentIndex - 1 + items.length) % items.length; showItem(currentIndex); setActiveButton(currentIndex);}); btnNext.addEventListener("click", ()=>{ currentIndex=(currentIndex + 1) % items.length; showItem(currentIndex); setActiveButton(currentIndex);}); buttons.forEach((button, index)=>{ button.addEventListener("click", ()=>{ showItem(index); setActiveButton(index); currentIndex=index;});});});
+    </script>
+
+    <script>
+      $(function () {
+      var galleryThumbs = new Swiper(".gallery-thumbs", {
+        centeredSlides: true,
+        centeredSlidesBounds: true, 
+        direction: "horizontal",
+        spaceBetween: 10,
+        slidesPerView: 3,
+        freeMode: true,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
+        watchOverflow: true,
+        breakpoints: {
+          480: {
+            direction: "vertical",
+            slidesPerView: 3
+          }
+        }
+      });
+      var galleryTop = new Swiper(".gallery-top", {
+        direction: "horizontal",
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        },
+        a11y: {
+          prevSlideMessage: "Previous slide",
+          nextSlideMessage: "Next slide",
+        },
+        keyboard: {
+          enabled: true,
+        },
+        thumbs: {
+          swiper: galleryThumbs
+        }
+      });
+      galleryTop.on("slideChangeTransitionStart", function () {
+        galleryThumbs.slideTo(galleryTop.activeIndex);
+      });
+      galleryThumbs.on("transitionStart", function () {
+        galleryTop.slideTo(galleryThumbs.activeIndex);
+      });
+    });
+    </script>
+
+    <script>
+      $(document).ready(function() {
+        var $carousel = $('.customer-logos');
+
+        $carousel.slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2500,
+          arrows: true,
+          dots: false,
+          pauseOnHover: true,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 520,
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+          ],
+        });
+
+        $carousel.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+          // Encontra o slide do meio no próximo grupo de slides
+          var middleSlide = nextSlide + Math.floor(slick.options.slidesToShow / 2);
+          
+          // Oculta todos os textos de descrição
+          $('.slide-description').hide();
+          
+          // Exibe o texto de descrição do slide do meio
+          $('.slick-slide[data-slick-index="' + middleSlide + '"] .slide-description').show();
+        });
+      });
+    </script>
+    
+</body>
+</html>

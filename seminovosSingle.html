@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daitan</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">   
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="lib/flickity/flickity.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css">
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+
+<body>
+    <header>
+      <div id="top">
+          <div class="container">
+              <div class="d-flex align-items-center justify-content-between">
+                  <div class="locate">
+                      <span>
+                        Sua Daitan mais próxima está em: <b>São Paulo</b>, <a href="#">troque aqui</a>.
+                      </span>
+                  </div>
+                  <ul class="topnav">
+                      <li class="topnav-item">
+                        <a href="#" class="topnav-link">A Daitan</a>
+                      </li>
+                      <li class="topnav-item">
+                        <a href="#" class="topnav-link">Política de Privacidade</a>
+                      </li>
+                      <li class="topnav-item">                          
+                        <a href="#" class="topnav-link">Trabalhe Conosco</a>
+                      </li>
+                  </ul>                        
+              </div>                
+          </div>            
+      </div>
+      <div id="header">
+        <div class="container">
+          <div class="r-flex">
+            <a href="/">
+              <img id="logo" src="img/logo-daitan.svg" width="210" alt="Logo Daitan">
+            </a>
+            <div id="media">
+              <ul class="socialmedia">
+                <li>
+                  <a href="https://www.facebook.com/HondaDaitan/" target="_blank">
+                    <img src="img/rs-facebook.svg" alt="Facebook Oficial da Daitan">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/hondadaitan/" target="_blank">
+                    <img src="img/rs-instagram.svg" alt="Instagram Oficial da Daitan">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/honda-daitan/" target="_blank">
+                    <img src="img/rs-linkedin.svg" alt="LinkedIn Oficial da Daitan">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/channel/UCFTCzhHYqbpGrM6oLcP2f5A" target="_blank">
+                    <img src="img/rs-youtube.svg" alt="YouTube Oficial da Daitan">
+                  </a>
+                </li>                  
+              </ul>
+              <button class="btn btn-primary">
+                Tenho Interesse
+              </button>
+            </div>
+            <button id="btn-navbar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <img src="img/bars-solid.svg" class="w-100" alt="">
+            </button>                
+          </div>            
+        </div>
+      </div>
+      <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">  
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Modelos
+                </a>
+                <div class="dropdown-menu">
+                  <div id="modelo-filters" class="row">
+
+                  </div>
+                  <ul id="dropModelos">
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/newhrv.png" class="d-block m-auto" alt="New Honda HR-V">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">New HR-V</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>                      
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/newcity.png" class="d-block m-auto" alt="New Honda City">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">New City</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/newcityhb.png" class="d-block m-auto" alt="New City Hatchback">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">New City Hatchback</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/civic_2023.png" class="d-block m-auto" alt="New Honda Civic Híbrido">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">Civic Híbrido</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/type_r.png" class="d-block m-auto" alt="New Honda HR-V">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">Civic Type-R</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                  </ul> 
+                </div>                                                    
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Seminovos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Serviços
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Oficinas</a></li>
+                  <li><a class="dropdown-item" href="#">Agende a sua revisão</a></li>
+                  <li><a class="dropdown-item" href="#">Peças e Acessórios</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Consórcio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Vendas Especiais
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="vendasDiretas-pcd.html">Pessoas com Deficiência</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-taxista.html">Taxistas</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-diplomata.html">Diplomatas</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-pj.html">Pessoa Jurídica</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-prodrural.html">Produtor Rural</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contato
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Escreva para Nós</a></li>
+                  <li><a class="dropdown-item" href="#">Ouvidoria</a></li>
+                  <li><a class="dropdown-item" href="#">Cadastro de E-mail</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>        
+    </header>
+
+    <main>
+        <section id="search" class="py-3 bg-gray-0">
+            <div class="container">
+                <div class="input-group input-group-lg">
+                    <input type="search" class="form-control" id="floatingInput" placeholder="O que você procura?">
+                    <button class="btn btn-light" type="button">
+                        <i class="fa-solid fa-magnifying-glass color-red"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        
+        <div class="container">
+            <nav style="--bs-breadcrumb-divider: '>';" class="mt-2 py-4" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="seminovosModelos.html">Seminovos</a></li>
+                  <li class="breadcrumb-item"><a href="#">Chevrolet</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Chevrolet Prisma</li>
+              </ol>
+            </nav>  
+            
+            <a href="seminovosModelos.html" class="btn btn-primary mb-4">
+              <i class="fa-solid fa-angle-left me-2"></i>
+              Voltar
+            </a>
+        </div>
+
+        <div class="container">
+          <div class="row">
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                  <div id="seminovosGaleria" class="mb-3">
+                    <!-- Flickity HTML init -->
+                    <div class="carousel carousel-main" data-flickity='{"pageDots": false }'>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-01.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-02.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-03.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-04.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-05.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-06.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-07.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-08.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-01.jpg" class="w-100" alt=""></div>
+                    </div>
+
+                    <div class="carousel carousel-nav"
+                      data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>                      
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-01.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-02.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-03.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-04.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-05.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-06.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-07.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-08.jpg" class="w-100" alt=""></div>
+                      <div class="carousel-cell"><img src="img/modelos/galeria_hrv/hrv-01.jpg" class="w-100" alt=""></div>
+                    </div>
+                  </div>
+
+                  <button id="btn-360" class="btn btn-primary btn-lg mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fa-solid fa-arrow-rotate-right me-1"></i>
+                    360º
+                  </button>
+
+                  <div id="seminovosStats" class="mb-3">                    
+                    <div class="row">
+                      <div class="col-sm-12 col-md-6 col-lg-6">
+                        <p><b>Características</b></p>
+
+                        <ul class="list-stats">
+                          <li>
+                            <div class="d-flex align-items-center">
+                              <b class="me-2">Cor</b> Azul <div id="azul" class="cor ms-2"></div>
+                            </div>                            
+                          </li>
+                          <li><b class="me-2">Procedência</b> Nacional</li>
+                          <li><b class="me-2">Final da Placa</b> 0</li>
+                          <li><b class="me-2">Ano/Versão</b> 2019/2019</li>
+                          <li><b class="me-2">Portas</b> 4</li>
+                          <li><b class="me-2">Chassis</b> Sedan</li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-6">
+                        <p><b>Opcionais</b></p>
+
+                        <ul class="list-stats">
+                          <li>Ar Condicionado</li>
+                          <li>Câmbio Automático</li>
+                          <li>Direção Hidráulica</li>
+                          <li>Espelho Elétrico</li>
+                          <li>Freios ABS</li>
+                          <li>Retrovisor Elétrico</li>
+                          <li>Rodas De Liga Leve</li>
+                          <li>Trava Elétrica</li>
+                          <li>Vidro Elétrico</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <p><small><i>
+                      * Preços sujeitos à alteração sem aviso prévio. Consulte a concessionária para confirmação de valores e de disponibilidade de estoque.
+                    </i></small></p>
+                  </div>
+
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <h1 class="mb-0 color-dark-gray">Honda City</h1>
+                    <p class="mb-0">LX CVT</p>
+
+                    <div class="row mt-2 mb-3">
+                        <div class="col-12">
+                            <span class="tag">2017/2017</span>
+                            <span class="tag">64.965 km</span>
+                        </div>                        
+                    </div>
+
+                    <p>
+                        <i class="fa-solid fa-location-dot me-1 color-red"></i>
+                        <span class="color-gray-0">Unidade Pompéia</span>
+                    </p>
+
+                    <h1 class="color-red mb-1">R$ 79.000,00</h1>
+                    <p><small>
+                        <b>Ver parcelas</b>
+                    </small></p>
+
+                    <a href="#" class="btn btn-outline-primary btn-lg mb-4 w-100">
+                        <i class="fa-brands fa-whatsapp me-1"></i>
+                        Conversar por Whatsapp
+                    </a>
+
+                    <div id="modeloContato" class="border-1 p-3 rounded-2 mb-3">
+                        <p class="mb-2"><b>Gostaria de receber um contato</b></p>
+
+                        <div class="d-flex align-items-center rounded-2 bg-gray-3 p-3 mb-3">
+                            <i class="fa-solid fa-circle-exclamation me-2"></i>
+                            <p class="mb-0 lh-1"><small>                            
+                                Não se preocupe, seus dados estão protegidos.<br>                                
+                                Vamos entrar em contato através do WhatsApp.
+                            </small></p>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingName" placeholder="Nome Completo" required>
+                            <label for="floatingName">Nome Completo</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingCpf" placeholder="CPF" required>
+                            <label for="floatingCpf">CPF</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingMail" placeholder="name@example.com" required>
+                            <label for="floatingMail">E-mail</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="tel" class="form-control" id="floatingMail" placeholder="Telefone" required>
+                            <label for="floatingMail">Celular</label>
+                        </div>
+
+                        <div class="mb-1">
+                            <a href="" class="btn btn-primary btn-lg w-100">Enviar</a>
+                        </div>
+                        <p><small>
+                            Ao enviar você estará aceitando os <a href="">Termos e Condições</a> e nossa <a href="">Política de Privacidade</a>.
+                        </small></p>
+                    </div>
+                    
+
+                </div>
+          </div>
+
+          <div class="row my-5">
+
+            <h2 class="text-center mb-5 color-gray">Veículos que você pode gostar</h2>
+
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <div class="card card-modelo w-100">
+                <div class="card-modelo-img">
+                  <a href="" class="share btn btn-outline-primary circle rounded-circle">
+                    <i class="fa-solid fa-share-nodes py-1"></i>
+                  </a>
+                  <a href="seminovosSingle.html">                        
+                    <img src="img/seminovosModelo-1.webp" class="card-img-top" alt="...">
+                    <div class="garantia">
+                      <p class="mb-0 text-center"><small>
+                        <i class="fa-solid fa-award color-red me-1"></i>
+                        1 ano de garantia
+                      </small></p>
+                    </div>
+                  </a>                          
+                </div>
+                
+                <div class="card-body">
+                  <div class="row mt-2 mb-3">
+                    <span class="tag">2017/2017</span><span class="tag">64.965 km</span>
+                  </div>
+                  <h3 id="cardModelo" class="mb-0">Chevrolet Prisma</h3>
+                  <p id="cardVersao" class="mb-3">1.4 AT LTZ</p>
+
+                  <p class="color-gray-0">
+                    <i class="fa-solid fa-location-dot me-1"></i>
+                    Unidade Pompéia
+                  </p>
+                  <h3 class="color-red mb-0">R$ 63.900,00</h3>
+                  <p><small>Entrada + parcelas de <b>R$ 0.000,00</b></small></p>
+                </div>
+              </div>
+            </div><!-- Card -->
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <div class="card card-modelo w-100">
+                <div class="card-modelo-img">
+                  <a href="" class="share btn btn-outline-primary circle rounded-circle">
+                    <i class="fa-solid fa-share-nodes py-1"></i>
+                  </a>
+                  <a href="seminovosSingle.html">                        
+                    <img src="img/seminovosModelo-1.webp" class="card-img-top" alt="...">
+                    <div class="garantia">
+                      <p class="mb-0 text-center"><small>
+                        <i class="fa-solid fa-award color-red me-1"></i>
+                        1 ano de garantia
+                      </small></p>
+                    </div>
+                  </a>                          
+                </div>
+                
+                <div class="card-body">
+                  <div class="row mt-2 mb-3">
+                    <span class="tag">2017/2017</span><span class="tag">64.965 km</span>
+                  </div>
+                  <h3 id="cardModelo" class="mb-0">Chevrolet Prisma</h3>
+                  <p id="cardVersao" class="mb-3">1.4 AT LTZ</p>
+
+                  <p class="color-gray-0">
+                    <i class="fa-solid fa-location-dot me-1"></i>
+                    Unidade Pompéia
+                  </p>
+                  <h3 class="color-red mb-0">R$ 63.900,00</h3>
+                  <p><small>Entrada + parcelas de <b>R$ 0.000,00</b></small></p>
+                </div>
+              </div>
+            </div><!-- Card -->
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <div class="card card-modelo w-100">
+                <div class="card-modelo-img">
+                  <a href="" class="share btn btn-outline-primary circle rounded-circle">
+                    <i class="fa-solid fa-share-nodes py-1"></i>
+                  </a>
+                  <a href="seminovosSingle.html">                        
+                    <img src="img/seminovosModelo-1.webp" class="card-img-top" alt="...">
+                    <div class="garantia">
+                      <p class="mb-0 text-center"><small>
+                        <i class="fa-solid fa-award color-red me-1"></i>
+                        1 ano de garantia
+                      </small></p>
+                    </div>
+                  </a>                          
+                </div>
+                
+                <div class="card-body">
+                  <div class="row mt-2 mb-3">
+                    <span class="tag">2017/2017</span><span class="tag">64.965 km</span>
+                  </div>
+                  <h3 id="cardModelo" class="mb-0">Chevrolet Prisma</h3>
+                  <p id="cardVersao" class="mb-3">1.4 AT LTZ</p>
+
+                  <p class="color-gray-0">
+                    <i class="fa-solid fa-location-dot me-1"></i>
+                    Unidade Pompéia
+                  </p>
+                  <h3 class="color-red mb-0">R$ 63.900,00</h3>
+                  <p><small>Entrada + parcelas de <b>R$ 0.000,00</b></small></p>
+                </div>
+              </div>
+            </div><!-- Card -->
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <div class="card card-modelo w-100">
+                <div class="card-modelo-img">
+                  <a href="" class="share btn btn-outline-primary circle rounded-circle">
+                    <i class="fa-solid fa-share-nodes py-1"></i>
+                  </a>
+                  <a href="seminovosSingle.html">                        
+                    <img src="img/seminovosModelo-1.webp" class="card-img-top" alt="...">
+                    <div class="garantia">
+                      <p class="mb-0 text-center"><small>
+                        <i class="fa-solid fa-award color-red me-1"></i>
+                        1 ano de garantia
+                      </small></p>
+                    </div>
+                  </a>                          
+                </div>
+                
+                <div class="card-body">
+                  <div class="row mt-2 mb-3">
+                    <span class="tag">2017/2017</span><span class="tag">64.965 km</span>
+                  </div>
+                  <h3 id="cardModelo" class="mb-0">Chevrolet Prisma</h3>
+                  <p id="cardVersao" class="mb-3">1.4 AT LTZ</p>
+
+                  <p class="color-gray-0">
+                    <i class="fa-solid fa-location-dot me-1"></i>
+                    Unidade Pompéia
+                  </p>
+                  <h3 class="color-red mb-0">R$ 63.900,00</h3>
+                  <p><small>Entrada + parcelas de <b>R$ 0.000,00</b></small></p>
+                </div>
+              </div>
+            </div><!-- Card -->
+          </div>        
+        </div>
+
+        <!-- Modal 360º -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="modal360" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modal360">360º</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body" style="height: 510px;">
+                <div id="panorama"></div>
+              </div>              
+            </div>
+          </div>
+        </div>
+
+
+    </main>
+
+
+
+    <footer>
+      <div id="fixed_button" class="position-fixed btn-whatsapp rounded-circle shadow-sm dropstart">
+        <a id="whatsapp_fixed" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="wa-item"><a href="#" target="_blank">Agende a sua revisão</a></li>
+          <li class="wa-item"><a href="#" target="_blank">Vendas</a></li>
+          <li class="wa-item"><a href="#" target="_blank">Mande uma mensagem</a></li>
+        </ul>
+      </div>
+      <div id="footerEndereco">
+        <div class="row">
+          <div id="regiao">
+            <p class="text-center"><small>Selecione a Região:</small></p>
+            <div id="regiaoNav" class="mb-1">
+              <a href="#" id="btn-sp" class="btn btn-primary">São Paulo</a>
+              <a href="#" id="btn-vp" class="btn btn-outline-primary">Vale do Paraíba</a>
+            </div>
+          </div>          
+          <div id="parentVerticalTab">
+            <ul class="resp-tabs-list hor_1">
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Ibirapuera 
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Jabaquara
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Pompéia
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Sumaré
+                </li>
+            </ul>
+            <div class="resp-tabs-container hor_1">
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Ibirapuera, 2771 - Indianópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5536-9966
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-ibirapuera.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Jabaquara, 2371 - Mirandópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5591-0140
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-jabaquara.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                R. Carlos Vicari, 154 - Barra Funda,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 2102-0999
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-pompeia.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Sumaré, 1421 - Perdizes,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 3675-0655
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-sumare.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+            </div>
+          </div> 
+        </div>               
+      </div>  
+      <div id="footerLinks" class="py-5">
+        <div id="rowLink" class="pb-5">
+          <div class="row">
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">MODELOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Civic Type R</a></li>
+                <li><a href="#">Civic Híbrido</a></li>
+                <li><a href="#">New HR-V</a></li>
+                <li><a href="#">New City Hatchback</a></li>
+                <li><a href="#">New City Sedan</a></li>
+                <li><a href="#">Seminovos</a></li>              
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">SERVIÇOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Agendamento</a></li>
+                <li><a href="#">Revisão Programada</a></li>
+                <li><a href="#">Reparos</a></li>
+                <li><a href="#">Catálogo de Peças</a></li>
+                <li><a href="#">Honda Access</a></li>         
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">CONSÓRCIO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Consórcio HR-V</a></li>
+                <li><a href="#">Consórcio New City</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">VENDAS ESPECIAIS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Honda Conduz</a></li>
+                <li><a href="#">Taxistas</a></li>
+                <li><a href="#">Diplomatas</a></li>
+                <li><a href="#">Pessoa Jurídica</a></li>
+                <li><a href="#">Produtor Rural</a></li>
+              </ul>
+            </div>
+            
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">A DAITAN</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Sobre a Empresa</a></li>
+                <li><a href="#">Blog da Daitan</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">FALE CONOSCO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Escreva para Nós</a></li>
+                <li><a href="#">Linha Direta</a></li>
+                <li><a href="#">Cadastro de E-mail</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+              </ul>
+            </div>   
+          </div>
+        </div>      
+          
+          <div class="row">
+            <div id="footerCopyright">
+              <img src="img/footer-ibama.webp" id="footerIbama" alt="Minha escolha faz a diferença no trânsito.">
+              <div id="footerLogo">
+                <img src="img/logo-daitan.svg" alt="">
+                <p>
+                  <small>
+                    © Daitan Comércio de Veículos Ltda <br>
+                    CNPJ 67.375.899/0001-06. <a href="#">Políticas de Privacidade</a>
+                  </small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          
+          
+        
+      </div>
+    </footer>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="lib/flickity/flickity.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <script src="js/main.js" crossorigin="anonymous"></script> 
+
+    <script>
+      pannellum.viewer('panorama', {
+          "type": "equirectangular",
+          "panorama": "https://pannellum.org/images/alma.jpg"
+      });
+    </script>
+
+</body>
+</html>

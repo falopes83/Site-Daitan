@@ -1,0 +1,1882 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daitan</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">   
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="lib/vertical-responsive/css/easy-responsive-tabs.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div id="top">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="locate">
+                      <span class="desktop">
+                        Sua Daitan mais próxima está em: <b>São Paulo</b>, <button type="button" class="btn btn-regiao btn-sm rounded-pill" data-bs-toggle="modal" data-bs-target="#trocarRegiao">troque aqui</button>.
+                      </span>
+                      <p class="mb-0 text-center mobile">
+                        Selecione a região: <b>São Paulo</b>, <button type="button" class="btn btn-regiao btn-sm rounded-pill" data-bs-toggle="modal" data-bs-target="#trocarRegiao">troque aqui</button>.
+                      </p>
+                    </div>
+                    <ul class="topnav">
+                        <li class="topnav-item">
+                          <a href="#" class="topnav-link">A Daitan</a>
+                        </li>
+                        <li class="topnav-item">
+                          <a href="#" class="topnav-link">Política de Privacidade</a>
+                        </li>
+                        <li class="topnav-item">                          
+                          <a href="#" class="topnav-link">Trabalhe Conosco</a>
+                        </li>
+                    </ul>                        
+                </div>                
+            </div>            
+        </div>
+        <div id="heading">
+          <div id="header">
+            <div class="container">
+              <div class="r-flex">
+                <a href="/">
+                  <img id="logo" src="img/logo-daitan.svg" width="210" alt="Logo Daitan">
+                </a>
+                <div id="media">
+                    <div class="dropdown">
+                      <button id="btnTelefone" class="btn btn-outline-primary rounded-pill dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-phone me-2"></i>
+                        Telefones
+                      </button>     
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li>
+                          <a class="dropdown-item" href="tel:+551155369966">
+                            <small><b>Ibirapuera</b></small><br>
+                            (11) 5536-9966
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="tel:+551155910140">
+                            <small><b>Jabaquara</b></small><br>
+                            (11) 5591-0140
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="tel:+551121020999">
+                            <small><b>Pompéia</b></small><br>
+                            (11) 2102-0999
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="tel:+551136750655">
+                            <small><b>Sumaré</b></small><br>
+                            (11) 3675-0655
+                          </a>
+                        </li>
+                      </ul>  
+                    </div>         
+                  <button class="btn btn-primary rounded-pill">
+                    Tenho Interesse
+                  </button>
+                  <ul class="socialmedia">
+                    <li>
+                      <a href="https://www.facebook.com/HondaDaitan/" target="_blank">
+                        <img src="img/rs-facebook.svg" alt="Facebook Oficial da Daitan">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/hondadaitan/" target="_blank">
+                        <img src="img/rs-instagram.svg" alt="Instagram Oficial da Daitan">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/honda-daitan/" target="_blank">
+                        <img src="img/rs-linkedin.svg" alt="LinkedIn Oficial da Daitan">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCFTCzhHYqbpGrM6oLcP2f5A" target="_blank">
+                        <img src="img/rs-youtube.svg" alt="YouTube Oficial da Daitan">
+                      </a>
+                    </li>                  
+                  </ul>
+                </div>
+                <button id="btn-navbar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <img src="img/bars-solid.svg" class="w-100" alt="">
+                </button>                
+              </div>            
+            </div>
+          </div>
+          <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Modelos
+                            </a>
+                            <div class="dropdown-menu">
+                            <div id="modelo-filters" class="row">
+        
+                            </div>
+                            <div id="dropModelos" class="row">
+                                <div class="col-sm-12 col-md-3 col-lg-3 py-3">
+                                    <a class="dropdown-car" href="/new-city-hb-touring">
+                                    <img src="img/modelos/newcityhb.png" class="d-block m-auto" alt="New City Hatchback">
+                                    </a>
+                                    <p class="text-center text-uppercase mb-1">New City Hatchback</p>
+                                    <div class="text-center">
+                                    <a class="btn btn-primary btn-sm m-auto w-btn" href="/new-city-hb-touring">
+                                        <i class="fa-solid fa-plus"></i>
+                                        Saiba Mais
+                                    </a>
+                                    </div>
+                                </div><!--City HB --> 
+                                <div class="col-sm-12 col-md-3 col-lg-3 py-3">
+                                    <a class="dropdown-car" href="/new-city-touring">
+                                        <img src="img/modelos/newcity.png" class="d-block m-auto" alt="New City">
+                                    </a>
+                                    <p class="text-center text-uppercase mb-1">New City</p>
+                                    <div class="text-center">
+                                        <a class="btn btn-primary btn-sm m-auto w-btn" href="/new-city-touring">
+                                            <i class="fa-solid fa-plus"></i>
+                                            Saiba Mais
+                                        </a>
+                                    </div>
+                                </div><!-- New City -->
+                                <div class="col-sm-12 col-md-3 col-lg-3 py-3">
+                                    <a class="dropdown-car" href="/civic-advanced-hybrid">
+                                        <img src="img/modelos/civic_2023.png" class="d-block m-auto" alt="Civic Híbrido">
+                                    </a>
+                                    <p class="text-center text-uppercase mb-1">Civic Advanced Hybrid</p>
+                                    <div class="text-center">
+                                        <a class="btn btn-primary btn-sm m-auto w-btn" href="/civic-advanced-hybrid">
+                                            <i class="fa-solid fa-plus"></i>
+                                            Saiba Mais
+                                        </a>
+                                    </div>
+                                </div><!-- Civic -->
+                                <div class="col-sm-12 col-md-3 col-lg-3 py-3">
+                                    <a class="dropdown-car" href="/accord-advanced-hybrid">
+                                        <img src="img/modelos/accord.webp" width="167" class="d-block m-auto" alt="Accord Advanced Hybrid">
+                                    </a>
+                                    <p class="text-center text-uppercase mb-1">Accord Advanced Hybrid</p>
+                                    <div class="text-center">
+                                        <a class="btn btn-primary btn-sm m-auto w-btn" href="/accord-advanced-hybrid">
+                                            <i class="fa-solid fa-plus"></i>
+                                            Saiba Mais
+                                        </a>
+                                    </div>
+                                </div><!-- Accord -->
+                                <div class="col-sm-12 col-md-3 col-lg-3 py-3">
+                                    <a class="dropdown-car" href="/new-hrv-touring">
+                                        <img src="img/modelos/newhrv.png" class="d-block m-auto" alt="New HR-V">
+                                    </a>
+                                    <p class="text-center text-uppercase mb-1">New HR-V</p>
+                                    <div class="text-center">
+                                        <a class="btn btn-primary btn-sm m-auto w-btn" href="/new-hrv-touring">
+                                            <i class="fa-solid fa-plus"></i>
+                                            Saiba Mais
+                                        </a>
+                                    </div> 
+                                </div><!-- New HRV -->
+                                <div class="col-sm-12 col-md-3 col-lg-3 py-3">
+                                    <a class="dropdown-car" href="/zrv-touring">
+                                        <img src="img/modelos/zrv.webp" width="167" class="d-block m-auto" alt="ZR-V">
+                                    </a>
+                                    <p class="text-center text-uppercase mb-1">ZR-V</p>
+                                    <div class="text-center">
+                                        <a class="btn btn-primary btn-sm m-auto w-btn" href="/zrv-touring">
+                                            <i class="fa-solid fa-plus"></i>
+                                            Saiba Mais
+                                        </a>
+                                    </div>
+                                </div><!-- ZRV -->
+                                <div class="col-sm-12 col-md-3 col-lg-3 py-3">
+                                <a class="dropdown-car" href="/crv-advanced-hybrid">
+                                    <img src="img/modelos/crv/crv.webp" width="167" class="d-block m-auto" alt="CR-V Advanced Hybrid">
+                                </a>
+                                <p class="text-center text-uppercase mb-1">CR-V Advanced Hybrid</p>
+                                <div class="text-center">
+                                    <a class="btn btn-primary btn-sm m-auto w-btn" href="/crv-advanced-hybrid">
+                                    <i class="fa-solid fa-plus"></i>
+                                    Saiba Mais
+                                    </a>
+                                </div>   
+                                </div><!-- CRV -->
+                                <div class="col-sm-12 col-md-3 col-lg-3 py-3">
+                                    <a class="dropdown-car" href="/civic-type-r">
+                                        <img src="img/modelos/type_r.png" class="d-block m-auto" alt="Civic Type-R">
+                                    </a>
+                                    <p class="text-center text-uppercase mb-1">Civic Type-R</p>
+                                    <div class="text-center">
+                                        <a class="btn btn-primary btn-sm m-auto w-btn" href="/civic-type-r">
+                                            <i class="fa-solid fa-plus"></i>
+                                            Saiba Mais
+                                        </a>
+                                    </div>
+                                </div><!-- Type R -->
+                            </div>
+                        </div>                                                    
+                        </li>
+        
+        
+                    <li class="nav-item">
+                        <a class="nav-link" href="/seminovos">Seminovos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Serviços
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/servicos">Oficina de Reparação</a></li>
+                        <li><a class="dropdown-item" href="/agenda-facil">Agende a sua revisão</a></li>
+                        <li><a class="dropdown-item" href="/revisao-periodica">Revisão Periódica</a></li>
+                        <li><a class="dropdown-item" href="/pecas-e-acessorios">Peças e Acessórios</a></li>
+                        <li><a class="dropdown-item" href="/catalogo-pecas">Catálogo de Peças</a></li>
+                        <li><a class="dropdown-item" href="/testdrive">Test Drive</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consorcio">Consórcio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Vendas Especiais
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/hondaconduz">Honda Conduz</a></li>
+                        <li><a class="dropdown-item" href="/taxistas">Taxistas</a></li>
+                        <li><a class="dropdown-item" href="/diplomatas">Diplomatas</a></li>
+                        <li><a class="dropdown-item" href="/pessoajuridica">Pessoa Jurídica</a></li>
+                        <li><a class="dropdown-item" href="/produtorrural">Produtor Rural</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contato
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/escreva-para-nos">Escreva para Nós</a></li>
+                        <li><a class="dropdown-item" href="/linha-direta">Linha Direta</a></li>
+                        <li><a class="dropdown-item" href="/cadastro-de-email">Cadastro de E-mail</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+          </nav> 
+        </div>          
+    </header>
+
+    <main>
+      <section id="banner">
+        <div id="slidesDaitan" class="carousel slide">          
+          <div class="carousel-inner">            
+            <div class="carousel-item active">        
+              <img src="img/banners/banner-crv-desktop-1.webp" class="w-100 desktop" alt="">
+              <img src="img/banners/banner-crv-mob-1.webp" class="w-100 mobile" alt="">             
+            </div>
+            <div class="carousel-item">
+              <img src="img/banners/banner-zrv-desktop-2.webp" class="w-100 desktop" alt="">
+              <img src="img/banners/banner-zrv-mob-2.webp" class="w-100 mobile" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="img/banners/banner-accord-desktop-3.webp" class="w-100 desktop" alt="">
+              <img src="img/banners/banner-accord-mob-3.webp" class="w-100 mobile" alt="">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#slidesDaitan" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#slidesDaitan" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próxima</span>
+          </button>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slidesDaitan" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#slidesDaitan" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#slidesDaitan" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="modelos" class="py-5">
+        <div class="container">
+          <h1 class="h1estilo mb-4">Descubra o Honda <b>perfeito para você</b></h1>
+          <!--<div id="modelosFiltro" class="mb-5">
+                <div class="row">
+                  <ul class="filter-content">
+                    <li class="filter-item">
+                      <a href="#" class="active">Todos</a>                
+                    </li>
+                    <li class="filter-item">
+                      <a href="#">Passeios</a>                
+                    </li>
+                    <li class="filter-item">
+                      <a href="#">SUV</a>                
+                    </li>
+                  </ul>
+                </div>            
+              </div>-->
+          <div id="modelosContent">
+            <div class="row">
+              <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="d-block my-3"> 
+                  <a href="/new-city-hb-touring" class="text-center"> 
+                    <img src="img/modelos/newcityhb.png" class="modelo-hover d-block m-auto" alt="New City HatchBack">
+                    <div class="modelo-logo"> 
+                      <img src="img/logos/new_city_hatchback.svg" class="d-block m-auto" alt="Logo HR-V"> 
+                    </div>
+                  </a> 
+                </div>
+                <p class="text-center mb-1"> A partir de </p>
+                <p class="preco text-center"> R$ 113.600,00 </p>
+                <a class="btn btn-primary d-block m-auto" href="/new-city-hb-touring"> <i class="fa-solid fa-plus me-2"></i> Saiba Mais </a>
+              </div><!-- New City HB -->
+              <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="d-block my-3"> 
+                  <a href="/new-city-touring" class="text-center"> 
+                    <img src="img/modelos/newcity.png" class="modelo-hover d-block m-auto" alt="Modelo New City">
+                    <div class="modelo-logo"> 
+                      <img src="img/logos/new_city.svg" class="d-block m-auto" alt="Logo New City"> 
+                    </div>
+                  </a> 
+                </div>
+                <p class="text-center mb-1"> A partir de </p>
+                <p class="preco text-center"> R$ 115.300,00 </p>
+                <a class="btn btn-primary d-block m-auto" href="/new-city-touring"> <i class="fa-solid fa-plus me-2"></i> Saiba Mais </a>
+              </div><!-- New City -->
+              <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="d-block my-3"> 
+                  <a href="/civic-advanced-hybrid" class="text-center"> 
+                    <img src="img/modelos/civic_2023.png" class="modelo-hover d-block m-auto" alt="Modelo Civic Advanced Hybrid">
+                  <div class="modelo-logo"> 
+                    <img src="img/logos/logo-civic-adv-hybrid.svg" class="d-block m-auto" alt="Civic Advanced Hybrid"> 
+                  </div>
+                  </a> 
+                </div>
+                <p class="text-center mb-1"> A partir de </p>
+                <p class="preco text-center"> R$ 265.900,00 </p>
+                <a class="btn btn-primary d-block m-auto" href="/civic-advanced-hybrid"> 
+                  <i class="fa-solid fa-plus me-2"></i> Saiba Mais
+                </a>
+              </div><!-- Civic -->
+              <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="d-block my-3"> <a href="/accord-advanced-hybrid" class="text-center"> <img src="img/modelos/accord.webp" width="167" class="modelo-hover d-block m-auto" alt="Accord Advanced Hybrid">
+                  <div class="modelo-logo"> <img src="img/logos/accord-adv-hyb.png" class="d-block m-auto" alt="Accord Advanced Hybrid"> </div>
+                  </a> </div>
+                <p class="text-center mb-1"> A partir de </p>
+                <p class="preco text-center"> R$ 332.400,00 </p>
+                <a class="btn btn-primary d-block m-auto" href="/accord-advanced-hybrid"> <i class="fa-solid fa-plus me-2"></i> Saiba Mais </a>
+              </div><!-- Accord -->
+              <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="d-block my-3"> <a href="/new-hrv-touring" class="text-center"> <img src="img/modelos/newhrv.png" class="modelo-hover d-block m-auto" alt="Modelo HR-V">
+                  <div class="modelo-logo"> <img src="img/logos/hrv_logo.png" class="d-block m-auto" alt="Logo HR-V"> </div>
+                  </a> </div>
+                <p class="text-center mb-1"> A partir de </p>
+                <p class="preco text-center"> R$ 152.700,00 </p>
+                <a class="btn btn-primary d-block m-auto" href="/new-hrv-touring"> <i class="fa-solid fa-plus me-2"></i> Saiba Mais </a>
+              </div><!-- New HRV -->              
+              <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="d-block my-3"> <a href="/zrv-touring" class="text-center"> <img src="img/modelos/zrv.webp" width="167" class="modelo-hover d-block m-auto" alt="Modelo ZR-V">
+                  <div class="modelo-logo"> <img src="img/logos/zrv-logo.png" class="d-block m-auto" alt="ZR-V"> </div>
+                  </a> </div>
+                <p class="text-center mb-1"> A partir de </p>
+                <p class="preco text-center"> R$ 214.500,00</p>
+                <a class="btn btn-primary d-block m-auto" href="/zrv-touring"> <i class="fa-solid fa-plus me-2"></i> Saiba Mais </a>
+              </div><!-- ZRV -->
+              <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="d-block my-3">
+                  <a href="/crv-advanced-hybrid" class="text-center">
+                    <img src="img/modelos/crv/crv.webp" width="167" class="modelo-hover d-block m-auto" alt="CR-V Advanced Hybrid">
+
+                    <div class="modelo-logo">
+                      <img src="img/logos/crv-logo.png" class="d-block m-auto" alt="CR-V">
+                    </div>
+                    
+                  </a>
+                </div>        
+                <p class="text-center mb-1">
+                  A partir de
+                </p>     
+                <p class="preco text-center">
+                  R$ 352.900,00
+                </p> 
+                <a class="btn btn-primary d-block m-auto" href="/crv-advanced-hybrid">
+                  <i class="fa-solid fa-plus me-2"></i>
+                  Saiba Mais
+                </a>
+              </div><!-- CRV -->
+              <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="d-block my-3"> 
+                  <a href="/civic-type-r" class="text-center"> 
+                    <img src="img/modelos/type_r.png" class="modelo-hover d-block m-auto" alt="Modelo Civic Type R">
+                  <div class="modelo-logo"> 
+                    <img src="img/logos/civi-typeR-200x80.png" class="d-block m-auto" alt="Civic Híbrido"> 
+                  </div>
+                  </a> 
+                </div>
+                <p class="text-center mb-1"> A partir de </p>
+                <p class="preco text-center"> R$ 429.900,00 </p>
+                <a class="btn btn-primary d-block m-auto" href="civic-type-r"> 
+                  <i class="fa-solid fa-plus me-2"></i> Saiba Mais 
+                </a>
+              </div><!-- Type R -->
+            </div><!-- Row -->
+          </div>
+        </div>
+      </section>
+
+      <section id="ofertas" class="py-5">
+        <div class="container">
+          <h1 class="h1estilo">Ofertas <b>Especiais</b></h1>
+
+          <div class="wrapper">
+            <div id="section1" class="ofertas-section">
+              <a href="#section3" class="arrow__btn left-arrow">
+                <i class="fa-solid fa-chevron-left ofertas-arrow"></i>
+              </a>
+              <div class="item">
+                <div class="card card-ofertas">
+                  <a href="#">
+                    <img src="img/ofertas/model-01.png" class="card-img-top" alt="...">
+                  </a>
+                  
+                  <div class="card-body">
+                    <p class="card-title text-uppercase text-center">HONDA CITY TOURING CVT</p>
+                    <p class="text-center"><small>Motor 1.5 - Linha Direta</small></p>
+
+                    <div class="card-content py-3 my-3">
+                      <ul class="card-list">
+                        <li>Flex 126 cv / 6200 rpm</li>
+                        <li>Transmissão automática CVT</li>
+                        <li>Tração dianteira</li>
+                        <li>Freios com sistemas ABS e EBD</li>
+                      </ul>
+                    </div>
+
+                    <p class="text-center ofertas-precos">
+                      R$ 139.000,00
+                    </p>
+                    <button class="btn btn-primary d-block m-auto w-100">
+                      Comprar
+                    </button>
+                  </div>
+                </div>                
+              </div>
+              <div class="item">
+                <div class="card card-ofertas">
+                  <a href="#">
+                    <img src="img/ofertas/model-02.png" class="card-img-top" alt="...">
+                  </a>
+                  
+                  <div class="card-body">
+                    <p class="card-title text-uppercase text-center">HONDA CITY TOURING CVT</p>
+                    <p class="text-center"><small>Motor 1.5 - Linha Direta</small></p>
+
+                    <div class="card-content py-3 my-3">
+                      <ul class="card-list">
+                        <li>Flex 126 cv / 6200 rpm</li>
+                        <li>Transmissão automática CVT</li>
+                        <li>Tração dianteira</li>
+                        <li>Freios com sistemas ABS e EBD</li>
+                      </ul>
+                    </div>
+
+                    <p class="text-center ofertas-precos">
+                      R$ 139.000,00
+                    </p>
+                    <button class="btn btn-primary d-block m-auto w-100">
+                      Comprar
+                    </button>
+                  </div>
+                </div>            
+              </div>
+              <div class="item">
+                <div class="card card-ofertas">
+                  <a href="#">
+                    <img src="img/ofertas/model-03.png" class="card-img-top" alt="...">
+                  </a>
+                  
+                  <div class="card-body">
+                    <p class="card-title text-uppercase text-center">HONDA CITY TOURING CVT</p>
+                    <p class="text-center"><small>Motor 1.5 - Linha Direta</small></p>
+
+                    <div class="card-content py-3 my-3">
+                      <ul class="card-list">
+                        <li>Flex 126 cv / 6200 rpm</li>
+                        <li>Transmissão automática CVT</li>
+                        <li>Tração dianteira</li>
+                        <li>Freios com sistemas ABS e EBD</li>
+                      </ul>
+                    </div>
+
+                    <p class="text-center ofertas-precos">
+                      R$ 139.000,00
+                    </p>
+                    <button class="btn btn-primary d-block m-auto w-100">
+                      Comprar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card card-ofertas">
+                  <a href="#">
+                    <img src="img/ofertas/model-04.png" class="card-img-top" alt="...">
+                  </a>
+                  
+                  <div class="card-body">
+                    <p class="card-title text-uppercase text-center">HONDA CITY TOURING CVT</p>
+                    <p class="text-center"><small>Motor 1.5 - Linha Direta</small></p>
+
+                    <div class="card-content py-3 my-3">
+                      <ul class="card-list">
+                        <li>Flex 126 cv / 6200 rpm</li>
+                        <li>Transmissão automática CVT</li>
+                        <li>Tração dianteira</li>
+                        <li>Freios com sistemas ABS e EBD</li>
+                      </ul>
+                    </div>
+
+                    <p class="text-center ofertas-precos">
+                      R$ 139.000,00
+                    </p>
+                    <button class="btn btn-primary d-block m-auto w-100">
+                      Comprar
+                    </button>
+                  </div>
+                </div>
+              </div>              
+              <a href="#section2" class="arrow__btn right-arrow">
+                <i class="fa-solid fa-chevron-right ofertas-arrow"></i>
+              </a>
+            </div>          
+            <div id="section2" class="ofertas-section">
+              <a href="#section1" class="arrow__btn left-arrow">
+                <i class="fa-solid fa-chevron-left ofertas-arrow"></i>
+              </a>
+              <div class="item">
+                <div class="card card-ofertas">
+                  <a href="#">
+                    <img src="img/ofertas/model-01.png" class="card-img-top" alt="...">
+                  </a>
+                  
+                  <div class="card-body">
+                    <p class="card-title text-uppercase text-center">HONDA CITY TOURING CVT</p>
+                    <p class="text-center"><small>Motor 1.5 - Linha Direta</small></p>
+
+                    <div class="card-content py-3 my-3">
+                      <ul class="card-list">
+                        <li>Flex 126 cv / 6200 rpm</li>
+                        <li>Transmissão automática CVT</li>
+                        <li>Tração dianteira</li>
+                        <li>Freios com sistemas ABS e EBD</li>
+                      </ul>
+                    </div>
+
+                    <p class="text-center ofertas-precos">
+                      R$ 139.000,00
+                    </p>
+                    <button class="btn btn-primary d-block m-auto w-100">
+                      Comprar
+                    </button>
+                  </div>
+                </div>                
+              </div>
+              <div class="item">
+                <div class="card card-ofertas">
+                  <a href="#">
+                    <img src="img/ofertas/model-02.png" class="card-img-top" alt="...">
+                  </a>
+                  
+                  <div class="card-body">
+                    <p class="card-title text-uppercase text-center">HONDA CITY TOURING CVT</p>
+                    <p class="text-center"><small>Motor 1.5 - Linha Direta</small></p>
+
+                    <div class="card-content py-3 my-3">
+                      <ul class="card-list">
+                        <li>Flex 126 cv / 6200 rpm</li>
+                        <li>Transmissão automática CVT</li>
+                        <li>Tração dianteira</li>
+                        <li>Freios com sistemas ABS e EBD</li>
+                      </ul>
+                    </div>
+
+                    <p class="text-center ofertas-precos">
+                      R$ 139.000,00
+                    </p>
+                    <button class="btn btn-primary d-block m-auto w-100">
+                      Comprar
+                    </button>
+                  </div>
+                </div>            
+              </div>
+              <div class="item">
+                <div class="card card-ofertas">
+                  <a href="#">
+                    <img src="img/ofertas/model-03.png" class="card-img-top" alt="...">
+                  </a>
+                  
+                  <div class="card-body">
+                    <p class="card-title text-uppercase text-center">HONDA CITY TOURING CVT</p>
+                    <p class="text-center"><small>Motor 1.5 - Linha Direta</small></p>
+
+                    <div class="card-content py-3 my-3">
+                      <ul class="card-list">
+                        <li>Flex 126 cv / 6200 rpm</li>
+                        <li>Transmissão automática CVT</li>
+                        <li>Tração dianteira</li>
+                        <li>Freios com sistemas ABS e EBD</li>
+                      </ul>
+                    </div>
+
+                    <p class="text-center ofertas-precos">
+                      R$ 139.000,00
+                    </p>
+                    <button class="btn btn-primary d-block m-auto w-100">
+                      Comprar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card card-ofertas">
+                  <a href="#">
+                    <img src="img/ofertas/model-04.png" class="card-img-top" alt="...">
+                  </a>
+                  
+                  <div class="card-body">
+                    <p class="card-title text-uppercase text-center">HONDA CITY TOURING CVT</p>
+                    <p class="text-center"><small>Motor 1.5 - Linha Direta</small></p>
+
+                    <div class="card-content py-3 my-3">
+                      <ul class="card-list">
+                        <li>Flex 126 cv / 6200 rpm</li>
+                        <li>Transmissão automática CVT</li>
+                        <li>Tração dianteira</li>
+                        <li>Freios com sistemas ABS e EBD</li>
+                      </ul>
+                    </div>
+
+                    <p class="text-center ofertas-precos">
+                      R$ 139.000,00
+                    </p>
+                    <button class="btn btn-primary d-block m-auto w-100">
+                      Comprar
+                    </button>
+                  </div>
+                </div>
+              </div>              
+              <a href="#section3" class="arrow__btn right-arrow">
+                <i class="fa-solid fa-chevron-right ofertas-arrow"></i>
+              </a>
+            </div>          
+            <div id="section3" class="ofertas-section">
+              <a href="#section2" class="arrow__btn left-arrow">
+                <i class="fa-solid fa-chevron-left ofertas-arrow"></i>
+              </a>
+              <div class="item">
+                <div class="card card-ofertas">
+                  <a href="#">
+                    <img src="img/ofertas/model-01.png" class="card-img-top" alt="...">
+                  </a>
+                  
+                  <div class="card-body">
+                    <p class="card-title text-uppercase text-center">HONDA CITY TOURING CVT</p>
+                    <p class="text-center"><small>Motor 1.5 - Linha Direta</small></p>
+
+                    <div class="card-content py-3 my-3">
+                      <ul class="card-list">
+                        <li>Flex 126 cv / 6200 rpm</li>
+                        <li>Transmissão automática CVT</li>
+                        <li>Tração dianteira</li>
+                        <li>Freios com sistemas ABS e EBD</li>
+                      </ul>
+                    </div>
+
+                    <p class="text-center ofertas-precos">
+                      R$ 139.000,00
+                    </p>
+                    <button class="btn btn-primary d-block m-auto w-100">
+                      Comprar
+                    </button>
+                  </div>
+                </div>                
+              </div>
+              <div class="item">
+                <div class="card card-ofertas">
+                  <a href="#">
+                    <img src="img/ofertas/model-02.png" class="card-img-top" alt="...">
+                  </a>
+                  
+                  <div class="card-body">
+                    <p class="card-title text-uppercase text-center">HONDA CITY TOURING CVT</p>
+                    <p class="text-center"><small>Motor 1.5 - Linha Direta</small></p>
+
+                    <div class="card-content py-3 my-3">
+                      <ul class="card-list">
+                        <li>Flex 126 cv / 6200 rpm</li>
+                        <li>Transmissão automática CVT</li>
+                        <li>Tração dianteira</li>
+                        <li>Freios com sistemas ABS e EBD</li>
+                      </ul>
+                    </div>
+
+                    <p class="text-center ofertas-precos">
+                      R$ 139.000,00
+                    </p>
+                    <button class="btn btn-primary d-block m-auto w-100">
+                      Comprar
+                    </button>
+                  </div>
+                </div>            
+              </div>
+              <div class="item">
+                <div class="card card-ofertas">
+                  <a href="#">
+                    <img src="img/ofertas/model-03.png" class="card-img-top" alt="...">
+                  </a>
+                  
+                  <div class="card-body">
+                    <p class="card-title text-uppercase text-center">HONDA CITY TOURING CVT</p>
+                    <p class="text-center"><small>Motor 1.5 - Linha Direta</small></p>
+
+                    <div class="card-content py-3 my-3">
+                      <ul class="card-list">
+                        <li>Flex 126 cv / 6200 rpm</li>
+                        <li>Transmissão automática CVT</li>
+                        <li>Tração dianteira</li>
+                        <li>Freios com sistemas ABS e EBD</li>
+                      </ul>
+                    </div>
+
+                    <p class="text-center ofertas-precos">
+                      R$ 139.000,00
+                    </p>
+                    <button class="btn btn-primary d-block m-auto w-100">
+                      Comprar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card card-ofertas">
+                  <a href="#">
+                    <img src="img/ofertas/model-04.png" class="card-img-top" alt="...">
+                  </a>
+                  
+                  <div class="card-body">
+                    <p class="card-title text-uppercase text-center">HONDA CITY TOURING CVT</p>
+                    <p class="text-center"><small>Motor 1.5 - Linha Direta</small></p>
+
+                    <div class="card-content py-3 my-3">
+                      <ul class="card-list">
+                        <li>Flex 126 cv / 6200 rpm</li>
+                        <li>Transmissão automática CVT</li>
+                        <li>Tração dianteira</li>
+                        <li>Freios com sistemas ABS e EBD</li>
+                      </ul>
+                    </div>
+
+                    <p class="text-center ofertas-precos">
+                      R$ 139.000,00
+                    </p>
+                    <button class="btn btn-primary d-block m-auto w-100">
+                      Comprar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <a href="#section1" class="arrow__btn right-arrow">
+                <i class="fa-solid fa-chevron-right ofertas-arrow"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cadastroOfertas" class="py-5">
+        <div class="container">
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-sm-12 col-md-6 col-md-6">
+              <p class="mb-0 text-end"><b><i>Cadastre seu email e receba nossas promoções, serviços e muito mais!</i></b></p>              
+            </div> 
+            <div class="col-sm-12 col-md-6 col-md-6">
+              <div class="input-group">
+                <input type="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Insira o seu e-mail...">
+                <button class="btn btn-primary">
+                  Enviar
+                </button>
+              </div>
+            </div>           
+          </div>
+        </div>
+      </section>
+
+      <section id="testDrive">
+        <img id="testDrive-capa" src="img/test-drive-mob.webp" alt="">
+        <div class="container">
+          <div class="py-5">
+            <h1>Agende seu <b>Test Drive</b></h1>
+            <h2 class="mb-3">Viva a experiência de dirigir um Honda!</h2>
+            <button class="btn btn-primary">
+              Enviar
+            </button>
+          </div>          
+        </div>       
+      </section>
+
+      <section id="servicos">
+        <div class="container">
+          <div class="row my-4 servicos-row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <img src="img/home-agenda.webp" class="w-100" alt="">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <h2>Faça o seu agendamento</h2>
+
+              <p>A <b>Revisão Programada Daitan</b> oferece o melhor serviço para o seu Honda. Agende sua revisão, escolha a data e horário que preferir, e deixe seu carro na oficina sem demora. Nossos consultores técnicos estarão prontos para atendê-lo, enquanto você desfruta de um cafezinho.</p>
+
+              <p>Se tiver alguma dúvida ou precisar reagendar, entre em contato com a nossa <a href="#">Central de Agendamento</a> da sua região.</p>
+
+              
+                <div class="nav-btn my-4">
+                  <button class="btn btn-primary">
+                    <i class="fa-solid fa-calendar me-2" onclick="location.href='#'"></i>
+                    Agende aqui
+                  </button>
+
+                  <button class="btn btn-outline-primary" onclick="location.href='tel:+551147656800'">
+                    <i class="fa-solid fa-mobile-screen-button me-2"></i>
+                    11 4765-6800
+                  </button>
+
+                  <button class="btn btn-whatsapp" onclick="location.href='https://wa.me/5511994326123'">
+                    <i class="fa-brands fa-whatsapp me-2"></i>
+                    11 99432-6123 
+                  </button>
+                </div>
+              
+            </div>
+          </div>
+          <div class="row my-4 servicos-row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <img src="img/home-seminovos.webp" class="w-100" alt="">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <h2>Confira nossos seminovos</h2>
+
+              <p>Descubra a excelência do seu <b>Honda</b> seminovo com a <b>mesma garantia de um carro novo</b>. Garanta a confiança e qualidade que você merece.</p>
+
+              <p>Aproveite essa oportunidade única e desfrute da performance e elegância de um Honda com a tranquilidade de uma garantia completa.</p>
+
+              <form action="" class="my-4">
+                <div class="input-group">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Modelo</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>                  
+                  <button class="btn btn-primary">
+                    Enviar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="acessorios" class="py-5">
+        <div class="container">
+          <div class="row equal-height-cards">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="card w-100 equal-height-card">
+                  <div class="card-header">
+                    <img src="img/triangle.svg" class="me-2" alt="">
+                    Consórcio nacional Honda
+                  </div>
+                  <img src="img/access-consorcio.webp" class="w-100" alt="...">
+                  <div class="card-body">
+                    <p>Planos do Consórcio Nacional Honda não têm juros, entradas ou taxa de adesão.</p>
+
+                    <button class="btn btn-outline-primary">
+                      <i class="fa-solid fa-plus me-2"></i>
+                      Mais informações
+                    </button>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="card w-100 equal-height-card">
+                <div class="card-header">
+                  <img src="img/triangle.svg" class="me-2" alt="">
+                  Honda Access
+                </div>
+                <img src="img/access-access.webp" class="w-100" alt="...">
+                <div class="card-body">
+                  <p>Conheça o catálogo de acessórios e produtos especiais para deixar o seu Honda do seu jeito.</p>
+
+                  <button class="btn btn-outline-primary">
+                    <i class="fa-solid fa-plus me-2"></i>
+                    Mais informações
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="card w-100 equal-height-card">
+                <div class="card-header">
+                  <img src="img/triangle.svg" class="me-2" alt="">
+                  Vendas especiais
+                </div>
+                <img src="img/access-conduz.webp" class="w-100" alt="...">
+                <div class="card-body">
+                  <p>A Honda valoriza a inclusão de pessoas com deficiência, promovendo mobilidade e respeito à diversidade em suas ações.</p>
+
+                  <button class="btn btn-outline-primary">
+                    <i class="fa-solid fa-plus me-2"></i>
+                    Mais informações
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="py-5">
+        <div class="container">
+          <h1 class="h1estilo mb-5">Blog da <b>Daitan</b></h1>
+
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="blog-card my-4">
+                <img src="img/blog-thumb.png" class="w-100 blog-thumb" alt="">
+                <h2 class="blog-title">Novo Honda Civic Type R, o melhor de todos os tempos, chega ao Brasil</h2>
+
+                <div class="blog-data mb-3">
+                  <p class="mb-0">
+                    <small>Publicado em 25/05/2023</small>
+                  </p>
+                  <p class="mb-0">
+                    <a href="#" class="me-1 blog-share">
+                      <i class="fa-solid fa-share-nodes blog-share"></i>
+                    </a>                  
+                    <small>Compartilhar</small>
+                  </p>
+                </div>
+
+                <button class="btn btn-primary">
+                  Leia este artigo
+                </button>
+              </div>
+              
+
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="blog-card my-4">
+                <img src="img/blog-thumb.png" class="w-100 blog-thumb" alt="">
+                <h2 class="blog-title">Resumo da coletiva de imprensa da Honda sobre os negócios da empresa em 2023</h2>
+
+                <div class="blog-data mb-3">
+                  <p class="mb-0">
+                    <small>Publicado em 25/05/2023</small>
+                  </p>
+                  <p class="mb-0">
+                    <a href="#" class="me-1 blog-share">
+                      <i class="fa-solid fa-share-nodes blog-share"></i>
+                    </a>                  
+                    <small>Compartilhar</small>
+                  </p>
+                </div>
+
+                <button class="btn btn-primary">
+                  Leia este artigo
+                </button>
+              </div>
+              
+
+            </div>            
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="blog-card my-4">
+                <a href="blog-single.html"><img src="img/blog-thumb.png" class="w-100 blog-thumb" alt=""></a>
+                <h2 class="blog-title">Honda Civic Type R estabelece novo recorde de tempo de volta para carro com tração dianteira em Nürb</h2>
+
+                <div class="blog-data mb-3">
+                  <p class="mb-0">
+                    <small>Publicado em 25/05/2023</small>
+                  </p>
+                  <p class="mb-0">
+                    <a href="#" class="blog-share" data-bs-toggle="modal" data-bs-target="#shareModal">
+                      <i class="fa-solid fa-share-nodes blog-share me-1"></i>                                      
+                      <small>Compartilhar</small>
+                    </a>
+                  </p>
+                </div>
+
+                <a href="blog-single.html" class="btn btn-primary">
+                  Leia este artigo
+                </a>
+              </div>    
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="blog-card my-4">
+                <img src="img/blog-thumb.png" class="w-100 blog-thumb" alt="">
+                <h2 class="blog-title">Honda apresenta a linha 2024 do New City e New City Hatchback</h2>
+
+                <div class="blog-data mb-3">
+                  <p class="mb-0">
+                    <small>Publicado em 25/05/2023</small>
+                  </p>
+                  <p class="mb-0">
+                    <a href="#" class="me-1 blog-share">
+                      <i class="fa-solid fa-share-nodes blog-share"></i>
+                    </a>                  
+                    <small>Compartilhar</small>
+                  </p>
+                </div>
+
+                <button class="btn btn-primary">
+                  Leia este artigo
+                </button>
+              </div>    
+            </div>            
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <footer>      
+        <div id="modalCookie" class="modal-dialog p-3">
+          <div class="modal-content">
+            <div class="modal-header mb-4">
+              <h5 class="modal-title">Daitan e os cookies</h5>
+            </div>
+            <div class="modal-body mb-4">
+              <div class="d-flex justify-content-start align-items-center">
+                <i class="fa-solid fa-cookie-bite fa-3x me-4"></i>
+                <p class="mb-0">
+                  <small>
+                    Utilizamos cookies para personalizar anúncios e melhorar a sua experiência na navegação do nosso site. Ao continuar navegando, você concorda com a nossa
+                    <a href="/politicas-privacidade">Políticas de Privacidade</a>.
+                  </small> 
+                </p>
+              </div>              
+            </div>
+            <div class="modal-footer">
+              <div class="w-100 d-flex justify-content-end align-items-center">
+                <button type="button" id="closeCookie" class="btn btn-sm btn-primary">Continuar e Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div id="fixed_button" class="position-fixed btn-whatsapp rounded-circle shadow-sm dropstart">
+        <a id="whatsapp_fixed" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="wa-item"><a href="https://api.whatsapp.com/send?phone=5511994326123" target="_blank">Agende a sua revisão</a></li>
+          <li class="wa-item"><a href="https://api.whatsapp.com/send?phone=5511976509981" target="_blank">Vendas</a></li>
+        </ul>
+      </div>
+
+      <div id="footerFilialSP">          
+          <div class="footer-filial">            
+            <ul class="nav nav-pills flex-column nav-pill" id="pills-01-tab" role="tablist">
+              <li>
+                <div id="trocaRegiao">
+                  <p class="color-gray-0 text-center mb-1"><small>Selecione a região:</small></p>
+                  <div id="navTroca">
+                    <button id="btnSPsp" class="btn btn-city activate">São Paulo</button>
+                    <button id="btnVP" class="btn btn-city">Vale do Paraíba</button>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link fw-semibold active position-relative" id="pills-01-tab" data-bs-toggle="pill" data-bs-target="#pillsp-01" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Ibirapuera
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link fw-semibold position-relative" id="pills-02-tab" data-bs-toggle="pill" data-bs-target="#pillsp-02" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Jabaquara
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link fw-semibold position-relative" id="pills-03-tab" data-bs-toggle="pill" data-bs-target="#pillsp-03" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Pompeia
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link fw-semibold position-relative" id="pills-04-tab" data-bs-toggle="pill" data-bs-target="#pillsp-04" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Sumaré
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content p-3 w-100" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pillsp-01" role="tabpanel" aria-labelledby="pills-01-tab">
+                <div class="row">
+                  <div class="col-sm-12 col-md-8 col-lg-8 order-2 order-md-1 order-lg-1">
+                      <div class="row mb-3">                                               
+                          <div class="col-sm-12 col-md-6 col-lg-6">
+                            <p>
+                              <i class="fa-solid fa-location-dot me-1"></i>
+                              <b>Endereço:</b><br>
+                              Av. Ibirapuera, 2771 - Indianópolis,<br>
+                              São Paulo - SP, 04029-200
+                            </p>
+                          </div>
+                          <div class="col-sm-12 col-md-6 col-lg-6">
+                            <a href="https://waze.com/ul/h6gycdn75g" target="_blank" class="btn btn-waze">
+                              <img src="img/ico-waze.svg" alt="Logo Waze">
+                              Waze
+                            </a>
+                            <a href="https://maps.app.goo.gl/G84QXGv7WXNq3gCZ6" target="_blank" class="btn btn-googlemaps">
+                              <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                              Google Maps
+                            </a>  
+                          </div>
+                      </div>  
+                      
+                      <p class="mb-3">
+                        <i class="fa-solid fa-phone me-1"></i>
+                        <b>Telefone:</b> 11 5536-9966
+                      </p>  
+                      
+                      <div class="row">
+                        <div class="col-sm-12 col-md-9 col-sm-9">
+                          <p class="mb-3">
+                            <i class="fa-solid fa-clock me-1"></i>
+                            <b>Horário de Funcionamento:</b><br>
+                            <b>Vendas:</b> Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                            <b>Recepção Técnica (Oficina):</b> Seg. a Sex. das 8h às 18h | Sábado das 9h às 13h<br>
+                            <b>Departamento de Peças:</b> Seg. a Sex. das 8h às 18h
+                          </p>
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-sm-3">
+                          <div class="d-block css-eco">                        
+                            <img src="img/unidades/concessionaria_ecologica.png" width="150" class="py-4" alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4 order-sm-1 order-md-2 order-lg-2">
+                    <img src="img/unidades/sp-ibirapuera.webp" class="w-100 unidade-pic my-3" alt="">
+                  </div>
+                </div> 
+              </div>
+              <div class="tab-pane fade" id="pillsp-02" role="tabpanel" aria-labelledby="pills-02-tab">
+                <div class="row">
+                  <div class="col-sm-12 col-md-8 col-lg-8 order-2 order-md-1 order-lg-1">
+                      <div class="row mb-3">                                               
+                          <div class="col-sm-12 col-md-6 col-lg-6">
+                            <p>
+                              <i class="fa-solid fa-location-dot me-1"></i>
+                              <b>Endereço:</b><br>
+                              Av. Jabaquara, 2371 - Mirandópolis,<br>
+                              São Paulo - SP, 04029-200
+                            </p>
+                          </div>
+                          <div class="col-sm-12 col-md-6 col-lg-6">
+                            <a href="https://waze.com/ul/h6gycdejmq" target="_blank" class="btn btn-waze">
+                              <img src="img/ico-waze.svg" alt="Logo Waze">
+                              Waze
+                            </a>
+                            <a href="https://maps.app.goo.gl/HMKsZuafvqbewD2r6" target="_blank" class="btn btn-googlemaps">
+                              <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                              Google Maps
+                            </a>  
+                          </div>
+                      </div>  
+                      
+                      <p class="mb-3">
+                        <i class="fa-solid fa-phone me-1"></i>
+                        <b>Telefone:</b> 11 5591-0140
+                      </p>  
+                      
+                      <div class="row">
+                        <div class="col-sm-12 col-md-9 col-sm-9">
+                          <p class="mb-3">
+                            <i class="fa-solid fa-clock me-1"></i>
+                            <b>Horário de Funcionamento:</b><br>
+                            <b>Vendas:</b> Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                            <b>Recepção Técnica (Oficina):</b> Seg. a Sex. das 8h às 18h | Sábado das 9h às 13h<br>
+                            <b>Departamento de Peças:</b> Seg. a Sex. das 8h às 18h
+                          </p>
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-sm-3">
+                          <div class="d-block css-eco">                        
+                            <img src="img/unidades/concessionaria_ecologica.png" width="150" class="py-4" alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4 order-sm-1 order-md-2 order-lg-2">
+                    <img src="img/unidades/sp-jabaquara.webp" class="w-100 unidade-pic my-3" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pillsp-03" role="tabpanel" aria-labelledby="pills-03-tab">
+                <div class="row">
+                  <div class="col-sm-12 col-md-8 col-lg-8 order-2 order-md-1 order-lg-1">
+                      <div class="row mb-3">                                               
+                          <div class="col-sm-12 col-md-6 col-lg-6">
+                            <p>
+                              <i class="fa-solid fa-location-dot me-1"></i>
+                              <b>Endereço:</b><br>
+                              R. Carlos Vicari, 154 - Barra Funda,<br>
+                              São Paulo - SP, 04029-200
+                            </p>
+                          </div>
+                          <div class="col-sm-12 col-md-6 col-lg-6">
+                            <a href="https://waze.com/ul/h6gyf1tw0k" target="_blank" class="btn btn-waze">
+                              <img src="img/ico-waze.svg" alt="Logo Waze">
+                              Waze
+                            </a>
+                            <a href="https://maps.app.goo.gl/o4i5pB4dgnjsi67s8" target="_blank" class="btn btn-googlemaps">
+                              <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                              Google Maps
+                            </a>  
+                          </div>
+                      </div>  
+                      
+                      <p class="mb-3">
+                        <i class="fa-solid fa-phone me-1"></i>
+                        <b>Telefone:</b> 11 2102-0999
+                      </p>
+  
+                      <div class="row">
+                        <div class="col-sm-12 col-md-9 col-sm-9">
+                          <p class="mb-3">
+                            <i class="fa-solid fa-clock me-1"></i>
+                            <b>Horário de Funcionamento:</b><br>
+                            <b>Vendas:</b> Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                            <b>Recepção Técnica (Oficina):</b> Seg. a Sex. das 8h às 18h | Sábado das 9h às 13h<br>
+                            <b>Departamento de Peças:</b> Seg. a Sex. das 8h às 18h
+                          </p>
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-sm-3">
+                          <div class="d-block css-eco">                        
+                            <img src="img/unidades/concessionaria_ecologica.png" width="150" class="py-4" alt="">
+                          </div>
+                        </div>
+                      </div>                      
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4 order-sm-1 order-md-2 order-lg-2">
+                    <img src="img/unidades/sp-pompeia.webp" class="w-100 unidade-pic my-3" alt="">
+                  </div>
+                </div>       
+              </div>
+              <div class="tab-pane fade" id="pillsp-04" role="tabpanel" aria-labelledby="pills-04-tab">
+                <div class="row">
+                  <div class="col-sm-12 col-md-8 col-lg-8 order-2 order-md-1 order-lg-1">
+                      <div class="row mb-3">                                               
+                          <div class="col-sm-12 col-md-6 col-lg-6">
+                            <p>
+                              <i class="fa-solid fa-location-dot me-1"></i>
+                              <b>Endereço:</b><br>
+                              Av. Sumaré, 1744 - Perdizes,<br>
+                              São Paulo - SP, 04029-200
+                            </p>
+                          </div>
+                          <div class="col-sm-12 col-md-6 col-lg-6">
+                            <a href="https://waze.com/ul/h6gyf1f76m" target="_blank" class="btn btn-waze">
+                              <img src="img/ico-waze.svg" alt="Logo Waze">
+                              Waze
+                            </a>
+                            <a href="https://maps.app.goo.gl/wYh5mQ7Bx5aCs4KDA" target="_blank" class="btn btn-googlemaps">
+                              <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                              Google Maps
+                            </a>  
+                          </div>
+                      </div>  
+                      
+                      <p class="mb-3">
+                        <i class="fa-solid fa-phone me-1"></i>
+                        <b>Telefone:</b> 11 3675-0655
+                      </p>  
+                      
+                      <div class="row">
+                        <div class="col-sm-12 col-md-9 col-sm-9">
+                          <p class="mb-3">
+                            <i class="fa-solid fa-clock me-1"></i>
+                            <b>Horário de Funcionamento:</b><br>
+                            <b>Vendas:</b> Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                            <b>Recepção Técnica (Oficina):</b> Atendimento na Daitan Pompeia<br>
+                            <b>Departamento de Peças:</b> Atendimento na Daitan Pompeia
+                          </p>
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-sm-3">
+                          <div class="d-block css-eco">                        
+                            <img src="img/unidades/concessionaria_ecologica.png" width="150" class="py-4" alt="">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4 order-sm-1 order-md-2 order-lg-2">
+                    <img src="img/unidades/sp-sumare.webp" class="w-100 unidade-pic my-3" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>          
+      </div>
+
+      <div id="footerFilialVP">        
+        <div class="footer-filial">
+          <ul class="nav nav-pills flex-column nav-pill" id="pills-01-tab" role="tablist">
+            <li>
+              <div id="trocaRegiao">
+                <p class="color-gray-0 text-center mb-1"><small>Selecione a região:</small></p>
+                <div id="navTroca">
+                  <button id="btnSP" class="btn btn-city">São Paulo</button>
+                  <button id="btnVPvp" class="btn btn-city activate">Vale do Paraíba</button>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link fw-semibold active position-relative" id="pills-05-tab" data-bs-toggle="pill" data-bs-target="#pillvp-01" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                <i class="fa-solid fa-location-dot color-red me-2"></i>
+                Caraguatatuba
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link fw-semibold position-relative" id="pills-06-tab" data-bs-toggle="pill" data-bs-target="#pillvp-02" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                <i class="fa-solid fa-location-dot color-red me-2"></i>
+                Guaratinguetá
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link fw-semibold position-relative" id="pills-07-tab" data-bs-toggle="pill" data-bs-target="#pillvp-03" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                <i class="fa-solid fa-location-dot color-red me-2"></i>
+                São José dos Campos
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link fw-semibold position-relative" id="pills-09-tab" data-bs-toggle="pill" data-bs-target="#pillvp-05" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                <i class="fa-solid fa-location-dot color-red me-2"></i>
+                Seminovos Taubaté
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link fw-semibold position-relative" id="pills-08-tab" data-bs-toggle="pill" data-bs-target="#pillvp-04" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                <i class="fa-solid fa-location-dot color-red me-2"></i>
+                Taubaté
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content p-3 w-100" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pillvp-01" role="tabpanel" aria-labelledby="pills-05-tab">
+              <div class="row">
+                <div class="col-sm-12 col-md-8 col-lg-8 order-2 order-md-1 order-lg-1">
+                    <div class="row mb-3">                                               
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                          <p>
+                            <i class="fa-solid fa-location-dot me-1"></i>
+                            <b>Endereço:</b><br>
+                            Rua José Poloni, 35 - Rio do Ouro,<br>
+                            Caraguatatuba - SP, 11675-553
+                          </p>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                          <a href="https://waze.com/ul/h6gz9wjqy4" target="_blank" class="btn btn-waze">
+                            <img src="img/ico-waze.svg" alt="Logo Waze">
+                            Waze
+                          </a>
+                          <a href="https://maps.app.goo.gl/9NenXE3Tg832bn5P6" target="_blank" class="btn btn-googlemaps">
+                            <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                            Google Maps
+                          </a>  
+                        </div>
+                    </div>  
+
+                    <p class="mb-3">
+                      <i class="fa-solid fa-phone me-1"></i>
+                      <b>Telefone:</b> 12 2134-5350
+                    </p>
+
+                    <p class="mb-3">
+                      <i class="fa-solid fa-clock me-1"></i>
+                      <b>Horário de Funcionamento:</b><br>
+                      <b>Vendas:</b> Segunda a Sábado das 8h às 18h<br>
+                      <b>Recepção Técnica (Oficina):</b> Segunda a Sábado das 8h às 18h<br>
+                      <b>Departamento de Peças:</b> Segunda a Sábado das 8h às 18h
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 order-sm-1 order-md-2 order-lg-2">
+                  <img src="img/unidades/vp-caraguatatuba.webp" class="w-100 unidade-pic my-3" alt="">
+                </div>
+              </div> 
+            </div>
+            <div class="tab-pane fade" id="pillvp-02" role="tabpanel" aria-labelledby="pills-06-tab">
+              <div class="row">
+                <div class="col-sm-12 col-md-8 col-lg-8 order-2 order-md-1 order-lg-1">
+                    <div class="row mb-3">                                               
+                      <div class="col-sm-12 col-md-6 col-lg-6">
+                        <p>
+                          <i class="fa-solid fa-location-dot me-1"></i>
+                          <b>Endereço:</b><br>
+                          R. Prof. Silvio José Marcondes Coelho, 1346 - Campo do Galvão, Guaratinguetá - SP, <br>
+                          12505-506
+                        </p>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-6">
+                        <a href="https://waze.com/ul/h6gzy5qjz1" target="_blank" class="btn btn-waze">
+                          <img src="img/ico-waze.svg" alt="Logo Waze">
+                          Waze
+                        </a>
+                        <a href="https://maps.app.goo.gl/sb5Kkq9DSjtoYpCq5" target="_blank" class="btn btn-googlemaps">
+                          <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                          Google Maps
+                        </a>  
+                      </div>
+                    </div>  
+                    
+                    <p class="mb-3">
+                      <i class="fa-solid fa-phone me-1"></i>
+                      <b>Telefone:</b> 12 3683-0600
+                    </p>
+
+                    <p class="mb-3">
+                      <i class="fa-solid fa-clock me-1"></i>
+                      <b>Horário de Funcionamento:</b><br>
+                      <b>Vendas:</b> Segunda a Sábado das 8h às 18h<br>
+                      <b>Recepção Técnica (Oficina):</b> Segunda a Sexta das 8h às 18h | Sábado das 8h às 13h<br>
+                      <b>Departamento de Peças:</b> Segunda a Sexta das 8h às 18h | Sábado das 8h às 13h
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 order-sm-1 order-md-2 order-lg-2">
+                  <img src="img/unidades/vp-guaratingueta.webp" class="w-100 unidade-pic my-3" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pillvp-03" role="tabpanel" aria-labelledby="pills-07-tab">
+              <div class="row">
+                <div class="col-sm-12 col-md-8 col-lg-8 order-2 order-md-1 order-lg-1">
+                  <div class="row mb-3">                                               
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                      <p>
+                        <i class="fa-solid fa-location-dot me-1"></i>
+                        <b>Endereço:</b><br>
+                        Av. Cidade Jardim, 51 - Jardim Satélite,<br>
+                        São José dos Campos - SP, 12231-675
+                      </p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                      <a href="https://waze.com/ul/h6gz7gwn3e" target="_blank" class="btn btn-waze">
+                        <img src="img/ico-waze.svg" alt="Logo Waze">
+                        Waze
+                      </a>
+                      <a href="https://maps.app.goo.gl/TnD6evYx8RCGqT7B6" target="_blank" class="btn btn-googlemaps">
+                        <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                        Google Maps
+                      </a>  
+                    </div>
+                </div>  
+                
+                <p class="mb-3">
+                  <i class="fa-solid fa-phone me-1"></i>
+                  <b>Telefone:</b> 12 3934-4644
+                </p>
+
+                
+                  <div class="row">
+                    <div class="col-sm-12 col-md-9 col-sm-9">
+                      <p class="mb-3">
+                        <i class="fa-solid fa-clock me-1"></i>
+                        <b>Horário de Funcionamento:</b><br>
+                        <b>Vendas:</b> Segunda a Sábado das 8h às 18h<br>
+                        <b>Recepção Técnica (Oficina):</b> Segunda a Sábado das 8h às 18h<br>
+                        <b>Departamento de Peças:</b> Segunda a Sábado das 8h às 18h
+                      </p>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-sm-3">
+                      <div class="d-block css-eco">                        
+                        <img src="img/unidades/concessionaria_ecologica.png" width="150" class="py-4" alt="">
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 order-sm-1 order-md-2 order-lg-2">
+                  <img src="img/unidades/vp-sjc.webp" class="w-100 unidade-pic my-3" alt="">
+                </div>
+              </div>       
+            </div>
+            <div class="tab-pane fade" id="pillvp-05" role="tabpanel" aria-labelledby="pills-09-tab">
+              <div class="row">
+                <div class="col-sm-12 col-md-8 col-lg-8 order-2 order-md-1 order-lg-1">
+                  <div class="row mb-3">                                               
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                      <p>
+                        <i class="fa-solid fa-location-dot me-1"></i>
+                        <b>Endereço:</b><br>
+                        Av. Charles Schnneider, 1750 - Parque Sr. do Bonfim, Taubaté - SP, 12040-000
+                      </p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                      <a href="https://waze.com/ul/h6gzt48tck" target="_blank" class="btn btn-waze">
+                        <img src="img/ico-waze.svg" alt="Logo Waze">
+                        Waze
+                      </a>
+                      <a href="https://maps.app.goo.gl/VgdYg3SxCHr6Ph5Z9" target="_blank" class="btn btn-googlemaps">
+                        <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                        Google Maps
+                      </a>                        
+                    </div>
+                  </div>  
+                
+                <p class="mb-3">
+                  <i class="fa-solid fa-phone me-1"></i>
+                  <b>Telefone:</b> 12 3629-3003
+                </p>
+
+                <div class="row">
+                  <div class="col-sm-12 col-md-9 col-sm-9">
+                    <p class="mb-3">
+                      <i class="fa-solid fa-clock me-1"></i>
+                      <b>Horário de Funcionamento:</b><br>
+                      <b>Vendas:</b> Segunda a Sábado das 8h às 18h<br>
+                      <b>Recepção Técnica (Oficina):</b> Segunda a Sábado das 8h às 18h<br>
+                      <b>Departamento de Peças:</b> Segunda a Sábado das 8h às 18h
+                    </p>
+                  </div>
+                  <div class="col-sm-12 col-md-3 col-sm-3">
+                    <div class="d-block css-eco">                        
+                      <img src="img/unidades/concessionaria_ecologica.png" width="150" class="py-4" alt="">
+                    </div>
+                  </div>
+
+                </div>                
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 order-sm-1 order-md-2 order-lg-2">
+                  <img src="img/unidades/vp-sntaubate.webp" class="w-100 unidade-pic my-3" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pillvp-04" role="tabpanel" aria-labelledby="pills-08-tab">
+              <div class="row">
+                <div class="col-sm-12 col-md-8 col-lg-8 order-2 order-md-1 order-lg-1">
+                  <div class="row mb-3">                                               
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                      <p>
+                        <i class="fa-solid fa-location-dot me-1"></i>
+                        <b>Endereço:</b><br>
+                        Av. Charles Schnneider, 1951 - Parque Sr. do Bonfim, Taubaté - SP, 12040-000
+                      </p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                      <a href="https://waze.com/ul/h6gzt48tck" target="_blank" class="btn btn-waze">
+                        <img src="img/ico-waze.svg" alt="Logo Waze">
+                        Waze
+                      </a>
+                      <a href="https://maps.app.goo.gl/VgdYg3SxCHr6Ph5Z9" target="_blank" class="btn btn-googlemaps">
+                        <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                        Google Maps
+                      </a>  
+                    </div>
+                </div>  
+                
+                <p class="mb-3">
+                  <i class="fa-solid fa-phone me-1"></i>
+                  <b>Telefone:</b> 12 3629-3003
+                </p>
+
+                <div class="row">
+                  <div class="col-sm-12 col-md-9 col-sm-9">
+                    <p class="mb-3">
+                      <i class="fa-solid fa-clock me-1"></i>
+                      <b>Horário de Funcionamento:</b><br>
+                      <b>Vendas:</b> Segunda a Sábado das 8h às 18h<br>
+                      <b>Recepção Técnica (Oficina):</b> Segunda a Sábado das 8h às 18h<br>
+                      <b>Departamento de Peças:</b> Segunda a Sábado das 8h às 18h
+                    </p>
+                  </div>
+                  <div class="col-sm-12 col-md-3 col-sm-3">
+                    <div class="d-block css-eco">                        
+                      <img src="img/unidades/concessionaria_ecologica.png" width="150" class="py-4" alt="">
+                    </div>
+                  </div>
+                </div> 
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 order-sm-1 order-md-2 order-lg-2">
+                  <img src="img/unidades/vp-taubate.webp" class="w-100 unidade-pic my-3" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>          
+      </div>
+
+      <div id="footerLinks" class="py-5">
+        <div id="rowLink" class="pb-5">
+          <div class="row">
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">MODELOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Civic Type R</a></li>
+                <li><a href="#">Civic Híbrido</a></li>
+                <li><a href="#">New HR-V</a></li>
+                <li><a href="#">New City Hatchback</a></li>
+                <li><a href="#">New City Sedan</a></li>
+                <li><a href="#">Seminovos</a></li>              
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">SERVIÇOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Agendamento</a></li>
+                <li><a href="#">Revisão Programada</a></li>
+                <li><a href="#">Reparos</a></li>
+                <li><a href="#">Catálogo de Peças</a></li>
+                <li><a href="#">Honda Access</a></li>         
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">CONSÓRCIO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Consórcio HR-V</a></li>
+                <li><a href="#">Consórcio New City</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">VENDAS ESPECIAIS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Honda Conduz</a></li>
+                <li><a href="#">Taxistas</a></li>
+                <li><a href="#">Diplomatas</a></li>
+                <li><a href="#">Pessoa Jurídica</a></li>
+                <li><a href="#">Produtor Rural</a></li>
+              </ul>
+            </div>
+            
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">A DAITAN</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Sobre a Empresa</a></li>
+                <li><a href="#">Blog da Daitan</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">FALE CONOSCO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Escreva para Nós</a></li>
+                <li><a href="#">Linha Direta</a></li>
+                <li><a href="#">Cadastro de E-mail</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+              </ul>
+            </div>   
+          </div>
+        </div>      
+          
+          <div class="row">
+            <div id="footerCopyright">
+              <img src="img/footer-ibama.webp" id="footerIbama" alt="Minha escolha faz a diferença no trânsito.">
+              <div id="footerLogo">
+                <img src="img/logo-daitan.svg" alt="">
+                <p><small>
+                  © Daitan Comércio de Veículos Ltda <br>
+                  CNPJ 67.375.899/0001-06. <a href="#">Políticas de Privacidade</a>
+                </small></p>
+              </div>
+            </div>
+          </div>
+
+          
+        
+      </div>
+
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="trocarRegiao" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-0">
+          <div class="modal-header">
+            <h5 class="modal-title color-gray-0" id="modalLabel">Escolha a Daitan de sua preferência</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body bg-gray-3">
+            <p>
+              <a href="" class="regiao-link">
+                <i class="fa-solid fa-location-dot color-red me-2"></i>
+                Daitan São Paulo
+              </a>
+            </p>
+            <p class="mb-0">
+              <a href="" class="regiao-link">
+                <i class="fa-solid fa-location-dot color-red me-2"></i>
+                Daitan Vale do Paraíba
+              </a>
+            </p>
+          </div>          
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="shareModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" style="width: 500px;">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Compartilhar via:</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+
+                <div class="d-flex">
+                  <div class="mx-3">
+                    <a href="#" class="rounded-circle btn-share share-facebook">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>                  
+                    <p class="text-center">Facebook</p>
+                  </div>
+  
+                  <div class="mx-3">
+                    <a href="#" class="rounded-circle btn-share share-twitter">
+                      <i class="fa-brands fa-x-twitter"></i>
+                    </a>                  
+                    <p class="text-center">Twitter</p>
+                  </div>
+  
+                  <div class="mx-3">
+                    <a href="#" class="rounded-circle btn-share share-whatsapp">
+                      <i class="fa-brands fa-whatsapp"></i>
+                    </a>                  
+                    <p class="text-center">Whatsapp</p>
+                  </div>
+                </div>
+                
+                  
+                  
+
+                  <p class="mb-0"><b>Link da página:</b></p>
+                  <div class="input-group mb-3">
+                      <input id="postLink" class="form-control" type="text" value="blog-single.html">
+                      <button id="copyButton" class="btn btn-primary"><i class="fa-solid fa-copy"></i></button>
+                  </div>
+                  <div id="alertMessage" class="alert alert-success d-none fade p-2" role="alert">
+                      Link copiado para a área de transferência!
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    
+
+      
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="lib/vertical-responsive/js/easyResponsiveTabs.js"></script>
+    <script src="js/main.js" crossorigin="anonymous"></script> 
+
+    <script>
+      document.getElementById("copyButton").addEventListener("click", function() {
+        var copyText = document.getElementById("postLink");
+        copyText.select();
+        document.execCommand("copy");
+        var alertMessage = document.getElementById("alertMessage");
+        alertMessage.classList.remove("d-none");
+        alertMessage.classList.add("show");
+        setTimeout(function() {
+            alertMessage.classList.remove("show");
+            alertMessage.classList.add("fade");
+            setTimeout(function() {
+                alertMessage.classList.add("d-none");
+            }, 500);
+        }, 2000);
+      });
+  
+      document.querySelector(".share-facebook").addEventListener("click", function() {
+          var postLink = document.getElementById("postLink").value;
+          window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(postLink));
+      });
+  
+      document.querySelector(".share-twitter").addEventListener("click", function() {
+          var postLink = document.getElementById("postLink").value;
+          window.open("https://twitter.com/intent/tweet?url=" + encodeURIComponent(postLink));
+      });
+  
+      document.querySelector(".share-whatsapp").addEventListener("click", function() {
+          var postLink = document.getElementById("postLink").value;
+          window.open("https://api.whatsapp.com/send?text=" + encodeURIComponent(postLink));
+      });
+    </script>     
+
+    <script>
+      // Adicione um evento de clique ao botão #closeCookie
+      document.getElementById("closeCookie").addEventListener("click", function() {
+        // Feche o modal alterando a classe do elemento para "modal-dialog p-3 d-none"
+        document.getElementById("modalCookie").className = "modal-dialog p-3 d-none";
+      });
+    </script>
+
+    <script>
+      // Troca de região do Footer
+      document.getElementById("btnSP").addEventListener("click", function() {
+          document.getElementById("footerFilialSP").style.display = "block";
+          document.getElementById("footerFilialVP").style.display = "none";
+      });
+
+      document.getElementById("btnVP").addEventListener("click", function() {
+          document.getElementById("footerFilialSP").style.display = "none";
+          document.getElementById("footerFilialVP").style.display = "block";
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        // Seleciona a imagem dentro da .carousel-item
+        var carouselImage = document.querySelector('.carousel-item.active img');
+        // Seleciona o elemento #tenhoInteresse
+        var interesseForm = document.getElementById('tenhoInteresse');
+
+        // Define a altura do elemento #tenhoInteresse como a altura da imagem
+        interesseForm.style.height = carouselImage.clientHeight + 'px';
+
+        // Reajusta a altura do elemento #tenhoInteresse quando a janela for redimensionada
+        window.addEventListener('resize', function() {
+          interesseForm.style.height = carouselImage.clientHeight + 'px';
+        });
+      });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daitan</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">   
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="lib/vertical-responsive/css/easy-responsive-tabs.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+      <div id="top">
+          <div class="container">
+              <div class="d-flex align-items-center justify-content-between">
+                  <div class="locate">
+                      <span>
+                        Sua Daitan mais próxima está em: <b>São Paulo</b>, <a href="#">troque aqui</a>.
+                      </span>
+                  </div>
+                  <ul class="topnav">
+                      <li class="topnav-item">
+                        <a href="#" class="topnav-link">A Daitan</a>
+                      </li>
+                      <li class="topnav-item">
+                        <a href="#" class="topnav-link">Política de Privacidade</a>
+                      </li>
+                      <li class="topnav-item">                          
+                        <a href="#" class="topnav-link">Trabalhe Conosco</a>
+                      </li>
+                  </ul>                        
+              </div>                
+          </div>            
+      </div>
+      <div id="header">
+        <div class="container">
+          <div class="r-flex">
+            <a href="/">
+              <img id="logo" src="img/logo-daitan.svg" width="210" alt="Logo Daitan">
+            </a>
+            <div id="media">
+              <ul class="socialmedia">
+                <li>
+                  <a href="https://www.facebook.com/HondaDaitan/" target="_blank">
+                    <img src="img/rs-facebook.svg" alt="Facebook Oficial da Daitan">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/hondadaitan/" target="_blank">
+                    <img src="img/rs-instagram.svg" alt="Instagram Oficial da Daitan">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/honda-daitan/" target="_blank">
+                    <img src="img/rs-linkedin.svg" alt="LinkedIn Oficial da Daitan">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/channel/UCFTCzhHYqbpGrM6oLcP2f5A" target="_blank">
+                    <img src="img/rs-youtube.svg" alt="YouTube Oficial da Daitan">
+                  </a>
+                </li>                  
+              </ul>
+              <button class="btn btn-primary">
+                Tenho Interesse
+              </button>
+            </div>
+            <button id="btn-navbar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <img src="img/bars-solid.svg" class="w-100" alt="">
+            </button>                
+          </div>            
+        </div>
+      </div>
+      <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">  
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Modelos
+                </a>
+                <div class="dropdown-menu">
+                  <div id="modelo-filters" class="row">
+
+                  </div>
+                  <ul id="dropModelos">
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/newhrv.png" class="d-block m-auto" alt="New Honda HR-V">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">New HR-V</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>                      
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/newcity.png" class="d-block m-auto" alt="New Honda City">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">New City</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/newcityhb.png" class="d-block m-auto" alt="New City Hatchback">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">New City Hatchback</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/civic_2023.png" class="d-block m-auto" alt="New Honda Civic Híbrido">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">Civic Híbrido</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/type_r.png" class="d-block m-auto" alt="New Honda HR-V">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">Civic Type-R</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                  </ul> 
+                </div>                                                    
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Seminovos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Serviços
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Oficinas</a></li>
+                  <li><a class="dropdown-item" href="#">Agende a sua revisão</a></li>
+                  <li><a class="dropdown-item" href="#">Peças e Acessórios</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Consórcio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Vendas Especiais
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="vendasDiretas-pcd.html">Pessoas com Deficiência</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-taxista.html">Taxistas</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-diplomata.html">Diplomatas</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-pj.html">Pessoa Jurídica</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-prodrural.html">Produtor Rural</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contato
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Escreva para Nós</a></li>
+                  <li><a class="dropdown-item" href="#">Ouvidoria</a></li>
+                  <li><a class="dropdown-item" href="#">Cadastro de E-mail</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>        
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="row py-5">
+                    <h1 class="h1estilo mb-5">
+                        <span>Revisão <b>Programada</b></span>
+                    </h1>
+
+                    <nav style="--bs-breadcrumb-divider: '>';" class="mt-2" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Serviços</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Revisão Programada Daitan</li>
+                        </ol>
+                    </nav>
+                </div>                  
+            </div>
+        </section>
+
+        <section>
+          <div class="container-lg">    
+              <div class="row mb-5">
+                <div class="col-sm-12 col-md-4 col-lg-5">
+                  <h3 class="color-red text-uppercase">Revisão Periódica</h3>
+                  <h1 class="color-gray-0 mb-3"><b>10.000 Km ou 1 ano</b></h1>
+                  <select class="form-select mb-4">
+                    <option selected>Selecione a quilometragem</option>
+                    <option value="1">10.000 km ou 1 ano</option>
+                    <option value="2">20.000 km ou 2 anos</option>
+                    <option value="3">30.000 km ou 3 anos</option>
+                    <option value="4">40.000 km ou 4 anos</option>
+                    <option value="5">50.000 km ou 5 anos</option>
+                    <option value="6">60.000 km ou 6 anos</option>
+                    <option value="7">70.000 km ou 7 anos</option>
+                    <option value="8">80.000 km ou 8 anos</option>
+                  </select>
+
+                  <p class="color-gray-0 mb-2"><b>Serviços executados</b></p>
+
+                  <ul class="servicos-list mb-4">
+                    <li>Inspeção de caixas/terminais de direção</li>
+                    <li>Inspeção de coifas</li>
+                    <li>Inspeção de componentes da suspensão</li>
+                    <li>Inspeção de freios dianteiros e traseiros</li>
+                    <li>Rodízio de pneus</li>
+                  </ul>
+
+                  <p class="color-gray-0 mb-2"><b>Itens Substituídos</b></p>
+
+                  <ul class="servicos-list mb-4">
+                    <li>Arruela de dreno do carter</li>
+                    <li>Filtro de Combustível</li>
+                    <li>Filtro de óleo</li>
+                    <li>Óleo do motor</li>
+                  </ul>
+
+                  <p>
+                    <b>
+                      <a href="#" data-bs-toggle="modal" data-bs-target="#todasRevisoes">Ver todas as revisões</a>
+                    </b>
+                  </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-7">
+                  <div class="desc-servico py-4 px-3">
+                    <h2 class="color-gray-0">Honda HR-V</h2>
+                    <p class="color-gray-0">2018</p>
+
+                    <img src="img/modelos/hrv-touring.webp" class="desc-servico-img w-100 d-block m-auto" alt="">
+
+                    <div class="desc-servico-pecas">
+                      <p class="mb-0">Peças</p>
+                      <p class="mb-0">R$ 441,61</p>
+                    </div>
+                    <div class="desc-servico-pecas">
+                      <p class="mb-0">Mão de Obra</p>
+                      <p class="mb-0">Gratuita</p>
+                    </div>
+                    <div class="desc-servico-pecas mb-5">
+                      <p class="color-red text-uppercase mb-0">Valor Total</p>
+                      <p class="mb-0"><b><span style="font-size: 36px;">R$ 441</span>,61</b></p>
+                    </div>
+
+                    <p class="text-end mb-0">Deseja agendar sua revisão?</p>
+                    <div id="navRevisao">
+                      <button class="btn btn-outline-primary">Alterar Dados</button>
+                      <button class="btn btn-primary">Agenda Fácil</button>
+                    </div>                    
+                  </div>
+                </div>                  
+              </div>
+              
+              <div class="row mb-5">
+                <p><small>Para modelos equipados com motor turbo, considerar as revisões de acordo com o Sistema de Monitoramento do Óleo, conforme descrito no Manual do Proprietário recebido com o veículo.</small></p>
+
+                <p><small>*1 <i class="fa-solid fa-triangle-exclamation"></i> Valor público sugerido da revisão do seu Honda para o Estado/Região, aplicável aos veículos versão automática em condições normais de uso, válido até 31/07/2024. Para mais informações sobre condições severas de uso e itens não relacionados a uma revisão específica, consulte o Manual do Proprietário ou contate sua concessionária de preferência. As informações e valores estão sujeitos à alteração sem aviso prévio. Se durante a revisão for constatada a necessidade de substituição de itens adicionais ou a sugestão de outros itens, o orçamento deverá ser aprovado pelo cliente.</small></p>
+
+                <p><small>*2 <i class="fa-solid fa-triangle-exclamation"></i> Quantidade de Óleo Genuíno Honda específica para o modelo selecionado, conforme especificado no Manual do Proprietário recebido com o veículo. O fornecimento da venda fracionada depende das condições de envase da concessionária.</small></p>
+
+                <p><small>*3 <i class="fa-solid fa-triangle-exclamation"></i> A necessidade de troca do fluido de transmissão pode ocorrer por quilometragem ou por tempo, de acordo com o uso do veículo, conforme informado no Manual do Proprietário. Consulte a concessionária de preferência para saber o valor de substituição do fluido e respectiva mão de obra.</small></p>
+
+                <p><small>*4 <i class="fa-solid fa-triangle-exclamation"></i> A troca do fluido de freio deve ocorrer a cada 36 meses independente da quilometragem, conforme informado no Manual do Proprietário. Consulte a concessionária de preferência para saber o valor de substituição do fluido e respectiva mão de obra.</small></p>
+              </div>
+          </div>
+        </section>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="todasRevisoes" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">         
+          <div class="modal-body">
+            <h3 class="modal-title mb-4">Revisões Honda HR-V 2018</h3>
+
+            <div class="row">
+              <div class="col-sm-12 col-md-3 col-lg-3 position-relative">
+                <p class="text-center">Selecione o Serviço</p>
+                <ul class="modal-serv-list sticky-top d-none d-md-block">
+                  <li><a href="javascript:void(0)" class="active">10.000km ou 1 ano</a></li>
+                  <li><a href="javascript:void(0)">20.000km ou 2 anos</a></li>
+                  <li><a href="javascript:void(0)">30.000km ou 3 anos</a></li>
+                  <li><a href="javascript:void(0)">40.000km ou 4 anos</a></li>
+                  <li><a href="javascript:void(0)">50.000km ou 5 anos</a></li>
+                  <li><a href="javascript:void(0)">60.000km ou 6 anos</a></li>
+                  <li><a href="javascript:void(0)">70.000km ou 7 anos</a></li>
+                  <li><a href="javascript:void(0)">80.000km ou 8 anos</a></li>
+                </ul>
+
+                <div class="d-block d-md-none mb-5 fixed-top select-service-list">
+                  <h3 class="modal-title">Revisões Honda HR-V 2018</h3>
+
+                  <label for="mobile-serv-list">
+                    <p class="text-center mb-2">Selecione o Serviço</p>                  
+                  </label>
+                  <select id="mobile-serv-list" class="form-select" aria-label="Mobile Service List">
+                    <option selected>10.000km ou 1 ano</option>
+                    <option value="2">20.000km ou 2 anos</option>
+                    <option value="3">30.000km ou 3 anos</option>
+                    <option value="4">40.000km ou 4 anos</option>
+                    <option value="5">50.000km ou 5 anos</option>
+                    <option value="6">60.000km ou 6 anos</option>
+                    <option value="7">70.000km ou 7 anos</option>
+                    <option value="8">80.000km ou 8 anos</option>
+                  </select>
+                </div>
+                
+              </div>
+              <div class="col-sm-12 col-md-9 col-lg-9">
+                <div id="modal-serv-content">
+                  <table class="table table-striped">
+                    <tr>
+                      <th colspan="2" scope="col" class="bg-danger color-white">10.000km ou 1 ano</th>
+                    </tr>
+                    <tr>
+                      <td width="40%">Peças</td>
+                      <td width="60%" class="text-center">R$ 415,40</td>
+                    </tr>
+                    <tr>
+                      <td>Mão de obra </td>
+                      <td class="text-center">Gratuita</td>
+                    </tr>
+                    <tr>
+                      <td>Total <sup>*1</sup></td>
+                      <td class="text-center">R$ 415,40</td>
+                    </tr>
+                    <tr>
+                      <th colspan="2" scope="col" class="bg-danger color-white">Itens Substituídos</th>
+                    </tr>
+                    <tr>
+                      <td>Óleo do motor <sup>*2</sup></td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-check color-green"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Filtro de óleo</td>
+                      <td class="text-center"><i class="fa-solid fa-xmark color-red"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Arruela de dreno do carter</td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-check color-green"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Filtro de ar do motor</td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-xmark color-red"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Filtro do ar condicionado</td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-xmark color-red"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Fluido de freio <sup>*4</sup></td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-xmark color-red"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Arruela de dreno (transmissão)</td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-xmark color-red"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Fluido de transmissão</td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-xmark color-red"></i></td>
+                    </tr>
+                    <tr>
+                      <th colspan="2" scope="col" class="bg-danger color-white">Serviços Executados</th>
+                    </tr>
+                    <tr>
+                      <td>Rodízio de pneus</td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-check color-green"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Inspeção dos freios dianteiros e traseiros</td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-check color-green"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Inspeção da caixa/terminais de direção</td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-check color-green"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Inspeção das coifas</td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-check color-green"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Inspeção dos componentes da suspensão</td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-check color-green"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Inspeção de mangueiras e tubulações</td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-xmark color-red"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Inspeção dos fluidos</td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-xmark color-red"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Inspeção do sistema de escapamento</td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-xmark color-red"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Inspeção da correia de acionamento de acessórios</td>
+                      <td class="text-center align-middle"><i class="fa-solid fa-xmark color-red"></i></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>              
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div id="fixed_button" class="position-fixed btn-whatsapp rounded-circle shadow-sm dropstart">
+        <a id="whatsapp_fixed" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="wa-item"><a href="#" target="_blank">Agende a sua revisão</a></li>
+          <li class="wa-item"><a href="#" target="_blank">Vendas</a></li>
+          <li class="wa-item"><a href="#" target="_blank">Mande uma mensagem</a></li>
+        </ul>
+      </div>
+      <div id="footerEndereco">
+        <div class="row">
+          <div id="regiao">
+            <p class="text-center"><small>Selecione a Região:</small></p>
+            <div id="regiaoNav" class="mb-1">
+              <a href="#" id="btn-sp" class="btn btn-primary">São Paulo</a>
+              <a href="#" id="btn-vp" class="btn btn-outline-primary">Vale do Paraíba</a>
+            </div>
+          </div>          
+          <div id="parentVerticalTab">
+            <ul class="resp-tabs-list hor_1">
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Ibirapuera 
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Jabaquara
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Pompéia
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Sumaré
+                </li>
+            </ul>
+            <div class="resp-tabs-container hor_1">
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Ibirapuera, 2771 - Indianópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5536-9966
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-ibirapuera.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Jabaquara, 2371 - Mirandópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5591-0140
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-jabaquara.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                R. Carlos Vicari, 154 - Barra Funda,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 2102-0999
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-pompeia.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Sumaré, 1421 - Perdizes,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 3675-0655
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-sumare.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+            </div>
+          </div> 
+        </div>               
+      </div>  
+      <div id="footerLinks" class="py-5">
+        <div id="rowLink" class="pb-5">
+          <div class="row">
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">MODELOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Civic Type R</a></li>
+                <li><a href="#">Civic Híbrido</a></li>
+                <li><a href="#">New HR-V</a></li>
+                <li><a href="#">New City Hatchback</a></li>
+                <li><a href="#">New City Sedan</a></li>
+                <li><a href="#">Seminovos</a></li>              
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">SERVIÇOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Agendamento</a></li>
+                <li><a href="#">Revisão Programada</a></li>
+                <li><a href="#">Reparos</a></li>
+                <li><a href="#">Catálogo de Peças</a></li>
+                <li><a href="#">Honda Access</a></li>         
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">CONSÓRCIO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Consórcio HR-V</a></li>
+                <li><a href="#">Consórcio New City</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">VENDAS ESPECIAIS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Honda Conduz</a></li>
+                <li><a href="#">Taxistas</a></li>
+                <li><a href="#">Diplomatas</a></li>
+                <li><a href="#">Pessoa Jurídica</a></li>
+                <li><a href="#">Produtor Rural</a></li>
+              </ul>
+            </div>
+            
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">A DAITAN</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Sobre a Empresa</a></li>
+                <li><a href="#">Blog da Daitan</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">FALE CONOSCO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Escreva para Nós</a></li>
+                <li><a href="#">Linha Direta</a></li>
+                <li><a href="#">Cadastro de E-mail</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+              </ul>
+            </div>   
+          </div>
+        </div>      
+          
+          <div class="row">
+            <div id="footerCopyright">
+              <img src="img/footer-ibama.webp" id="footerIbama" alt="Minha escolha faz a diferença no trânsito.">
+              <div id="footerLogo">
+                <img src="img/logo-daitan.svg" alt="">
+                <p>
+                  <small>
+                    © Daitan Comércio de Veículos Ltda <br>
+                    CNPJ 67.375.899/0001-06. <a href="#">Políticas de Privacidade</a>
+                  </small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          
+        
+      </div>
+    </footer>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="lib/vertical-responsive/js/easyResponsiveTabs.js"></script>
+    <script src="js/main.js" crossorigin="anonymous"></script> 
+
+    <script>
+        $(document).ready(function() {
+            // Toggle para cada botão de toggle individual
+            $('.toggle-btn').click(function() {
+                var card = $(this).closest('.card');
+                card.find('.card-select').slideToggle(300, function() {
+                    let icon = card.find('.toggle-btn .icon-item i');
+                    if ($(this).is(':visible')) {
+                        card.addClass('absolute-card');
+                        icon.removeClass('fa-plus').addClass('fa-minus');
+                    } else {
+                        card.removeClass('absolute-card');
+                        icon.removeClass('fa-minus').addClass('fa-plus');
+                    }
+                });
+            });
+
+            // Mostrar o botão Avançar quando uma opção é selecionada
+            $('.select-km').change(function() {
+                var card = $(this).closest('.card');
+                if ($(this).val() !== '') {
+                    card.find('.btn-avancar').show().attr('href', '/revisao-2');
+                } else {
+                    card.find('.btn-avancar').hide();
+                }
+            });
+
+            // Habilitar o select-km quando uma opção é selecionada no select-ano
+            $('.select-ano').change(function() {
+                var card = $(this).closest('.card');
+                card.find('.select-km').prop('disabled', false);
+            });
+
+            // Esconder todos os botões Avançar inicialmente
+            $('.btn-avancar').hide();
+        });
+    </script>
+</body>
+</html>

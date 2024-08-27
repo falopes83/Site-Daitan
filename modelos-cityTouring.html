@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daitan</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">   
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="lib/vertical-responsive/css/easy-responsive-tabs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div id="top">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="locate">
+                        <span>
+                          Sua Daitan mais próxima está em: <b>São Paulo</b>, <a href="#">troque aqui</a>.
+                        </span>
+                    </div>
+                    <ul class="topnav">
+                        <li class="topnav-item">
+                          <a href="#" class="topnav-link">A Daitan</a>
+                        </li>
+                        <li class="topnav-item">
+                          <a href="#" class="topnav-link">Política de Privacidade</a>
+                        </li>
+                        <li class="topnav-item">                          
+                          <a href="#" class="topnav-link">Trabalhe Conosco</a>
+                        </li>
+                    </ul>                        
+                </div>                
+            </div>            
+        </div>
+        <div id="heading">
+          <div id="header">
+            <div class="container">
+              <div class="r-flex">
+                <a href="#">
+                  <img id="logo" src="img/logo-daitan.svg" width="210" alt="Logo Daitan">
+                </a>
+                <div id="media">
+                    <div class="dropdown">
+                      <button id="btnTelefone" class="btn btn-outline-primary rounded-pill dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-phone me-2"></i>
+                        Telefones
+                      </button>     
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li>
+                          <a class="dropdown-item" href="tel:+551155369966">
+                            <small><b>Ibirapuera</b></small><br>
+                            (11) 5536-9966
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="tel:+551155910140">
+                            <small><b>Jabaquara</b></small><br>
+                            (11) 5591-0140
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="tel:+551121020999">
+                            <small><b>Pompéia</b></small><br>
+                            (11) 2102-0999
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="tel:+551136750655">
+                            <small><b>Sumaré</b></small><br>
+                            (11) 3675-0655
+                          </a>
+                        </li>
+                      </ul>  
+                    </div>         
+                  <button class="btn btn-primary rounded-pill">
+                    Tenho Interesse
+                  </button>
+                  <ul class="socialmedia">
+                    <li>
+                      <a href="https://www.facebook.com/HondaDaitan/" target="_blank">
+                        <img src="img/rs-facebook.svg" alt="Facebook Oficial da Daitan">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/hondadaitan/" target="_blank">
+                        <img src="img/rs-instagram.svg" alt="Instagram Oficial da Daitan">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/honda-daitan/" target="_blank">
+                        <img src="img/rs-linkedin.svg" alt="LinkedIn Oficial da Daitan">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCFTCzhHYqbpGrM6oLcP2f5A" target="_blank">
+                        <img src="img/rs-youtube.svg" alt="YouTube Oficial da Daitan">
+                      </a>
+                    </li>                  
+                  </ul>
+                </div>
+                <button id="btn-navbar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <img src="img/bars-solid.svg" class="w-100" alt="">
+                </button>                
+              </div>            
+            </div>
+          </div>
+          <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">  
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Modelos
+                    </a>
+                    <div class="dropdown-menu">
+                      <div id="modelo-filters" class="row">
+
+                      </div>
+                      <ul id="dropModelos">
+                        <li class="py-3">
+                          <a class="dropdown-car" href="#">
+                            <img src="img/modelos/newhrv.png" class="d-block m-auto" alt="New Honda HR-V">
+                          </a>
+                          <p class="text-center text-uppercase mb-1">New HR-V</p>
+                          <div class="text-center">
+                            <button class="btn btn-primary btn-sm m-auto w-btn">
+                              <i class="fa-solid fa-plus"></i>
+                              Saiba Mais
+                            </button>
+                          </div>                      
+                        </li>
+                        <li class="py-3">
+                          <a class="dropdown-car" href="#">
+                            <img src="img/modelos/newcity.png" class="d-block m-auto" alt="New Honda City">
+                          </a>
+                          <p class="text-center text-uppercase mb-1">New City</p>
+                          <div class="text-center">
+                            <button class="btn btn-primary btn-sm m-auto w-btn">
+                              <i class="fa-solid fa-plus"></i>
+                              Saiba Mais
+                            </button>
+                          </div>    
+                        </li>
+                        <li class="py-3">
+                          <a class="dropdown-car" href="#">
+                            <img src="img/modelos/newcityhb.png" class="d-block m-auto" alt="New City Hatchback">
+                          </a>
+                          <p class="text-center text-uppercase mb-1">New City Hatchback</p>
+                          <div class="text-center">
+                            <button class="btn btn-primary btn-sm m-auto w-btn">
+                              <i class="fa-solid fa-plus"></i>
+                              Saiba Mais
+                            </button>
+                          </div>    
+                        </li>
+                        <li class="py-3">
+                          <a class="dropdown-car" href="#">
+                            <img src="img/modelos/civic_2023.png" class="d-block m-auto" alt="New Honda Civic Híbrido">
+                          </a>
+                          <p class="text-center text-uppercase mb-1">Civic Híbrido</p>
+                          <div class="text-center">
+                            <button class="btn btn-primary btn-sm m-auto w-btn">
+                              <i class="fa-solid fa-plus"></i>
+                              Saiba Mais
+                            </button>
+                          </div>    
+                        </li>
+                        <li class="py-3">
+                          <a class="dropdown-car" href="#">
+                            <img src="img/modelos/type_r.png" class="d-block m-auto" alt="New Honda HR-V">
+                          </a>
+                          <p class="text-center text-uppercase mb-1">Civic Type-R</p>
+                          <div class="text-center">
+                            <button class="btn btn-primary btn-sm m-auto w-btn">
+                              <i class="fa-solid fa-plus"></i>
+                              Saiba Mais
+                            </button>
+                          </div>    
+                        </li>
+                      </ul> 
+                    </div>                                                    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Seminovos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Serviços
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Oficinas</a></li>
+                      <li><a class="dropdown-item" href="#">Agende a sua revisão</a></li>
+                      <li><a class="dropdown-item" href="#">Peças e Acessórios</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Consórcio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Vendas Especiais
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="vendasDiretas-pcd.html">Pessoas com Deficiência</a></li>
+                      <li><a class="dropdown-item" href="vendasDiretas-taxista.html">Taxistas</a></li>
+                      <li><a class="dropdown-item" href="vendasDiretas-diplomata.html">Diplomatas</a></li>
+                      <li><a class="dropdown-item" href="vendasDiretas-pj.html">Pessoa Jurídica</a></li>
+                      <li><a class="dropdown-item" href="vendasDiretas-prodrural.html">Produtor Rural</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contato
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Escreva para Nós</a></li>
+                      <li><a class="dropdown-item" href="#">Ouvidoria</a></li>
+                      <li><a class="dropdown-item" href="#">Cadastro de E-mail</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+          
+    </header>
+
+    <main>
+      <section id="modeloBanner">
+        <div id="capaModelo">
+          <div id="item1" class="banner-item">
+            <img src="img/modelos/galeria_city/modelBanner-1.webp" class="w-100 desktop" alt="">
+            <img src="img/modelos/galeria_city/modelBannerMob-1.webp" class="w-100 mobile" alt="">
+          </div>
+
+          <div id="item2" class="banner-item d-none">
+            <div class="content">
+              <h1>Amplo espaço interno<br>
+                com total ergonomia</h1> 
+              <p class="desktop">Sedã compacto por fora, e amplo por dentro: o New City Sedan foi projetado para garantir o máximo de conforto a todos os ocupantes e fácil acesso a todos os comandos do volante e painel ao motorista.</p>
+            </div> 
+            <img src="img/modelos/galeria_city/modelBanner-2.webp" class="w-100 desktop" alt="">
+            <img src="img/modelos/galeria_city/modelBannerMob-2.webp" class="w-100 mobile" alt="">
+          </div>
+
+          <div id="item3" class="banner-item d-none">
+            <div class="content">
+              <h1>Botão de partida<br>
+                do motor (Start/Stop)</h1> 
+              <p class="desktop">Surpreenda-se com toda tecnologia e praticidade do New City Sedan. Com botão de partida Start/Stop, você pode acionar o motor com um simples toque, sem precisar da chave.</p>
+            </div>            
+            <img src="img/modelos/galeria_city/modelBanner-3.webp" class="w-100 desktop" alt="">
+            <img src="img/modelos/galeria_city/modelBannerMob-3.webp" class="w-100 mobile" alt="">
+          </div>
+
+          <div id="item4" class="banner-item d-none">
+            <div class="content">
+                <h1>Chave com função<br>
+                    Smart Entry</h1>
+              <p class="desktop">Facilitando o seu dia a dia, a chave com função Smart Entry do New City Sedan com controle remoto, você controla a abertura do porta-malas, abertura e fechamento dos vidros e além disso com travamento e destravamento das portas por sensor de aproximação na chave.</p>
+            </div>            
+            <img src="img/modelos/galeria_city/modelBanner-4.webp" class="w-100 desktop" alt="">
+            <img src="img/modelos/galeria_city/modelBannerMob-4.webp" class="w-100 mobile" alt="">
+          </div>
+
+          <div id="item5" class="banner-item d-none">
+            <div class="content">
+              <h1>Bluetooth com HFT e<br>
+                função Voice Tag</h1>  
+              <p class="desktop">O New City Sedan tem conexão bluetooth para reproduzir suas músicas direto do smartphone e sistema HFT (Hands Free Telephone) com função Voice Tag para realização de chamadas telefônicas por comandos de voz.</p>
+            </div>            
+            <img src="img/modelos/galeria_city/modelBanner-5.webp" class="w-100 desktop" alt="">
+            <img src="img/modelos/galeria_city/modelBannerMob-5.webp" class="w-100 mobile" alt="">
+          </div>
+
+          <div id="item6" class="banner-item d-none">
+            <div class="content">
+              <h1>Multimídia 8" touchscreen</h1> 
+              <p class="desktop">Com interface sem fio para Apple Carplay®* e Android Auto™*, Voice Tag e câmera de ré, o multimídia 8” do New City Sedan torna sua condução mais prática e eficiente.</p>
+            </div>            
+            <img src="img/modelos/galeria_city/modelBanner-6.webp" class="w-100 desktop" alt="">
+            <img src="img/modelos/galeria_city/modelBannerMob-6.webp" class="w-100 mobile" alt="">
+          </div>
+
+          <div id="item7" class="banner-item d-none">
+            <div class="content">
+              <h1>Painel digital TFT 7"</h1> 
+              <p class="desktop">O Novo Painel Digital TFT de 7" de alta definição com diversas funções, painel de controle e diagnóstico do New City Sedan garante maior autonomia e agilidade na leitura das informações, o que torna a sua experiência na estrada ainda mais prática.</p>
+            </div>            
+            <img src="img/modelos/galeria_city/modelBanner-7.webp" class="w-100 desktop" alt="">
+            <img src="img/modelos/galeria_city/modelBannerMob-7.webp" class="w-100 mobile" alt="">
+          </div>
+
+        </div>
+
+        <div id="topNav" class="py-3">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-3 col-lg-3">             
+                <button id="btnCotacao" class="btn btn-primary w-100 d-block mb-2">Peça uma cotação</button>
+                <button id="btnTestdrive" class="btn btn-outline-light w-100 d-block">Test Drive</button>
+              </div>
+              <div class="col-sm-6 col-md-9 col-lg-9">
+                <div class="row-nav city-nav desktop d-flex justify-content-between">
+                  <button id="btn1" class="btn btn-modelo active">
+                    Honda<br>
+                    New HR-V
+                  </button>
+                  </button>
+                  <button id="btn2" class="btn btn-modelo">
+                    Espaço<br>                  
+                    Interno
+                  </button>
+                  <button id="btn3" class="btn btn-modelo">
+                    Botão de<br>
+                    Partida
+                  </button>
+                  <button id="btn4" class="btn btn-modelo">
+                    Smart<br>
+                    Entry
+                  </button>
+                  <button id="btn5" class="btn btn-modelo">
+                    Bluetooth<br>
+                    com HFT
+                  </button>
+                  <button id="btn6" class="btn btn-modelo">
+                    Multimídia 8"<br>
+                    Toutchscreen
+                  </button>
+                  <button id="btn7" class="btn btn-modelo">
+                    Painel<br>
+                    Digital TFT 7"
+                  </button>
+                </div>    
+                <div class="mobile-nav mobile">
+                  <div class="d-flex">
+                    <button id="btnPrev" class="btn btn-light me-1 w-100">
+                      <i class="fa-solid fa-angles-left text-center"></i>
+                    </button>
+
+                    <button id="btnNext" class="btn btn-light ms-1 w-100">
+                      <i class="fa-solid fa-angles-right text-center"></i>
+                    </button>
+                  </div>
+                </div>          
+              </div>              
+            </div>            
+          </div>
+        </div>
+
+      </section>
+
+      <section id="modeloVersoes" class="py-5">
+        
+          <h1 class="h1estilo mb-5">Conheça todas as <b>Versões</b></h1>
+
+          <div id="modelVersoes" class="py-2 mb-5">
+            <div class="row">
+              <div class="col-sm-12 col-md-3 col-lg-3 d-flex">
+                <a id="touring" href="modelos-cityTouring.html" class="btn btn-versao text-center mx-2 active">
+                  <img src="img/modelos/city/btn-city-touring.webp" class="m-auto d-block" alt="">
+                  Touring
+                </a>
+              </div>              
+              <div class="col-sm-12 col-md-3 col-lg-3 d-flex">
+                <a id="exl" href="modelos-cityExl.html" class="btn btn-versao text-center mx-2">
+                  <img src="img/modelos/city/btn-city-elx.webp" class="m-auto d-block" alt="">
+                  EXL
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3 d-flex">
+                <a id="ex" href="modelos-cityEx.html" class="btn btn-versao text-center mx-2">
+                  <img src="img/modelos/city/btn-city-ex.webp" class="m-auto d-block" alt="">
+                  EX
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3 d-flex">
+                <a id="lx" href="modelos-cityLx.html" class="btn btn-versao text-center mx-2">
+                  <img src="img/modelos/city/btn-city-ex.webp" class="m-auto d-block" alt="">
+                  LX
+                </a>
+              </div>
+            </div>                
+          </div>
+
+          <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+
+                <div id="carouselModelos" class="carousel slide" data-bs-interval="false">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselModelos" data-bs-slide-to="0" id="btnColor1" class="active btn-color" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselModelos" data-bs-slide-to="1" id="btnColor2" class="btn-color" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselModelos" data-bs-slide-to="2" id="btnColor3" class="btn-color" aria-label="Slide 3"></button>                      
+                      <button type="button" data-bs-target="#carouselModelos" data-bs-slide-to="3" id="btnColor5" class="btn-color" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselModelos" data-bs-slide-to="4" id="btnColor6" class="btn-color" aria-label="Slide 5"></button>
+                      <button type="button" data-bs-target="#carouselModelos" data-bs-slide-to="5" id="btnColor7" class="btn-color" aria-label="Slide 6"></button>
+                      
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/modelos/city/touring/city-touring-branco-tafeta.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                          <p>Branco Tafetá Sólido</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/modelos/city/touring/city-touring-branco-perolado.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                          <p>Branco Topázio Perolizado</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/modelos/city/touring/city-touring-prata-platinum.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                          <p>Prata Platinum Metálico</p>
+                        </div>
+                      </div>                      
+                      <div class="carousel-item">
+                        <img src="img/modelos/city/touring/city-touring-azul-cosmico-metalico.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                          <p>Azul Cósmico Metálico</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/modelos/city/touring/city-touring-cinza-barium-metalico.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                          <p>Cinza Barium Metálico</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/modelos/city/touring/city-touring-preto.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                          <p>Preto Cristal Perolizado</p>
+                        </div>
+                      </div>                      
+                    </div>                    
+                  </div>
+
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="versao-box p-4 my-4">
+                  <h3 class="h2estilo"><span>Touring</span></h3>
+                  <p><b><i>Une tudo que você gosta.</i></b></p>
+
+                  <ul class="versao-list">
+                    <li>Faróis Full LED com DRL integrado e lanterna em LED</li>
+                    <li>Multimídia 7" com interfaces AndroidAuto™ e Apple CarPlay</li>
+                    <li>Rebatimento elétrico dos retrovisores</li>
+                    <li>6 Airbags (frontais, laterais e de cortina) para proteção</li>
+                    <li>Porta-malas de 536L</li>
+                  </ul>
+
+                  <div class="footer-nav">
+                    <a href="#modeloFichatecnica" class="btn btn-outline-primary mx-1">Ficha Técnica</a>
+                    <a href="tenho-interesse.html" class="btn btn-primary mx-1">Tenho Interesse</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </section>
+
+      <section id="modeloCotacao" class="py-5">
+        <div class="container">
+          <h1 class="h1estilo mb-5">Peça uma <b>cotação</b></h1>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <p class="mb-0 color-gray text-center">A partir de</p>
+              <h1 class="mb-0 color-gray text-center">R$ 139.100,00*</h1>
+              <p class="color-gray text-center"><b>Transmissão CVT</b></p>
+
+              <p class="text-center"><small style="font-size: 10px; line-height: .4;">*Preço público sugerido em reais, com frete incluso, podendo variar de acordo com a tributação e alíquotas específicas de cada Estado (consulte a concessionária para mais informações). Acréscimo de R$ 1.700,00 para pintura metálica ou perolizada e de R$ 2.000,00 para cores especiais (branco estelar perolizado). O sistema de exibição na tela não reproduz a cor real do veículo, servindo apenas como referência.</small></p>
+
+              <div class="video-container mb-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/x8jJMvu4uuQ?si=vzKPeON2MNCrQC2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <form action="">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-floating mb-3">
+                      <select class="form-select" id="selectUnidade" aria-label="Selecione Unidade">
+                        <option selected>Selecione...</option>
+                        <option value="1">Ibirapuera</option>
+                        <option value="2">Jabaquara</option>
+                        <option value="3">Pompéia</option>
+                        <option value="4">Sumaré</option>
+                      </select>
+                      <label for="selectUnidade">Selecione Unidade</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input type="text" class="form-control" id="floatingNome" placeholder="Nome Completo">
+                      <label for="floatingInput">Nome Completo</label>
+                    </div>
+    
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control" id="floatingCpf" placeholder="CPF">
+                      <label for="floatingCpf">CPF</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-floating mb-3">                  
+                      <input type="email" class="form-control" id="floatingEmail" placeholder="E-mail">
+                      <label for="floatingEmail">E-mail</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-floating mb-3">                  
+                      <input type="tel" class="form-control" id="floatingTel" placeholder="Celular">
+                      <label for="floatingTel">Celular</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating mb-3">
+                      <select class="form-select" id="selectInteresse" aria-label="Tenho Interesse">
+                        <option selected>Selecione...</option>
+                        <option value="1">Preços e Condições</option>
+                        <option value="2">Agendar Test Drive</option>
+                        <option value="3">Seminovos</option>
+                        <option value="4">Agendamento de Serviços</option>
+                        <option value="4">Peças</option>
+                      </select>
+                      <label for="selectInteresse">Tenho interesse em</label>
+                    </div>
+
+                    <p class="mb-2"><b>Quero receber contato por</b></p>
+                    <div class="row g-3 mb-3">
+                      <div class="col">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                          <label class="form-check-label" for="flexCheckChecked">
+                            E-mail
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                          <label class="form-check-label" for="flexCheckChecked">
+                            Telefone
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                          <label class="form-check-label" for="flexCheckChecked">
+                            Whatsapp
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="send-row">
+                      <img src="img/reCAPTCHA.jpg" alt="">
+                      &nbsp;
+                      <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="modeloGaleria" class="py-5">
+        <div class="container">
+          <h1 class="h1estilo mb-5">Todos os ângulos do seu New City</h1>
+
+          <div class="mt-5">
+            <div id="thumbnailCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+    
+                  <div class="carousel-item active">
+                      <div class="row">
+                          <!-- Thumbnails 1-6 -->
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-01.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Novo Design:</b> O novo design do New City Sedan traz elegância em cada detalhe. Um veículo moderno e atual para agradar a todos e conquistar ainda mais a sua preferência.</p>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-02.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Amplo espaço interno com total ergonomia:</b> Sedã compacto por fora, e amplo por dentro: o New City Sedan foi projetado para garantir o máximo de conforto a todos os ocupantes e fácil acesso a todos os comandos do volante e painel ao motorista.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-03.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Assistente de estabilidade e tração - VSA:</b> Garantia de segurança e estabilidade, o sistema VSA proporciona equilíbrio para a tração e frenagem das rodas, de maneira automática e independente.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-04.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Assistente de partidas em aclives – HSA:</b> O sistema HSA torna esse modelo ainda mais seguro. Ao atuar como um assistente de saída em aclives, ele mantém o freio acionado por alguns segundos após a liberação do pedal.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-05.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Sensores de estacionamento:</b> Mais facilidade e segurança para o seu dia a dia. O New City Sedan conta com sensores com alerta sonoro que facilitam a realização de manobras de seu veículo em todas as situações.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-06.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Lanternas traseiras em LED:</b> Esbanjando estilo e segurança, o New City Sedan conta com lanternas traseiras em LED, que proporcionam uma excelente iluminação para você rodar com mais tranquilidade.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <!-- Adicione mais 4 thumbnails aqui -->
+                      </div>
+                  </div>
+      
+                  <div class="carousel-item">
+                      <div class="row">
+                          <!-- Thumbnails 1-6 -->
+                          <div class="col-sm-6 col-md-4 col-lg-4">                    
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-07.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Faróis full LED:</b> Os faróis full LED tornam o estilo do New City Sedan ainda mais diferenciado. O conjunto óptico em LED (faróis alto, baixo, de neblina, luzes diurnas DRL) destacam toda a imponência do modelo, além de proporcionar maior iluminação e durabilidade.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-08.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Rodas em liga leve aro 16":</b> Mais elegância e ousadia. As rodas do New City Sedan contam com rodas de aro 16" em liga leve, um visual sofisticado e imponente, que atrai olhares por onde passa.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-09.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Bancos com estabilização corporal:</b> Os bancos do New City Sedan contam com uma estrutura estabilizadora, que ajuda a evitar a fadiga em viagens longas e ainda garante uma condução com muito mais conforto e estabilidade.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-10.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Acabamento interno refinado:</b> Além de um espetáculo por fora, o New City Sedan também é surpreendente por dentro. Com acabamento interno refinado, o modelo possui detalhes cromados no painel e nas portas.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-11.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Multimídia de 8" touchscreen:</b> Com interface sem fio para Apple Carplay®* e Android Auto™*, Voice Tag e câmera de ré, o multimídia 8" do New City Sedan torna sua condução mais prática e eficiente.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-12.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Painel digital TFT 7":</b> O Novo Painel Digital TFT de 7" de alta definição com diversas funções, painel de controle e diagnóstico do New City Sedan garante maior autonomia e agilidade na leitura das informações, o que torna a sua experiência na estrada ainda mais prática.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- Adicione mais 4 thumbnails aqui -->
+                      </div>
+                  </div>
+      
+                  <div class="carousel-item">
+                      <div class="row">
+                          <!-- Thumbnails 1-6 -->
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-13.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Chave com função Smart Entry e partida por Controle Remoto:</b> Facilitando o seu dia a dia, a chave com função Smart Entry do New City Sedan com controle remoto, você controla a abertura do porta-malas, abertura e fechamento dos vidros e além disso com travamento e destravamento das portas por sensor de aproximação na chave.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-14.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Botão de partida START/STOP:</b> Surpreenda-se com toda tecnologia e praticidade do New City Sedan. Com botão de partida Start/Stop, você pode acionar o motor com um simples toque, sem precisar da chave.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-15.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Bluetooth com HFT e função Voice Tag:</b> O New City Sedan tem conexão bluetooth para reproduzir suas músicas direto do smartphone e sistema HFT (Hands Free Telephone) com função Voice Tag para realização de chamadas telefônicas por comandos de voz.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-16.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Transmissão automática do tipo CVT:</b> O New City Sedan conta com transmissão do tipo CVT, garantindo uma condução mais suave com menos consumo de combustível. garantindo uma condução suave por meio da relação de marchas infinitas e conversor de torque.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-17.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Troca de marcha no volante (Paddle Shift):</b> O Paddle Shift do New City Sedan permite ao condutor simular a troca de marchas através de alertas no volante para uma direção mais esportiva.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-18.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Freios ABS/EBD:</b> O New City Sedan conta com freios com tecnologia ABS (Antilock Brake System) e EBD (Eletrônico Brake Distribution), que garantem melhor controle e eficiência de frenagem em situações emergenciais.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <!-- Adicione mais 4 thumbnails aqui -->
+                      </div>
+                  </div>
+      
+                  <div class="carousel-item">
+                      <div class="row">
+                          <!-- Thumbnails 1-6 -->
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-19.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>LaneWatch™ - Assistente para redução de ponto cego:</b> Capaz de reduzir os pontos cegos, o sistema atua como assistente de visibilidade lateral, transmitindo a imagem do lado direito do veículo e aumentando o ângulo de visão em até 4x.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-20.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Amplo porta-malas:</b> Com porta-malas de 519 litros, espaço é o que não falta para você carregar suas bagagens no New City Sedan.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-21.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Amplo espaço interno com total ergonomia:</b> Sedã compacto por fora, e amplo por dentro: o New City Sedan foi projetado para garantir o máximo de conforto a todos os ocupantes e fácil acesso a todos os comandos do volante e painel ao motorista.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-22.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Ar-condicionado digital:</b> Com um ar-condicionado digital, a função automática traz mais facilidade no ajuste de temperatura.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-23.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Câmera de marcha a ré multivisão:</b> Tenha mais visibilidade com o New City Sedan. 3 pontos de visão (traseira, angular e de cima para baixo) para facilitar a visualização de todo o percurso e detectação objetos ou outros obstáculos em qualquer manobra.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                              <div class="thumbnail-container">
+                                  <img src="img/modelos/galeria_city/gallery-city-24.webp" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal">
+                                  <div class="d-none thumbnail-caption">
+                                      <p class="mb-0"><b>Retrovisores na cor do veículo com rebatimento automático:</b> Retrovisores com rebatimento automático para maior praticidade, e luzes indicadoras de direção que proporcionam melhor visibilidade em conversões e mudanças de direção.</p>
+                                  </div>
+                              </div>                        
+                          </div>
+                          <!-- Adicione mais 4 thumbnails aqui -->
+                      </div>
+                  </div>
+    
+                </div>
+    
+                <!-- Controles de navegação -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#thumbnailCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#thumbnailCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="hondaSensingCity" class="py-5">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <img src="img/logos/honda-sensing.png" class="d-block mb-3" alt="Honda Sensing">
+
+              <h2 class="h1estilo text-start color-gray" style="text-transform: initial;">O melhor da segurança, <b>tecnologia e assistência ao condutor</b></h2>
+
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <div class="versao-box">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="acc-tab" data-bs-toggle="tab" data-bs-target="#acc" type="button" role="tab" aria-controls="acc" aria-selected="true">
+                      ACC
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="lkas-tab" data-bs-toggle="tab" data-bs-target="#lkas" type="button" role="tab" aria-controls="lkas" aria-selected="false">
+                      LKAS
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="cmbs-tab" data-bs-toggle="tab" data-bs-target="#cmbs" type="button" role="tab" aria-controls="cmbs" aria-selected="false">
+                      CMBS
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="rdm-tab" data-bs-toggle="tab" data-bs-target="#rdm" type="button" role="tab" aria-controls="rdm" aria-selected="false">
+                      RDM
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="ahb-tab" data-bs-toggle="tab" data-bs-target="#ahb" type="button" role="tab" aria-controls="ahb" aria-selected="false">
+                      AHB
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active p-3" id="acc" role="tabpanel" aria-labelledby="acc-tab">
+                    <h3 class="color-red mb-4">ACC - Controle de cruzeiro adaptativo</h3>
+                    <div class="row d-flex align-items-center">                      
+                      <div class="col-sm-12 col-md-7 col-lg-7">
+                        <div class="video-container mb-3">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/JJ1hXs6jnVM?si=xYBsKhA3pPBD1QmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-5">
+                        <p>Sistema que auxilia o motorista a manter uma distância segura em relação ao veículo detectado a sua frente.</p>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="tab-pane fade p-3" id="lkas" role="tabpanel" aria-labelledby="lkas-tab">
+                    <h3 class="color-red mb-4">LKAS - Sistema de permanência de faixa</h3>
+                    <div class="row d-flex align-items-center">                      
+                      <div class="col-sm-12 col-md-7 col-lg-7">
+                        <div class="video-container mb-3">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/sD9Ob4QuCLo?si=nJQMjd0ZwiESXsu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-5">
+                        <p>Sistema que detecta as faixas de rodagem e ajusta a direção com o objetivo de auxiliar o motorista a manter o veículo centralizado nas linhas de marcação.</p>
+                      </div>
+                    </div>    
+                  </div>
+                  <div class="tab-pane fade p-3" id="cmbs" role="tabpanel" aria-labelledby="cmbs-tab">
+                    <h3 class="color-red mb-4">CMBS - Sistema de frenagem para mitigação de colisão</h3>
+                    <div class="row d-flex align-items-center">                      
+                      <div class="col-sm-12 col-md-7 col-lg-7">
+                        <div class="video-container mb-3">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/ak4cZ9aBE70?si=nM7eJdZFVm0mzR1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-5">
+                        <p>Sistema de acionamento de freios do Novo Honda City Hatch que detecta uma possível colisão frontal com o objetivo de mitigar acidentes.</p>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="tab-pane fade p-3" id="rdm" role="tabpanel" aria-labelledby="rdm-tab">
+                    <h3 class="color-red mb-4">RDM - Sistema para mitigação de evasão de pista</h3>
+                    <div class="row d-flex align-items-center">                      
+                      <div class="col-sm-12 col-md-7 col-lg-7">
+                        <div class="video-container mb-3">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/FLxqBBEfdok?si=3peuYyAQCEry2yXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-5">
+                        <p>Sistema que detecta a saída da pista e ajusta a direção com o objetivo de evitar a sua evasão e possíveis acidentes.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade p-3" id="ahb" role="tabpanel" aria-labelledby="ahb-tab">
+                    <h3 class="color-red mb-4">AHB - Ajuste automático de farol</h3>
+                    <div class="row d-flex align-items-center">                      
+                      <div class="col-sm-12 col-md-7 col-lg-7">
+                        <div class="video-container mb-3">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/Tiq7Ou9Ysok?si=qcmnoaFGOlQ2LnXG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-5">
+                        <p>Sistema de assistência automática de farol alto e baixo, que se ajusta de acordo com a situação.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>      
+          </div>
+        </div>
+      </section>
+
+      <section id="modeloFichatecnica" class="py-5">
+          <div class="container">
+            <h2 class="h1estilo mb-5">Ficha <b>Técnica</b></h2>
+            
+            <div class="ficha-tecnica">
+              <ul class="nav nav-pills flex-column nav-pill" id="pillsFicha-01-tab" role="tablist">              
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link fw-semibold active position-relative" id="pillsFicha-01-tab" data-bs-toggle="pill" data-bs-target="#pillficha-01" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                    <img src="img/icons/gauge-solid.svg" class="me-2" alt="Ícone para Desempenho">
+                    Desempenho
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link fw-semibold position-relative" id="pillsFicha-02-tab" data-bs-toggle="pill" data-bs-target="#pillficha-02" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                    <img src="img/icons/maximize-solid.svg" class="me-2" alt="Ícone para Dimensões">
+                    Dimensões
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link fw-semibold position-relative" id="pillsFicha-03-tab" data-bs-toggle="pill" data-bs-target="#pillficha-03" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                    <img src="img/icons/shield.svg" class="me-2" alt="Ícone para Segurança">
+                    Segurança
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link fw-semibold position-relative" id="pillsFicha-04-tab" data-bs-toggle="pill" data-bs-target="#pillficha-04" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                    <img src="img/icons/honda-sensing.svg" class="me-2" alt="Ícone para Honda SENSING">
+                    Honda SENSING
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link fw-semibold position-relative" id="pillsFicha-05-tab" data-bs-toggle="pill" data-bs-target="#pillficha-05" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                    <img src="img/icons/car.svg" class="me-2" alt="Ícone para Acabamento Exterior">
+                    Acabamento Exterior
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link fw-semibold position-relative" id="pillsFicha-06-tab" data-bs-toggle="pill" data-bs-target="#pillficha-06" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                    <img src="img/icons/chair.svg" class="me-2" alt="Ícone para Conforto e Tecnologia">
+                    Conforto e Tecnologia
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link fw-semibold position-relative" id="pillsFicha-07-tab" data-bs-toggle="pill" data-bs-target="#pillficha-07" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                    <img src="img/icons/gear.svg" class="me-2" alt="Ícone para Consumo">
+                    Consumo
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link fw-semibold position-relative" id="pillsFicha-08-tab" data-bs-toggle="pill" data-bs-target="#pillficha-08" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                    <img src="img/icons/droplet-solid.svg" class="me-2" alt="Ícone para Cores">
+                    Cores
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content p-3 w-100" id="pillsFicha-tabContent">
+                <div class="tab-pane fade show active" id="pillficha-01" role="tabpanel">
+                  <div class="p-3">
+                    <h3 class="color-red">Desempenho</h3>
+                    <div class="ficha-list ps-0">
+                      <ul class="list-striped list-dots">
+                        <li>NOVO Motor em Alumínio 1.5L DOHC i-VTEC com Injeção Direta</li>
+                        <li>Potência (Gasolina - Etanol) 126 cv / 6200 rpm</li>
+                        <li>Torque (Gasolina) 15,5 / 4600 rpm (G)</li>
+                        <li>Torque (Etanol) 15,8 / 4600 rpm (E)</li>
+                        <li>Transmissão automática do tipo CVT com Paddle Shifts</li>
+                        <li>Tração dianteira</li>
+                        <li>Suspensão dianteira MacPherson</li>
+                        <li>Suspensão traseira - Barra de torção</li>
+                        <li>Rodas Liga leve - aro 16"</li>
+                        <li>Pneus 185/55R16</li>
+                        <li>Estepe temporário T135 / 80 D15</li>
+                      </ul>
+                    </div>                   
+                  </div> 
+                </div>
+                <div class="tab-pane fade" id="pillficha-02" role="tabpanel">
+                  <div class="p-3">
+                    <h3 class="color-red">Dimensões</h3>
+                    <div class="ficha-list ps-0">
+                      <ul class="list-striped list-dots">
+                        <li>Distância entre eixos (mm) 2.600</li>
+                        <li>Comprimento (mm) 4.549</li>
+                        <li>Altura (mm) 1.477</li>
+                        <li>Largura (mm) 1.748</li>
+                        <li>Peso bruto total (kg) 1.170</li>
+                        <li>Volume porta-malas (litros) 519</li>
+                        <li>Tanque de combustível (litros) 44</li>
+                      </ul>
+                    </div>                   
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pillficha-03" role="tabpanel">
+                  <div class="p-3">
+                    <h3 class="color-red">Segurança</h3>
+                    <div class="ficha-list ps-0">
+                      <ul class="list-striped list-dots">
+                        <li>Estrutura de deformação progressiva ACE (Advanced Compatibility Engineering)</li>
+                        <li>Alarme de segurança com imobilizador ECU</li>
+                        <li>Freios com sistemas ABS e EBD (Anti-Lock Braking System / Electronic Brake Distribution)</li>
+                        <li>EBA (Emergency Brake Assist)</li>
+                        <li>Assistente de estabilidade e tração - VSA (Vehicle Stability Assist)</li>
+                        <li>Assistente de partidas em aclive - HSA (Hill Start Assist)</li>
+                        <li>ESS (Emergency Stop Signal - Sistema de luzes de emergência)</li>                        
+                        <li>Airbags frontais, laterais e de cortina (6 airbags)</li>
+                        <li>Cinto de segurança de 3 pontos e encosto de cabeça para todos os ocupantes</li>
+                        <li>Cinto de segurança dianteiro com sistema de tensionamento</li>
+                        <li>Lembrete de afivelamento dos cintos dianteiros e traseiros</li>
+                        <li>Trava infantil nas portas traseiras</li>
+                        <li>Sistema ISOFIX de fixação para cadeirinhas infantis</li>
+                        <li>Câmera de ré multivisão com linhas dinâmicas (três vistas)</li>
+                        <li>Alerta de pressão dos pneus</li>
+                        <li>Sistema Honda LaneWatch - Assistente para redução de ponto cego</li> 
+                      </ul>
+                    </div>                   
+                  </div>  
+                </div>
+                <div class="tab-pane fade" id="pillficha-04" role="tabpanel">
+                  <div class="p-3">
+                    <img src="img/logos/honda-sensing.png" class="mb-4" alt="Honda Sensing">
+                    <div class="ficha-list ps-0">
+                      <ul class="list-striped list-dots">
+                        <li>Auto High Beam (AHB) - Sistema de assistência automática de farol alto e baixo, que se ajusta de acordo com a situação.</li>
+                        <li>ACC (Adaptive Cruise Control) - Sistema que auxilia o motorista a manter uma distância segura em relação ao veículo detectado a sua frente.
+                        </li>
+                        <li>CMBS (Collision Mitigation Braking System) - Sistema de acionamento de freios ao detectar uma possível colisão frontal com o objetivo de mitigar acidentes.
+                        </li>
+                        <li>LKAS (Lane Keeping Assist System) - Sistema que detecta as faixas de rodagem e ajusta a direção com o objetivo de auxiliar o motorista a manter o veículo centralizado nas linhas de marcação.
+                        </li>
+                        <li>RDM (Road Departure Mitigation System) - Sistema que detecta a saída da pista e ajusta a direção com o objetivo de evitar a sua evasão e possíveis acidentes.</li>
+                      </ul>
+                    </div>                   
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pillficha-05" role="tabpanel">
+                  <div class="p-3">
+                    <h3 class="color-red">Acabamento Exterior</h3>
+                    <div class="ficha-list ps-0">
+                      <ul class="list-striped list-dots">
+                        <li>Lanternas traseiras em LED</li>
+                        <li>Antena tipo Tubarão</li>
+                        <li>Limpador de para-brisa com função intermitente com ajuste de velocidade</li>
+                        <li>Espelhos retrovisores na cor do veículo com indicadores em LED e rebatimento elétrico, com rebatimento automático</li>
+                        <li>Conjuntos óptico e DRL Full LED</li>
+                        <li>Faróis com acendimento automático (sensor crepuscular)</li>
+                      </ul>
+                    </div>                   
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pillficha-06" role="tabpanel">
+                  <div class="p-3">
+                    <h3 class="color-red">Conforto e Tecnologia</h3>
+                    <div class="ficha-list ps-0">
+                      <ul class="list-striped list-dots">
+                        <li>Sensores de estacionamento com aviso sonoro Dianteiros e Traseiros</li>
+                        <li>Botão de travamento das portas (motorista e passageiro) com travamento automático de velocidade</li>
+                        <li>Vidros elétricos com a função de subida automática dos vidros com "um toque" em todas as portas com anti esmagamento</li>
+                        <li>Piloto automático (Cruise Control) Adaptativo</li>
+                        <li>Alavanca de seta com One-Touch (pisca três vezes com um toque)</li>
+                        <li>Coluna de direção com ajuste de altura e profundidade</li>
+                        <li>Banco traseiro com apoio de braço central e porta-copos</li>
+                        <li>Porta-revistas no banco passageiro e motorista</li>
+                        <li>Desligamento automático dos fárois após 15 segundos</li>
+                        <li>Tomada 12 Volts Dianteira e Traseira</li>
+                        <li>Jogo de tapetes com trava antiescorregamento (carpete)</li>
+                        <li>Ar-condicionado Digital Automático com ventilação para os ocupantes traseiros</li>
+                        <li>Espelho retrovisor fotocrômico</li>
+                        <li>Botão de partida do motor (START/STOP)</li>
+                        <li>Banco traseiro Bipartido (60/40)</li>
+                        <li>Volante e alavanca do câmbio revestidos em couro*</li>
+                        <li>Revestimento dos bancos de Couro na cor Preta ou Cinza Claro*</li>
+                        <li>Bancos com Estabilizador Corporal - Maior conforto e ergonomia</li>
+                        <li>Interface para smartphones Apple CarPlay e Android Auto™ com Voice Tag</li>
+                        <li>Alto-falantes de 20W cada - 8 alto-falantes</li>
+                        <li>Multimídia 8" touchscreen com interface sem fio para smartphones com Apple CarPlay e Android Auto™ com Voice Tag, câmera de ré e USB</li>
+                        <li>Controle de áudio no volante</li>
+                        <li>Painel digital TFT 7" de alta resolução (Thin-Film Transistor)</li>
+                        <li>Chave com função Smart Entry de destravamento e travamento das portas por sensor de aproximação, abertura do porta-malas, abertura e fechamento dos vidros e partida com controle remoto.</li>
+                      </ul>
+                    </div>                   
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pillficha-07" role="tabpanel">
+                  <div class="p-3">
+                    <h3 class="color-red">Consumo</h3>
+                    <div class="ficha-list ps-0">
+                      <ul class="list-striped list-dots">
+                        <li>Consumo de combustível - Cidade (km/l) - Etanol 9,2</li>
+                        <li>Consumo de combustível - Cidade (km/l) - Gasolina 13,1</li>
+                        <li>Consumo de combustível - Estrada (km/l) - Etanol 10,5</li>
+                        <li>Consumo de combustível - Estrada (km/l) - Gasolina 15,2</li>
+                        <li>Consumo de combustível - Classificação Categoria (km/l) A</li>
+                        <li>Consumo de combustível - Classificação Geral (km/l) B</li>
+                        <li>Nível de emissões A</li>
+                      </ul>
+                    </div>                   
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pillficha-08" role="tabpanel">
+                  <div class="p-3">
+                    <h3 class="color-red">Cores</h3>
+                    <div class="ficha-list ps-0">
+                      <ul class="list-striped list-dots">
+                        <li>Branco Tafetá Sólido</li>
+                        <li>Branco Topázio Perolizado</li>
+                        <li>Preto Cristal Perolizado</li>
+                        <li>Prata Platinum Metálico</li>
+                        <li>Azul Cósmico Metálico</li>
+                        <li>Cinza Barium Metálico</li>
+                      </ul>
+                    </div>                   
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div> 
+
+          <div class="container">
+            <div class="row mt-3">
+                <p><small>
+                  A Honda Automóveis do Brasil reserva-se o direito de modificar equipamentos, especificações técnicas, preços ou cores sem prévia notificação. Garantia de 3 anos sem limite de quilometragem válida na rede de concessionárias Honda. Preço público sugerido em reais, com frete incluso, podendo variar de acordo com a tributação e alíquotas específicas de cada Estado (consulte uma concessionária para mais informações). Alguns itens são revestidos em couro e/ou materiais sintéticos de alta qualidade. *Apple CarPlay é uma marca comercial da Apple Inc. Android Auto é uma marca comercial da Google Inc. *As informações desta página se referem ao modelo New City Sedan 2022 que está em fase de pré-venda até 31/12/2021. A disponibilidade do veículo nas concessionárias Honda está prevista para Janeiro/2022. Para maiores informações e/ou esclarecimento de dúvidas, procure uma concessionária autorizada participante da campanha durante o período mencionado. Enfatizamos que a negociação, reserva, venda e entrega de nossos veículos 0km é realizada exclusivamente pela rede de concessionárias autorizadas.
+                </small></p>
+            </div>            
+          </div>    
+        </div>
+      </section>
+
+      <section id="selosPremios" class="py-5">
+        <div class="container">
+          <div class="row">
+            <h1 class="h1estilo mb-5">Selos e <b>Prêmios</b></h1>
+
+            <div id="carouselSelos" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">                  
+                  <img src="img/selos/selo-01.webp" width="200" class="d-block m-auto" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-center">Melhor Compra Quatro Rodas</h5>
+                    <p class="text-center">
+                      Prêmio de Melhor Compra entre os Sedans até 120 mil reais.<br>
+                      1° lugar pelo 2° ano consecutivo.
+                    </p>                    
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="img/selos/selo-08.webp" width="200" class="d-block m-auto" alt="...">
+                  <div class="carousel-caption d-none d-md-block">                  
+                    <h5 class="text-center">Melhor Compra Quatro Rodas</h5>                    
+                    <p class="text-center">
+                      O prêmio de Melhor Compra entre os Sedans até 150 mil reais é do Honda City.<br>
+                      1° lugar em duas categorias.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="img/selos/selo-11.webp" width="200" class="d-block m-auto" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-center">Os Melhores do Setor Automotivo - AutoData</h5>                    
+                    <p class="text-center">
+                      Família Honda City: Vencedor na categoria Veículo Automóvel
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/selos/selo-10.webp" width="200" class="d-block m-auto" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-center">Prêmio Uol Carros 2022</h5>                    
+                    <p class="text-center">
+                      1° Lugar – Categoria Melhor Sedã
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/selos/selo-07.webp" width="200" class="d-block m-auto" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-center">Compra do ano – Motor Show</h5>
+                    <p class="text-center">Prêmio Compra do Ano 2023 na categoria Sedan Compacto.</p>  
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/selos/selo-02.webp" width="200" class="d-block m-auto" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-center">Assistência 24h</h5>
+                    <p class="text-center">
+                      A Honda Automóveis do Brasil oferece, por um prazo de 2 anos a partir da Nota Fiscal de Vendas do veículo zero, o serviço de Assistência 24 horas, do qual poderá dispor, em caso de acidente, furto, roubo ou pane (de origem elétrica ou mecânica), com cobertura em qualquer parte do Brasil, Argentina, Uruguai ou Paraguai.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/selos/selo-04.webp" width="200" class="d-block m-auto" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-center">Garantia de fábrica</h5>
+                    <p class="text-center">A Honda Automóveis do Brasil Ltda. garante que seus veículos distribuídos sob a sua licença pelas Concessionárias Autorizadas Honda, estão de acordo com os termos estabelecidos, desde que, não ocorram quaisquer dos fatos relacionados como excludentes (Concessão da Garantia, itens não cobertos pela Garantia e Extinção da Garantia). A garantia é concebida para o primeiro e demais (subsequentes) proprietários enquanto o período pré-estabelecido perdurar. Essa garantia tem validade de 3 anos sem limite de quilometragem desde que sejam realizadas as revisões programadas na Rede Autorizada Honda, conforme descrito nos termos de Garantia contidos no Manual do Proprietário.</p>     
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/selos/selo-09.webp" width="200" class="d-block m-auto" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-center">Vencedor na categoria Sedan Compacto</h5>
+                    <p class="text-center">
+                      Melhor Valor de Revenda 2023<br> 
+                      Autoinforme
+                    </p>      
+                  </div>
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselSelos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselSelos" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>            
+          </div>
+        </div>
+      </section>
+
+      <section id="condicoesExclusivas" class="py-5">
+        <div class="container">
+          <h1 class="h1estilo mb-5 color-white">Condições <b>Exclusivas</b></h1>
+
+          <div class="row">
+            <div class="col-sm-12 col-md-3">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingName" placeholder="Nome">
+                <label for="floatingName">Nome</label>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingEMail">E-mail</label>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingCpf" placeholder="000.000.000-00">
+                <label for="floatingCpf">CPF</label>
+              </div>              
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="form-floating mb-3">
+                <button class="btn-lg btn btn-primary w-100" style="height: 58px;">
+                  Enviar
+                </button>
+              </div>              
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-galeria">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="modalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <img src="" class="img-fluid mb-3" id="modalImage">
+                  <div id="modalCaption"></div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <footer>    
+      <div id="fixed_button" class="position-fixed btn-whatsapp rounded-circle shadow-sm dropstart">
+        <a id="whatsapp_fixed" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="wa-item"><a href="https://api.whatsapp.com/send?phone=5511994326123" target="_blank">Agende a sua revisão</a></li>
+          <li class="wa-item"><a href="https://api.whatsapp.com/send?phone=5511976509981" target="_blank">Vendas</a></li>
+        </ul>
+      </div>
+
+      <div id="footerEndereco">
+        <div class="row">
+          <div id="regiao">
+            <p class="text-center"><small>Selecione a Região:</small></p>
+            <div id="regiaoNav" class="mb-1">
+              <a href="#" id="btn-sp" class="btn btn-primary">São Paulo</a>
+              <a href="#" id="btn-vp" class="btn btn-outline-primary">Vale do Paraíba</a>
+            </div>
+          </div>          
+          <div id="parentVerticalTab">
+            <ul class="resp-tabs-list hor_1">
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Ibirapuera 
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Jabaquara
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Pompéia
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Sumaré
+                </li>
+            </ul>
+            <div class="resp-tabs-container hor_1">
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Ibirapuera, 2771 - Indianópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5536-9966
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-ibirapuera.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Jabaquara, 2371 - Mirandópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5591-0140
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-jabaquara.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                R. Carlos Vicari, 154 - Barra Funda,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 2102-0999
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-pompeia.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Sumaré, 1421 - Perdizes,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 3675-0655
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-sumare.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+            </div>
+          </div> 
+        </div>               
+      </div>  
+      <div id="footerLinks" class="py-5">
+        <div id="rowLink" class="pb-5">
+          <div class="row">
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">MODELOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Civic Type R</a></li>
+                <li><a href="#">Civic Híbrido</a></li>
+                <li><a href="#">New HR-V</a></li>
+                <li><a href="#">New City Hatchback</a></li>
+                <li><a href="#">New City Sedan</a></li>
+                <li><a href="#">Seminovos</a></li>              
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">SERVIÇOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Agendamento</a></li>
+                <li><a href="#">Revisão Programada</a></li>
+                <li><a href="#">Reparos</a></li>
+                <li><a href="#">Catálogo de Peças</a></li>
+                <li><a href="#">Honda Access</a></li>         
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">CONSÓRCIO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Consórcio HR-V</a></li>
+                <li><a href="#">Consórcio New City</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">VENDAS ESPECIAIS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Honda Conduz</a></li>
+                <li><a href="#">Taxistas</a></li>
+                <li><a href="#">Diplomatas</a></li>
+                <li><a href="#">Pessoa Jurídica</a></li>
+                <li><a href="#">Produtor Rural</a></li>
+              </ul>
+            </div>
+            
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">A DAITAN</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Sobre a Empresa</a></li>
+                <li><a href="#">Blog da Daitan</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">FALE CONOSCO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Escreva para Nós</a></li>
+                <li><a href="#">Linha Direta</a></li>
+                <li><a href="#">Cadastro de E-mail</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+              </ul>
+            </div>   
+          </div>
+        </div>      
+          
+          <div class="row">
+            <div id="footerCopyright">
+              <img src="img/footer-ibama.webp" id="footerIbama" alt="Minha escolha faz a diferença no trânsito.">
+              <div id="footerLogo">
+                <img src="img/logo-daitan.svg" alt="">
+                <p><small>
+                  © Daitan Comércio de Veículos Ltda <br>
+                  CNPJ 67.375.899/0001-06. <a href="#">Políticas de Privacidade</a>
+                </small></p>
+              </div>
+            </div>
+          </div>
+
+          
+        
+      </div>
+
+    </footer>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="lib/vertical-responsive/js/easyResponsiveTabs.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+
+    <script src="js/main.js" crossorigin="anonymous"></script> 
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function (){ const buttons=document.querySelectorAll(".btn-modelo"); const items=document.querySelectorAll(".banner-item"); const btnPrev=document.getElementById("btnPrev"); const btnNext=document.getElementById("btnNext"); let currentIndex=0; function setActiveButton(index){ buttons.forEach((button)=>{ button.classList.remove("active");}); buttons[index].classList.add("active");} function showItem(index){ items.forEach((item)=>{ item.classList.add("d-none");}); items[index].classList.remove("d-none");} btnPrev.addEventListener("click", ()=>{ currentIndex=(currentIndex - 1 + items.length) % items.length; showItem(currentIndex); setActiveButton(currentIndex);}); btnNext.addEventListener("click", ()=>{ currentIndex=(currentIndex + 1) % items.length; showItem(currentIndex); setActiveButton(currentIndex);}); buttons.forEach((button, index)=>{ button.addEventListener("click", ()=>{ showItem(index); setActiveButton(index); currentIndex=index;});});});
+    </script>
+
+    <script>
+      // Atualiza o modal com a imagem e o caption corretos
+      $('#thumbnailCarousel').on('click', '.img-thumbnail', function () {
+          var imageSrc = $(this).attr('src');
+          var captionHTML = $(this).closest('.thumbnail-container').find('.thumbnail-caption').html();
+
+          $('#modalImage').attr('src', imageSrc);
+          $('#modalCaption').html(captionHTML);
+      });
+    </script>
+    
+</body>
+</html>

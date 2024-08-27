@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daitan</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">   
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="lib/vertical-responsive/css/easy-responsive-tabs.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+      <div id="top">
+          <div class="container">
+              <div class="d-flex align-items-center justify-content-between">
+                  <div class="locate">
+                      <span>
+                        Sua Daitan mais próxima está em: <b>São Paulo</b>, <a href="#">troque aqui</a>.
+                      </span>
+                  </div>
+                  <ul class="topnav">
+                      <li class="topnav-item">
+                        <a href="#" class="topnav-link">A Daitan</a>
+                      </li>
+                      <li class="topnav-item">
+                        <a href="#" class="topnav-link">Política de Privacidade</a>
+                      </li>
+                      <li class="topnav-item">                          
+                        <a href="#" class="topnav-link">Trabalhe Conosco</a>
+                      </li>
+                  </ul>                        
+              </div>                
+          </div>            
+      </div>
+      <div id="header">
+        <div class="container">
+          <div class="r-flex">
+            <a href="/">
+              <img id="logo" src="img/logo-daitan.svg" width="210" alt="Logo Daitan">
+            </a>
+            <div id="media">
+              <ul class="socialmedia">
+                <li>
+                  <a href="https://www.facebook.com/HondaDaitan/" target="_blank">
+                    <img src="img/rs-facebook.svg" alt="Facebook Oficial da Daitan">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/hondadaitan/" target="_blank">
+                    <img src="img/rs-instagram.svg" alt="Instagram Oficial da Daitan">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/honda-daitan/" target="_blank">
+                    <img src="img/rs-linkedin.svg" alt="LinkedIn Oficial da Daitan">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/channel/UCFTCzhHYqbpGrM6oLcP2f5A" target="_blank">
+                    <img src="img/rs-youtube.svg" alt="YouTube Oficial da Daitan">
+                  </a>
+                </li>                  
+              </ul>
+              <button class="btn btn-primary">
+                Tenho Interesse
+              </button>
+            </div>
+            <button id="btn-navbar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <img src="img/bars-solid.svg" class="w-100" alt="">
+            </button>                
+          </div>            
+        </div>
+      </div>
+      <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">  
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Modelos
+                </a>
+                <div class="dropdown-menu">
+                  <div id="modelo-filters" class="row">
+
+                  </div>
+                  <ul id="dropModelos">
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/newhrv.png" class="d-block m-auto" alt="New Honda HR-V">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">New HR-V</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>                      
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/newcity.png" class="d-block m-auto" alt="New Honda City">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">New City</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/newcityhb.png" class="d-block m-auto" alt="New City Hatchback">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">New City Hatchback</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/civic_2023.png" class="d-block m-auto" alt="New Honda Civic Híbrido">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">Civic Híbrido</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                    <li class="py-3">
+                      <a class="dropdown-car" href="#">
+                        <img src="img/modelos/type_r.png" class="d-block m-auto" alt="New Honda HR-V">
+                      </a>
+                      <p class="text-center text-uppercase mb-1">Civic Type-R</p>
+                      <div class="text-center">
+                        <button class="btn btn-primary btn-sm m-auto w-btn">
+                          <i class="fa-solid fa-plus"></i>
+                          Saiba Mais
+                        </button>
+                      </div>    
+                    </li>
+                  </ul> 
+                </div>                                                    
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Seminovos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Serviços
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Oficinas</a></li>
+                  <li><a class="dropdown-item" href="#">Agende a sua revisão</a></li>
+                  <li><a class="dropdown-item" href="#">Peças e Acessórios</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Consórcio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Vendas Especiais
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="vendasDiretas-pcd.html">Pessoas com Deficiência</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-taxista.html">Taxistas</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-diplomata.html">Diplomatas</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-pj.html">Pessoa Jurídica</a></li>
+                  <li><a class="dropdown-item" href="vendasDiretas-prodrural.html">Produtor Rural</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contato
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Escreva para Nós</a></li>
+                  <li><a class="dropdown-item" href="#">Ouvidoria</a></li>
+                  <li><a class="dropdown-item" href="#">Cadastro de E-mail</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>        
+    </header>
+
+    <main>
+        <section id="capaServicos" class="capa">
+            <div class="container">
+                <div class="row py-5">
+                    <h1 class="h1estilo mb-5 text-shadow color-white">
+                        <span>Serviços <b>Daitan</b></span>
+                    </h1>
+                </div>                  
+            </div>
+        </section>
+
+
+        <section id="vendasDiretas" class="py-4">
+          <div class="container">
+                <nav style="--bs-breadcrumb-divider: '>';" class="mt-2 mb-5" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Serviços</li>
+                </ol>
+                </nav>
+
+                <div class="row">
+                    <div class="col-12">
+                        <p class="mb-4">Na nossa oficina, estamos comprometidos em fornecer os mais altos padrões de qualidade em serviços de revisão automotiva, manutenção e instalação de acessórios. Com uma equipe de profissionais altamente treinados e experientes, estamos prontos para atender todas as suas necessidades automotivas de forma eficiente e confiável.</p>
+                    </div>
+                </div>    
+                
+                <div class="row mb-5">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="bg-gray-3 my-3">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="img/telemkt.svg" class="p-4" width="180" alt="">
+    
+                                <div class="p-3">
+                                    <h3 class="h2estilo mb-4"><span>Agendamento</span></h3>
+                                    <p class="mb-4">Escolha quando quer deixar seu Honda na oficina, conforme disponibilidade de data e horário.</p>
+    
+                                    <div class="d-flex justify-content-end">
+                                        <a href="servicosAgenda.html" class="btn btn-lg btn-primary">
+                                            Agendar
+                                        </a>
+                                    </div>
+                                </div>                            
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">                        
+                        <div class="bg-gray-3 my-3">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="img/car.svg" class="p-4" width="180" alt="">
+
+                                <div class="p-3">
+                                    <h3 class="h2estilo mb-4"><span>Revisão Periódica</span></h3>
+                                    <p class="mb-4">Não tenha surpresas! Clique no botão abaixo e consulte os valores da revisão do seu Honda.</p>
+
+                                    <div class="d-flex justify-content-end">
+                                        <a href="servicosRevisao.html" class="btn btn-lg btn-primary">Consulte</a>
+                                    </div>
+                                </div>
+                            </div>                                                   
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="h2estilo mb-4"><span>Oficina de Reparação</span></h2>
+
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <img src="img/oficina.webp" class="w-100 my-3" alt="">
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <p class="mb-4">Nós da Daitan oferecemos tecnologia avançada, treinamento especializado e tranquilidade para nossos clientes. Nossa Oficina de Reparação é reconhecida por excelência, cobrindo serviços de pequenos consertos a complexos, respaldados pelo renomado grupo Honda do Brasil. Somos líderes confiáveis no setor.</p>
+
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4 col-lg-4">
+                                <img src="img/24h.svg" width="72" class="d-block m-auto mb-3" alt="">
+                                <p class="color-red text-center"><small><b>Recepção de<br>veículos 24h</b></small></p>
+                            </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4">
+                                <img src="img/shield.svg" width="72" class="d-block m-auto mb-3" alt="">
+                                <p class="color-red text-center"><small><b>Atendemos todas<br>as cias. de seguro</b></small></p>
+                            </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4">
+                                <img src="img/guincho.svg" width="72" class="d-block m-auto mb-3" alt="">
+                                <p class="color-red text-center"><small><b>Sistema de leva e traz<br>com guincho-plataforma</b></small></p>
+                            </div>
+
+                        </div>
+                    </div>                    
+                </div>
+                   
+                  
+
+
+          </div>
+        </section>
+    </main>
+
+    <footer>
+      <div id="fixed_button" class="position-fixed btn-whatsapp rounded-circle shadow-sm dropstart">
+        <a id="whatsapp_fixed" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="wa-item"><a href="#" target="_blank">Agende a sua revisão</a></li>
+          <li class="wa-item"><a href="#" target="_blank">Vendas</a></li>
+          <li class="wa-item"><a href="#" target="_blank">Mande uma mensagem</a></li>
+        </ul>
+      </div>
+      <div id="footerEndereco">
+        <div class="row">
+          <div id="regiao">
+            <p class="text-center"><small>Selecione a Região:</small></p>
+            <div id="regiaoNav" class="mb-1">
+              <a href="#" id="btn-sp" class="btn btn-primary">São Paulo</a>
+              <a href="#" id="btn-vp" class="btn btn-outline-primary">Vale do Paraíba</a>
+            </div>
+          </div>          
+          <div id="parentVerticalTab">
+            <ul class="resp-tabs-list hor_1">
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Ibirapuera 
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Jabaquara
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Pompéia
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Sumaré
+                </li>
+            </ul>
+            <div class="resp-tabs-container hor_1">
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Ibirapuera, 2771 - Indianópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5536-9966
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-ibirapuera.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Jabaquara, 2371 - Mirandópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5591-0140
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-jabaquara.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                R. Carlos Vicari, 154 - Barra Funda,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 2102-0999
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-pompeia.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Sumaré, 1421 - Perdizes,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 3675-0655
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-sumare.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+            </div>
+          </div> 
+        </div>               
+      </div>  
+      <div id="footerLinks" class="py-5">
+        <div id="rowLink" class="pb-5">
+          <div class="row">
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">MODELOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Civic Type R</a></li>
+                <li><a href="#">Civic Híbrido</a></li>
+                <li><a href="#">New HR-V</a></li>
+                <li><a href="#">New City Hatchback</a></li>
+                <li><a href="#">New City Sedan</a></li>
+                <li><a href="#">Seminovos</a></li>              
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">SERVIÇOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Agendamento</a></li>
+                <li><a href="#">Revisão Programada</a></li>
+                <li><a href="#">Reparos</a></li>
+                <li><a href="#">Catálogo de Peças</a></li>
+                <li><a href="#">Honda Access</a></li>         
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">CONSÓRCIO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Consórcio HR-V</a></li>
+                <li><a href="#">Consórcio New City</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">VENDAS ESPECIAIS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Honda Conduz</a></li>
+                <li><a href="#">Taxistas</a></li>
+                <li><a href="#">Diplomatas</a></li>
+                <li><a href="#">Pessoa Jurídica</a></li>
+                <li><a href="#">Produtor Rural</a></li>
+              </ul>
+            </div>
+            
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">A DAITAN</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Sobre a Empresa</a></li>
+                <li><a href="#">Blog da Daitan</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">FALE CONOSCO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Escreva para Nós</a></li>
+                <li><a href="#">Linha Direta</a></li>
+                <li><a href="#">Cadastro de E-mail</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+              </ul>
+            </div>   
+          </div>
+        </div>      
+          
+          <div class="row">
+            <div id="footerCopyright">
+              <img src="img/footer-ibama.webp" id="footerIbama" alt="Minha escolha faz a diferença no trânsito.">
+              <div id="footerLogo">
+                <img src="img/logo-daitan.svg" alt="">
+                <p>
+                  <small>
+                    © Daitan Comércio de Veículos Ltda <br>
+                    CNPJ 67.375.899/0001-06. <a href="#">Políticas de Privacidade</a>
+                  </small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          
+        
+      </div>
+    </footer>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="lib/vertical-responsive/js/easyResponsiveTabs.js"></script>
+    <script src="js/main.js" crossorigin="anonymous"></script> 
+    
+</body>
+</html>

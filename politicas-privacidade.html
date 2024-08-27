@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daitan</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">   
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="lib/vertical-responsive/css/easy-responsive-tabs.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div id="top">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="locate">
+                        <span>
+                          Sua Daitan mais próxima está em: <b>São Paulo</b>, <a href="#">troque aqui</a>.
+                        </span>
+                    </div>
+                    <ul class="topnav">
+                        <li class="topnav-item">
+                          <a href="#" class="topnav-link">A Daitan</a>
+                        </li>
+                        <li class="topnav-item">
+                          <a href="#" class="topnav-link">Política de Privacidade</a>
+                        </li>
+                        <li class="topnav-item">                          
+                          <a href="#" class="topnav-link">Trabalhe Conosco</a>
+                        </li>
+                    </ul>                        
+                </div>                
+            </div>            
+        </div>
+        <div id="header">
+          <div class="container">
+            <div class="r-flex">
+              <a href="/">
+                <img id="logo" src="img/logo-daitan.svg" width="210" alt="Logo Daitan">
+              </a>
+              <div id="media">
+                <ul class="socialmedia">
+                  <li>
+                    <a href="https://www.facebook.com/HondaDaitan/" target="_blank">
+                      <img src="img/rs-facebook.svg" alt="Facebook Oficial da Daitan">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/hondadaitan/" target="_blank">
+                      <img src="img/rs-instagram.svg" alt="Instagram Oficial da Daitan">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/honda-daitan/" target="_blank">
+                      <img src="img/rs-linkedin.svg" alt="LinkedIn Oficial da Daitan">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/channel/UCFTCzhHYqbpGrM6oLcP2f5A" target="_blank">
+                      <img src="img/rs-youtube.svg" alt="YouTube Oficial da Daitan">
+                    </a>
+                  </li>                  
+                </ul>
+                <button class="btn btn-primary">
+                  Tenho Interesse
+                </button>
+              </div>
+              <button id="btn-navbar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="img/bars-solid.svg" class="w-100" alt="">
+              </button>                
+            </div>            
+          </div>
+        </div>
+        <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">  
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Modelos
+                  </a>
+                  <div class="dropdown-menu">
+                    <div id="modelo-filters" class="row">
+
+                    </div>
+                    <ul id="dropModelos">
+                      <li class="py-3">
+                        <a class="dropdown-car" href="#">
+                          <img src="img/modelos/newhrv.png" class="d-block m-auto" alt="New Honda HR-V">
+                        </a>
+                        <p class="text-center text-uppercase mb-1">New HR-V</p>
+                        <div class="text-center">
+                          <button class="btn btn-primary btn-sm m-auto w-btn">
+                            <i class="fa-solid fa-plus"></i>
+                            Saiba Mais
+                          </button>
+                        </div>                      
+                      </li>
+                      <li class="py-3">
+                        <a class="dropdown-car" href="#">
+                          <img src="img/modelos/newcity.png" class="d-block m-auto" alt="New Honda City">
+                        </a>
+                        <p class="text-center text-uppercase mb-1">New City</p>
+                        <div class="text-center">
+                          <button class="btn btn-primary btn-sm m-auto w-btn">
+                            <i class="fa-solid fa-plus"></i>
+                            Saiba Mais
+                          </button>
+                        </div>    
+                      </li>
+                      <li class="py-3">
+                        <a class="dropdown-car" href="#">
+                          <img src="img/modelos/newcityhb.png" class="d-block m-auto" alt="New City Hatchback">
+                        </a>
+                        <p class="text-center text-uppercase mb-1">New City Hatchback</p>
+                        <div class="text-center">
+                          <button class="btn btn-primary btn-sm m-auto w-btn">
+                            <i class="fa-solid fa-plus"></i>
+                            Saiba Mais
+                          </button>
+                        </div>    
+                      </li>
+                      <li class="py-3">
+                        <a class="dropdown-car" href="#">
+                          <img src="img/modelos/civic_2023.png" class="d-block m-auto" alt="New Honda Civic Híbrido">
+                        </a>
+                        <p class="text-center text-uppercase mb-1">Civic Híbrido</p>
+                        <div class="text-center">
+                          <button class="btn btn-primary btn-sm m-auto w-btn">
+                            <i class="fa-solid fa-plus"></i>
+                            Saiba Mais
+                          </button>
+                        </div>    
+                      </li>
+                      <li class="py-3">
+                        <a class="dropdown-car" href="#">
+                          <img src="img/modelos/type_r.png" class="d-block m-auto" alt="New Honda HR-V">
+                        </a>
+                        <p class="text-center text-uppercase mb-1">Civic Type-R</p>
+                        <div class="text-center">
+                          <button class="btn btn-primary btn-sm m-auto w-btn">
+                            <i class="fa-solid fa-plus"></i>
+                            Saiba Mais
+                          </button>
+                        </div>    
+                      </li>
+                    </ul> 
+                  </div>                                                    
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Seminovos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Serviços
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Oficinas</a></li>
+                    <li><a class="dropdown-item" href="#">Agende a sua revisão</a></li>
+                    <li><a class="dropdown-item" href="#">Peças e Acessórios</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Consórcio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Vendas Especiais
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Pessoas com Deficiência</a></li>
+                    <li><a class="dropdown-item" href="#">Taxistas</a></li>
+                    <li><a class="dropdown-item" href="#">Diplomatas</a></li>
+                    <li><a class="dropdown-item" href="#">Pessoa Jurídica</a></li>
+                    <li><a class="dropdown-item" href="#">Produtor Rural</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contato
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Escreva para Nós</a></li>
+                    <li><a class="dropdown-item" href="#">Ouvidoria</a></li>
+                    <li><a class="dropdown-item" href="#">Cadastro de E-mail</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>        
+    </header>
+
+    <main>
+        <section id="politicasPrivacidade" class="py-5">
+          <div class="container">
+            <nav style="--bs-breadcrumb-divider: '>';" class="mt-2 mb-5" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Políticas de Privacidade</li>
+              </ol>
+            </nav>
+
+            <h1 class="mb-5 color-red">Políticas de Privacidade</h1>
+
+            <p class="mb-5">A Daitan preza pelo cuidado com os seus dados pessoais e está comprometida a tratá-los de forma segura e responsável. Por isso, pedimos a gentileza de ler atentamente a nossa Política de Privacidade para se informar sobre os dados que tratamos, para quais finalidades e seus respectivos direitos.</p>
+
+            <h2 class="mb-4">Definições</h2>
+
+            <ul>
+                <li>“Dado Pessoal”: informação relacionada a pessoa natural identificada ou identificável;</li>
+                <li>“Dado Pessoal Sensível”: dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural;</li>
+                <li>“Titular de Dados”: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento;</li>
+                <li>“Tratamento”: toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração;</li>
+                <li>“Controlador”: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais;</li>
+                <li>“Operador”: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador;</li>
+                <li>“Encarregado”: pessoa indicada pelo controlador e operador para atuar como canal de comunicação entre o controlador, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD).</li>
+            </ul>
+
+            <p class="mb-5">A Daitan é controladora dos dados pessoais que coleta. Isso significa que a Daitan é responsável por tomar as decisões sobre como os dados pessoais serão tratados, conforme os termos a seguir dispostos.</p>
+
+            <h2 class="mb-4">Tipo de dados pessoais coletados</h2>
+
+            <p>Nós coletamos e tratamos os seguintes dados pessoais:</p>
+
+            <ul class="mb-5">
+                <li>Nome Completo</li>
+                <li>Data de Nascimento</li>
+                <li>Sexo</li>
+                <li>Telefones</li>
+                <li>E-mail</li>
+                <li>CPF e RG</li>
+                <li>Endereço Completo</li>
+                <li>Modelo e Placa do Veículo</li>
+            </ul>
+
+            <h2 class="mb-4">Como coletamos os dados pessoais</h2>
+
+            <p>Os seus dados pessoais poderão ser coletados pela Daitan pelos seguintes meios:</p>
+
+            <ul class="mb-5">
+                <li>
+                    <b>Dados pessoais fornecidos pelo cliente</b>
+                    <p>Toda vez que você interagir em nosso site e/ou utilizar um dos meios disponíveis para contato no site: “Tenho Interesse”, “Agende sua Revisão”, “Test Drive – Agende”, “Promoções e Ofertas – Cadastre-se”, “Atendimento Exclusivo – Escreva”, “Escreva para Nós”; “Linha Direta”, “Cadastre seu E-mail”, “Consórcio – Entre em Contato”, “Contato – Chat”. Toda vez que visitar ou contatar nossas concessionárias, adquirir um produto ou serviço, agendar um atendimento na assistência técnica ou no departamento de vendas.</p>                
+                </li>
+
+                <li>
+                    <b>Dados pessoais fornecidos por terceiros</b>
+                    <p>A Daitan pode receber seus dados pessoais por intermédio de terceiros, sejam parceiros ou prestadores de serviços, que possuam algum relacionamento com você. É possível, ainda que a Daitan colete dados de bases públicas, disponibilizadas por autoridades (como a Receita Federal, por exemplo) ou por terceiros, ou até mesmo dados tornados públicos por você em websites ou rede sociais, sempre respeitando a sua privacidade.</p>
+                </li>
+
+                <li>
+                    <b>Dados coletados automaticamente</b>
+                    <p>A Daitan também pode coletar uma série de informações de modo automático e para tanto se utiliza de algumas tecnologias de mercado, como cookies, com o propósito de melhorar a sua experiência de navegação em nosso site, de acordo com os seus hábitos e as suas preferências. Para toda a coleta de dados pessoais, a Daitan sempre seguirá as seguintes regras essenciais: Apenas serão coletadas informações imprescindíveis para a prestação dos serviços oferecidos. Se necessário, lhe pediremos autorização ou lhe avisaremos para coleta de novos dados, acompanhado da devida justificativa. Os dados pessoais coletados somente serão utilizados para cumprir com as finalidades informadas a você.</p>
+                </li>
+            </ul>
+
+            <h2 class="mb-4">O que são e como utilizamos cookies</h2>
+
+            <p class="mb-5">Cookies são arquivos ou informações que podem ser armazenadas em seus dispositivos quando você visita os websites ou utiliza os serviços on-line da Daitan. Geralmente, um cookie contém o nome do site que o originou, seu tempo de vida e um valor, que é gerado aleatoriamente. A Daitan utiliza cookies para facilitar o uso e melhor adaptar seu website e aplicações aos interesses e necessidades de seus usuários, bem como para auxiliar e melhorar suas estruturas e seus conteúdos. Os cookies também podem ser utilizados para acelerar suas atividades e experiências futuras em nossos serviços. Por meio de cookies, o site armazena informações sobre as atividades do navegador, incluindo endereço IP e a página acessada. Esses registros de atividades (logs), que poderão compreender dados como o endereço IP, as ações efetuadas no Site, as páginas acessadas, as datas e horários de cada ação e de acesso a cada página do Site e as informações sobre o dispositivo utilizado, versão de sistema operacional, navegador, dentre outros aplicativos instalados, serão utilizados apenas para fins estatísticos e de métricas dos serviços disponibilizados, para a investigação de fraudes ou de alterações indevidas em seus sistemas e cadastros, não tendo como finalidade o fornecimento dos dados a terceiros sem autorização expressa do usuário.</p>
+
+            <h2 class="mb-4">Finalidades</h2>
+
+            <p>Os dados pessoais coletados serão utilizados para as seguintes finalidades:</p>
+
+            <ul class="mb-5">
+                <li>Execução de procedimentos relacionados à atividade comercial da Daitan, como por exemplo, Emissão de Notas Fiscais, Cobrança, Agendamento de Serviços, Abertura de Ordem de Serviço, Agendamento e realização de Test Drive, entre outros;</li>
+                <li>Execução de atividades de relacionamento e atendimento ao cliente, como por exemplo informar sobre novidades, informar sobre serviços, ações promocionais, eventos, captação de novos clientes, entre outros;</li>
+                <li>Análise de Crédito e Análise de Risco;</li>
+                <li>Concessão de Benefícios;</li>
+                <li>Cumprimento de obrigações legais e regulatórias;</li>
+            </ul>
+
+            <h2 class="mb-4">Compartilhamento de Dados Pessoais</h2>
+
+            <p>Nosso compromisso com a sua privacidade também é preservado em relação aos nossos parceiros e terceiros contratados para a prestação de serviços necessários às nossas atividades. A seguir, conheça os terceiros com os quais poderemos compartilhar os seus dados pessoais:</p>
+
+            <ul class="mb-5">
+                <li>Montadora – Honda Automóveis do Brasil Ltda</li>
+                <li>Instituições Financeiras para análise de crédito e risco, cobrança, entre outros</li>
+                <li>Empresas Parceiras para tratamento e análise de dados para atividades de Marketing, Divulgação de Produtos e Serviços, Pesquisas de Satisfação, Captação de novos clientes</li>
+            </ul>
+
+            <h2 class="mb-4">Bases Legais</h2>
+
+            <p>De acordo com a LGPD, as bases legais que utilizamos para o tratamento dos seus dados pessoais são:</p>
+
+            <ol class="mb-5">
+                <li>Seu consentimento. Você possui o direito de revogá-lo a qualquer momento. Você poderá fazê-lo por meio do e-mail privacidade@daitan.com.br ou através do “Escreva para Nós” em nosso site;</li>
+                <li>Cumprimento de obrigações legais ou regulatórias;</li>
+                <li>Para execução de contrato;</li>
+                <li>Para exercício regular de direitos em processo judicial, administrativo ou arbitral;</li>
+                <li>Para o nosso legítimo interesse;</li>
+                <li>Para proteção de crédito;</li>
+                <li>Para garantia de prevenção à fraude e à sua segurança, nos processos de identificação e autenticação de cadastro em sistemas eletrônicos.</li>
+            </ol>
+
+            <h2 class="mb-4">Como armazenamos seus dados pessoais</h2>
+
+            <p class="mb-5">Seus dados pessoais estão armazenados de forma segura em nossos servidores e arquivos, que utilizam as mais avançadas ferramentas de segurança, para manter a integridade desta informação pelo tempo que for necessário, de acordo com a legislação vigente.</p>
+
+            <h2 class="mb-4">Prazo de retenção dos dados pessoais e descarte</h2>
+
+            <p class="mb-5">Nós retemos os seus dados pessoais enquanto houver necessidade de tratamento para a execução dos nossos serviços, bem como para atendimento de exigências legais ou regulatórias. Após o término do tratamento, seus dados pessoais serão descartados de forma segura.</p>
+
+            <h2 class="mb-4">Transferência Internacional</h2>
+
+            <p class="mb-5">A Daitan poderá transferir os seus dados pessoais para fora do Brasil a terceiros localizados no exterior, incluindo prestadores de serviços em nuvem. Quando a transferência internacional for necessária, a Daitan adotará as medidas de segurança técnicas adequadas para garantir a proteção dos seus dados pessoais transferidos, em conformidade com a Legislação e Proteção de Dados aplicável. Além disso, a transferência será realizada por meio de salvaguardas contratuais a fim de exigir o mesmo nível de proteção aos terceiros que receberem os dados fora do país.</p>
+
+            <h2 class="mb-4">Segurança</h2>
+
+            <p class="mb-5">Durante todo o tratamento dos seus dados pessoais são utilizadas medidas técnicas e administrativas para mantê-los em segurança e evitar quaisquer acessos não autorizados, situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou qualquer forma de tratamento inadequado ou ilícito.</p>
+
+            <h2 class="mb-4">Aplicativos de terceiros</h2>
+
+            <p class="mb-5">Para a realização das nossas atividades, utilizamos aplicativos de comunicação (WhatsApp e outros). Portanto, gostaríamos de esclarecer que a Daitan não se responsabiliza por esses aplicativos de comunicação sobre a forma como tratam os seus dados pessoais. Sugerimos que você consulte as respectivas políticas de privacidade de tais aplicativos para obter as informações adequadas a esse respeito.</p>
+
+            <h2 class="mb-4">Seus direitos</h2>
+
+            <p>De acordo com a LGPD, você tem os seguintes direitos sobre os seus dados pessoais:</p>
+
+            <ul>
+                <li>Confirmação da existência de tratamento– todo e qualquer titular, sem justificativa, possui o direito de confirmar a existência de tratamento de seus dados pessoais.</li>
+                <li>Acesso aos dados - o titular de dados tem direitos de acessá-los e obter informações a seu respeito.</li>
+                <li>Correção de dados incompletos, inexatos ou desatualizados - o titular de dados tem direito de manter os seus dados atualizados e de forma correta.</li>
+                <li>Anonimização, bloqueio ou eliminação - o titular de dados tem direitos de solicitar essas ações quando houver dados desnecessários, excessivos ou tratados em desconformidade com a LGPD.</li>
+                <li>Portabilidade de dados pessoais - direitos de obter seus dados pessoais de forma estruturada a fim de serem transmitidos a outro fornecedor de serviço ou produto (outro controlador de dados).</li>
+                <li>Eliminação - direito de eliminar os dados pessoais tratados com base no consentimento, exceto quando houver obrigação legal ou regulatória que permita o tratamento, transferência a terceiro ou os dados estiverem anonimizados para uso exclusive do controlador.</li>
+                <li>Informação sobre compartilhamento - direito de saber com quais entidades públicas e privadas foi realizado o compartilhamento de dados pessoais.</li>
+                <li>Não fornecer consentimento - é assegurado ao titular o direito de não fornecer o consentimento solicitado e ser informado sobre eventuais consequências do não fornecimento.</li>
+                <li>Revogação do consentimento - é assegurado ao titular revogar o consentimento fornecido a qualquer tempo.</li>
+            </ul>
+
+            <p class="mb-5">Para a realização das nossas atividades, utilizamos aplicativos de comunicação (WhatsApp e outros). Portanto, gostaríamos de esclarecer que a Daitan não se responsabiliza por esses aplicativos de comunicação sobre a forma como tratam os seus dados pessoais. Sugerimos que você consulte as respectivas políticas de privacidade de tais aplicativos para obter as informações adequadas a esse respeito.</p>
+
+            <h2 class="mb-4">Esclarecimentos de dúvidas</h2>
+
+            <p class="mb-5">Se você possui alguma questão sobre o uso e o tratamento de dados pessoais realizado por nós, você pode entrar em contato conosco através do e-mail privacidade@daitan.com.br.</p>
+
+
+            <h2 class="mb-4">Alterações na Política de Privacidade</h2>
+
+            <p>A Daitan possui o compromisso de se manter atualizada com novas regulamentações e novas atividades incorporadas à prestação de serviços. Portanto, poderá atualizar esta Política de tempos em tempos. Para ter acesso à nova versão, basta visitar periodicamente a nossa página e acessar o link POLÍTICA DE PRIVACIDADE a fim de se manter informado sobre eventuais atualizações.</p>
+
+            <p class="mb-5"><small>Novembro – 2020.</small></p>
+                        
+          </div>
+        </section>
+
+    </main>
+
+    <footer>
+      <div id="fixed_button" class="position-fixed btn-whatsapp rounded-circle shadow-sm dropstart">
+        <a id="whatsapp_fixed" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="wa-item"><a href="#" target="_blank">Agende a sua revisão</a></li>
+          <li class="wa-item"><a href="#" target="_blank">Vendas</a></li>
+          <li class="wa-item"><a href="#" target="_blank">Mande uma mensagem</a></li>
+        </ul>
+      </div>
+      <div id="footerEndereco">
+        <div class="row">
+          <div id="regiao">
+            <p class="text-center"><small>Selecione a Região:</small></p>
+            <div id="regiaoNav" class="mb-1">
+              <a href="#" id="btn-sp" class="btn btn-primary">São Paulo</a>
+              <a href="#" id="btn-vp" class="btn btn-outline-primary">Vale do Paraíba</a>
+            </div>
+          </div>          
+          <div id="parentVerticalTab">
+            <ul class="resp-tabs-list hor_1">
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Ibirapuera 
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Jabaquara
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Pompéia
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Sumaré
+                </li>
+            </ul>
+            <div class="resp-tabs-container hor_1">
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Ibirapuera, 2771 - Indianópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5536-9966
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-ibirapuera.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Jabaquara, 2371 - Mirandópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5591-0140
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-jabaquara.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                R. Carlos Vicari, 154 - Barra Funda,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 2102-0999
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-pompeia.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Sumaré, 1421 - Perdizes,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 3675-0655
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-sumare.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+            </div>
+          </div> 
+        </div>               
+      </div>  
+      <div id="footerLinks" class="py-5">
+        <div id="rowLink" class="pb-5">
+          <div class="row">
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">MODELOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Civic Type R</a></li>
+                <li><a href="#">Civic Híbrido</a></li>
+                <li><a href="#">New HR-V</a></li>
+                <li><a href="#">New City Hatchback</a></li>
+                <li><a href="#">New City Sedan</a></li>
+                <li><a href="#">Seminovos</a></li>              
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">SERVIÇOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Agendamento</a></li>
+                <li><a href="#">Revisão Programada</a></li>
+                <li><a href="#">Reparos</a></li>
+                <li><a href="#">Catálogo de Peças</a></li>
+                <li><a href="#">Honda Access</a></li>         
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">CONSÓRCIO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Consórcio HR-V</a></li>
+                <li><a href="#">Consórcio New City</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">VENDAS ESPECIAIS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Honda Conduz</a></li>
+                <li><a href="#">Taxistas</a></li>
+                <li><a href="#">Diplomatas</a></li>
+                <li><a href="#">Pessoa Jurídica</a></li>
+                <li><a href="#">Produtor Rural</a></li>
+              </ul>
+            </div>
+            
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">A DAITAN</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Sobre a Empresa</a></li>
+                <li><a href="#">Blog da Daitan</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">FALE CONOSCO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Escreva para Nós</a></li>
+                <li><a href="#">Linha Direta</a></li>
+                <li><a href="#">Cadastro de E-mail</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+              </ul>
+            </div>   
+          </div>
+        </div>      
+          
+          <div class="row">
+            <div id="footerCopyright">
+              <img src="img/footer-ibama.webp" id="footerIbama" alt="Minha escolha faz a diferença no trânsito.">
+              <div id="footerLogo">
+                <img src="img/logo-daitan.svg" alt="">
+                <p><small>
+                  © Daitan Comércio de Veículos Ltda <br>
+                  CNPJ 67.375.899/0001-06. <a href="#">Políticas de Privacidade</a>
+                </small></p>
+              </div>
+            </div>
+          </div>
+
+          
+        
+      </div>
+    </footer>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="lib/vertical-responsive/js/easyResponsiveTabs.js"></script>
+    <script src="js/main.js" crossorigin="anonymous"></script> 
+    
+</body>
+</html>

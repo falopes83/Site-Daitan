@@ -1,0 +1,2171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daitan</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">   
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="lib/vertical-responsive/css/easy-responsive-tabs.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div id="top">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="locate">
+                        <span>
+                          Sua Daitan mais próxima está em: <b>São Paulo</b>, <a href="#">troque aqui</a>.
+                        </span>
+                    </div>
+                    <ul class="topnav">
+                        <li class="topnav-item">
+                          <a href="#" class="topnav-link">A Daitan</a>
+                        </li>
+                        <li class="topnav-item">
+                          <a href="#" class="topnav-link">Política de Privacidade</a>
+                        </li>
+                        <li class="topnav-item">                          
+                          <a href="#" class="topnav-link">Trabalhe Conosco</a>
+                        </li>
+                    </ul>                        
+                </div>                
+            </div>            
+        </div>
+        <div id="heading">
+          <div id="header">
+            <div class="container">
+              <div class="r-flex">
+                <a href="/">
+                  <img id="logo" src="img/logo-daitan.svg" width="210" alt="Logo Daitan">
+                </a>
+                <div id="media">
+                    <div class="dropdown">
+                      <button id="btnTelefone" class="btn btn-outline-primary rounded-pill dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-phone me-2"></i>
+                        Telefones
+                      </button>     
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li>
+                          <a class="dropdown-item" href="tel:+551155369966">
+                            <small><b>Ibirapuera</b></small><br>
+                            (11) 5536-9966
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="tel:+551155910140">
+                            <small><b>Jabaquara</b></small><br>
+                            (11) 5591-0140
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="tel:+551121020999">
+                            <small><b>Pompéia</b></small><br>
+                            (11) 2102-0999
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="tel:+551136750655">
+                            <small><b>Sumaré</b></small><br>
+                            (11) 3675-0655
+                          </a>
+                        </li>
+                      </ul>  
+                    </div>         
+                  <button class="btn btn-primary rounded-pill">
+                    Tenho Interesse
+                  </button>
+                  <ul class="socialmedia">
+                    <li>
+                      <a href="https://www.facebook.com/HondaDaitan/" target="_blank">
+                        <img src="img/rs-facebook.svg" alt="Facebook Oficial da Daitan">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/hondadaitan/" target="_blank">
+                        <img src="img/rs-instagram.svg" alt="Instagram Oficial da Daitan">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/honda-daitan/" target="_blank">
+                        <img src="img/rs-linkedin.svg" alt="LinkedIn Oficial da Daitan">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCFTCzhHYqbpGrM6oLcP2f5A" target="_blank">
+                        <img src="img/rs-youtube.svg" alt="YouTube Oficial da Daitan">
+                      </a>
+                    </li>                  
+                  </ul>
+                </div>
+                <button id="btn-navbar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <img src="img/bars-solid.svg" class="w-100" alt="">
+                </button>                
+              </div>            
+            </div>
+          </div>
+          <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">  
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Modelos
+                    </a>
+                    <div class="dropdown-menu">
+                      <div id="modelo-filters" class="row">
+
+                      </div>
+                      <ul id="dropModelos">
+                        <li class="py-3">
+                          <a class="dropdown-car" href="#">
+                            <img src="img/modelos/newhrv.png" class="d-block m-auto" alt="New Honda HR-V">
+                          </a>
+                          <p class="text-center text-uppercase mb-1">New HR-V</p>
+                          <div class="text-center">
+                            <button class="btn btn-primary btn-sm m-auto w-btn">
+                              <i class="fa-solid fa-plus"></i>
+                              Saiba Mais
+                            </button>
+                          </div>                      
+                        </li>
+                        <li class="py-3">
+                          <a class="dropdown-car" href="#">
+                            <img src="img/modelos/newcity.png" class="d-block m-auto" alt="New Honda City">
+                          </a>
+                          <p class="text-center text-uppercase mb-1">New City</p>
+                          <div class="text-center">
+                            <button class="btn btn-primary btn-sm m-auto w-btn">
+                              <i class="fa-solid fa-plus"></i>
+                              Saiba Mais
+                            </button>
+                          </div>    
+                        </li>
+                        <li class="py-3">
+                          <a class="dropdown-car" href="#">
+                            <img src="img/modelos/newcityhb.png" class="d-block m-auto" alt="New City Hatchback">
+                          </a>
+                          <p class="text-center text-uppercase mb-1">New City Hatchback</p>
+                          <div class="text-center">
+                            <button class="btn btn-primary btn-sm m-auto w-btn">
+                              <i class="fa-solid fa-plus"></i>
+                              Saiba Mais
+                            </button>
+                          </div>    
+                        </li>
+                        <li class="py-3">
+                          <a class="dropdown-car" href="#">
+                            <img src="img/modelos/civic_2023.png" class="d-block m-auto" alt="New Honda Civic Híbrido">
+                          </a>
+                          <p class="text-center text-uppercase mb-1">Civic Híbrido</p>
+                          <div class="text-center">
+                            <button class="btn btn-primary btn-sm m-auto w-btn">
+                              <i class="fa-solid fa-plus"></i>
+                              Saiba Mais
+                            </button>
+                          </div>    
+                        </li>
+                        <li class="py-3">
+                          <a class="dropdown-car" href="#">
+                            <img src="img/modelos/type_r.png" class="d-block m-auto" alt="New Honda HR-V">
+                          </a>
+                          <p class="text-center text-uppercase mb-1">Civic Type-R</p>
+                          <div class="text-center">
+                            <button class="btn btn-primary btn-sm m-auto w-btn">
+                              <i class="fa-solid fa-plus"></i>
+                              Saiba Mais
+                            </button>
+                          </div>    
+                        </li>
+                      </ul> 
+                    </div>                                                    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Seminovos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Serviços
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Oficinas</a></li>
+                      <li><a class="dropdown-item" href="#">Agende a sua revisão</a></li>
+                      <li><a class="dropdown-item" href="#">Peças e Acessórios</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Consórcio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Vendas Especiais
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="vendasDiretas-pcd.html">Pessoas com Deficiência</a></li>
+                      <li><a class="dropdown-item" href="vendasDiretas-taxista.html">Taxistas</a></li>
+                      <li><a class="dropdown-item" href="vendasDiretas-diplomata.html">Diplomatas</a></li>
+                      <li><a class="dropdown-item" href="vendasDiretas-pj.html">Pessoa Jurídica</a></li>
+                      <li><a class="dropdown-item" href="vendasDiretas-prodrural.html">Produtor Rural</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contato
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Escreva para Nós</a></li>
+                      <li><a class="dropdown-item" href="#">Ouvidoria</a></li>
+                      <li><a class="dropdown-item" href="#">Cadastro de E-mail</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+          
+    </header>
+
+    <main>    
+      <section class="py-5">
+        <div class="container">
+          <nav style="--bs-breadcrumb-divider: '>';" class="mt-2 mb-5" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Consórcio Nacional Honda</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Dúvidas Frequentes</li>
+            </ol>
+          </nav>
+
+          <h1 class="h2estilo mb-5">
+            <span>Dúvidas Frequentes</span>
+          </h1>
+
+          <div class="row">
+            <div class="col-12">
+                <p class="mb-5">Para esclarecer suas dúvidas, basta clicar no menu ao lado e selecionar o tópico de interesse. Nele, você encontrará respostas às perguntas mais frequentes dos nossos usuários. Se tiver outras dúvidas, não hesite em nos contatar através do botão do WhatsApp localizado no canto inferior direito da tela.</p>
+
+                <div id="navDuvidas">          
+                  <div class="footer-filial">            
+                    <ul class="nav nav-pills flex-column nav-pill" id="pills-01-tab" role="tablist">                      
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold active position-relative" id="pills-01-tab" data-bs-toggle="pill" data-bs-target="#pillDuv01-01" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                          Aquisição de Cota
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-02-tab" data-bs-toggle="pill" data-bs-target="#pillDuv01-02" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                          Assembleia
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-03-tab" data-bs-toggle="pill" data-bs-target="#pillDuv01-03" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                          Atualização de Dados
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-04-tab" data-bs-toggle="pill" data-bs-target="#pillDuv01-04" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                          Cancelamento de cota
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-05-tab" data-bs-toggle="pill" data-bs-target="#pillDuv01-05" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                          Consórcio
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-06-tab" data-bs-toggle="pill" data-bs-target="#pillDuv01-06" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                          Contemplação
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-07-tab" data-bs-toggle="pill" data-bs-target="#pillDuv01-07" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                          Fundo de Reserva
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-08-tab" data-bs-toggle="pill" data-bs-target="#pillDuv01-08" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                          Glossário do Consorciado
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-09-tab" data-bs-toggle="pill" data-bs-target="#pillDuv01-09" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                          Informações Gerais
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-10-tab" data-bs-toggle="pill" data-bs-target="#pillDuv01-10" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                          Nova Lei Consórcio
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-11-tab" data-bs-toggle="pill" data-bs-target="#pillDuv01-11" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                          Pagamentos
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-12-tab" data-bs-toggle="pill" data-bs-target="#pillDuv01-12" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                          Parcelas
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-13-tab" data-bs-toggle="pill" data-bs-target="#pillDuv01-13" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                          Planos
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-14-tab" data-bs-toggle="pill" data-bs-target="#pillDuv01-14" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                          Regulamento para compras online
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-15-tab" data-bs-toggle="pill" data-bs-target="#pillDuv01-15" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                          Restituição de Valores
+                        </button>
+                      </li>
+                    </ul>
+                    <div class="tab-content px-3 w-100" id="pills-tabContent">
+                      <div class="tab-pane fade show active" id="pillDuv01-01" role="tabpanel" aria-labelledby="pills-01-tab">
+                          <h2 class="color-red mb-4">Aquisição de de cota</h2>
+
+                          <div class="accordion" id="duvidaFreq01">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading1">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                    Por que escolher o Consórcio Nacional Honda (CNH)?
+                                  </button>
+                                </h2>
+                                <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#duvidaFreq01">
+                                  <div class="accordion-body">
+                                    <p>O Consórcio Nacional Honda atua em todo território nacional e está presente no mercado desde 1981, sendo a maior Administradora de Consórcios do Brasil. A entrega do bem é garantida pela fábrica. Ao adquirir uma cota do Consórcio Nacional Honda não lhe será cobrada taxa de adesão e nem juros, desde que os pagamentos sejam realizados em dia, valendo ressaltar que o CNH possui uma das taxas de administração mais competitivas do mercado. O CNH oferece planos diversificados, com prazos que variam de 12 a 72 meses para a linha de motocicletas Honda e 60 meses para automóveis Honda.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading2">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    Quem pode adquirir cotas de Consórcio?
+                                  </button>
+                                </h2>
+                                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#duvidaFreq01">
+                                  <div class="accordion-body">
+                                    <p>Podem adquirir cotas de Consórcio todas as pessoas maiores de 18 anos. Os maiores de 16 e menores de 18 anos também podem adquirir cotas de Consórcio, devendo assinar, necessariamente em conjunto com seus pais ou responsável legal, a Proposta de Adesão a Grupo de Consórcio.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading3">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                    Como posso adquirir cotas do Consórcio Nacional Honda?
+                                  </button>
+                                </h2>
+                                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#duvidaFreq01">
+                                  <div class="accordion-body">
+                                    <p>Você pode entrar em contato com a Concessionária Honda mais próxima e falar com um representante autorizado do Consórcio Nacional Honda, que lhe informará sobre todas as vantagens e benefícios de aderir a Grupo de Consórcio do CNH para aquisição de produtos Honda. Você também pode adquirir cotas do CNH através do site <a href="https://www.consorcionacionalhonda.com.br/" target="_blank">www.consorcionacionalhonda.com.br</a>. Após adquirir sua cota, não esqueça de levar com você o recibo devidamente preenchido e com o carimbo da sua Concessionária Honda.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading4">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                    Quantas cotas de motocicletas posso adquirir?
+                                  </button>
+                                </h2>
+                                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#duvidaFreq01">
+                                  <div class="accordion-body">
+                                    <p>Cada Consorciado pessoa física pode adquirir até 5 cotas. Se o Consorciado for pessoa jurídica poderá adquirir até 10 cotas. Cada Consorciado somente poderá possuir até 2 cotas de Consórcio no mesmo Grupo. Para os modelos Shadow 750 e Hornet 600 o limite é de 1 cota por Consorciado por Grupo.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading5">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                    Quantas cotas de automóveis posso adquirir?
+                                  </button>
+                                </h2>
+                                <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#duvidaFreq01">
+                                  <div class="accordion-body">
+                                    <p>Cada Consorciado pessoa física pode adquirir até 3 cotas. Se o Consorciado for pessoa jurídica poderá adquirir até 5 cotas. Cada Consorciado somente poderá possuir até 2 cotas de Consórcio no mesmo Grupo.</p>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane fade" id="pillDuv01-02" role="tabpanel" aria-labelledby="pills-02-tab">
+                        <h2 class="color-red mb-4">Assembleia</h2>
+
+                        <div class="accordion" id="duvidaFreq02">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading21">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse21" aria-expanded="true" aria-controls="collapse21">
+                                  O que são assembleias?
+                                </button>
+                              </h2>
+                              <div id="collapse21" class="accordion-collapse collapse show" aria-labelledby="heading21" data-bs-parent="#duvidaFreq02">
+                                <div class="accordion-body">
+                                  <p>São as reuniões promovidas mensalmente pelo CNH a fim de que os consorciados tomem conhecimento da situação financeira do grupo e possam ofertar seus lances ou tomar ciência das cotas contempladas por sorteio e também através de lance. O calendário de assembleias tem como base o dia do vencimento das parcelas dos consorciados do grupo. Cada assembleia ocorre em média 4 dias após o vencimento da parcela. O Consórcio Nacional Honda comunica mensalmente, por meio do slip (boleto de pagamento) a data da próxima assembleia. A 1ª assembleia não segue esta regra, pois não está vinculada ao vencimento da parcela, que é paga no ato da assinatura da proposta de adesão.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading22">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
+                                  Como fico sabendo das datas das assembleias do meu grupo?
+                                </button>
+                              </h2>
+                              <div id="collapse22" class="accordion-collapse collapse" aria-labelledby="heading22" data-bs-parent="#duvidaFreq02">
+                                <div class="accordion-body">
+                                  <p>No próprio site:</p>
+
+                                  <ul>
+                                    <li>Por meio do slip mensal de pagamento;</li>
+                                    <li>Na Central de Atendimento ao Cliente no telefone (11) 2172-7007, de segunda a sexta-feira, das 8h as 20h e aos sábados, das 9h as 15h (horário de Brasília);</li>
+                                    <li>Na concessionária Honda onde adquiriu sua cota.</li>
+                                  </ul>
+
+                                  <p>Vale ressaltar, que a assembleia ocorrerá, em regra, no quarto dia útil após a data do vencimento da parcela. Não obstante, o CNH sempre manterá você informado sobre o horário e local da realização da assembleia.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading23">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse23" aria-expanded="false" aria-controls="collapse23">
+                                  Como obter o resultado das assembleias?
+                                </button>
+                              </h2>
+                              <div id="collapse23" class="accordion-collapse collapse" aria-labelledby="heading23" data-bs-parent="#duvidaFreq02">
+                                <div class="accordion-body">
+                                  <p>O resultado é disponibilizado para consulta no dia da realização da assembleia, sendo necessário o seu código de acesso (grupo/cota e rd) para acessar as informações:</p>
+
+                                  <ul>
+                                    <li>Na Central de Atendimento ao Cliente, pelo telefone (11) 2172-7007, de segunda à sexta-feira, das 8h as 20h e aos sábados, das 9h as 15h (horário de Brasília);</li>
+                                    <li>No site <a href="https://www.consorcionacionalhonda.com.br/" target="_blank">www.consorcionacionalhonda.com.br</a>, acessando Serviços Online e escolhendo a opção "Resultado de Assembleia";</li>
+                                    <li>Nas concessionárias Honda de todo o Brasil.</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading24">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse24" aria-expanded="false" aria-controls="collapse24">
+                                  Quantas cotas de motocicletas posso adquirir?
+                                </button>
+                              </h2>
+                              <div id="collapse24" class="accordion-collapse collapse" aria-labelledby="heading24" data-bs-parent="#duvidaFreq02">
+                                <div class="accordion-body">
+                                  <p>Cada Consorciado pessoa física pode adquirir até 5 cotas. Se o Consorciado for pessoa jurídica poderá adquirir até 10 cotas. Cada Consorciado somente poderá possuir até 2 cotas de Consórcio no mesmo Grupo. Para os modelos Shadow 750 e Hornet 600 o limite é de 1 cota por Consorciado por Grupo.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading25">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse25" aria-expanded="false" aria-controls="collapse25">
+                                  Quantas cotas de automóveis posso adquirir?
+                                </button>
+                              </h2>
+                              <div id="collapse25" class="accordion-collapse collapse" aria-labelledby="heading25" data-bs-parent="#duvidaFreq02">
+                                <div class="accordion-body">
+                                  <p>Cada Consorciado pessoa física pode adquirir até 3 cotas. Se o Consorciado for pessoa jurídica poderá adquirir até 5 cotas. Cada Consorciado somente poderá possuir até 2 cotas de Consórcio no mesmo Grupo.</p>
+                                </div>
+                              </div>
+                            </div>                            
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="pillDuv01-03" role="tabpanel" aria-labelledby="pills-03-tab">
+                        <h2 class="color-red mb-4">Atualização de Dados</h2>
+
+                        <div class="accordion" id="duvidaFreq03">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading31">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse31" aria-expanded="true" aria-controls="collapse31">
+                                    Como devo proceder para efetuar a alteração do meu endereço?
+                                </button>
+                              </h2>
+                              <div id="collapse31" class="accordion-collapse collapse show" aria-labelledby="heading31" data-bs-parent="#duvidaFreq03">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Através da Concessionária Honda mais próxima;</li>
+                                        <li>Através da Central de Atendimento ao Cliente, pelo telefone (11) 2172-7007, de segunda à sexta-feira, das 8h as 20h e aos sábados das 9h as 15h (horário de Brasília);</li>
+                                        <li>Através do site www.consorcionacionalhonda.com.br, sendo obrigatório informar o seu código de acesso (grupo/cota e rd), número do CPF, data de nascimento, telefone para contato e endereço completo, incluindo o CEP.</li>
+                                    </ul>
+                                    <p>Vale lembrar que é responsabilidade do Consorciado manter atualizado seus dados cadastrais e bancários junto ao Consórcio Nacional Honda, conforme previsão contratual e exigência do Banco Central do Brasil.</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>      
+                      </div>
+                      <div class="tab-pane fade" id="pillDuv01-04" role="tabpanel" aria-labelledby="pills-04-tab">
+                        <h2 class="color-red mb-4">Cancelamento de cota</h2>                        
+
+                        <div class="accordion" id="duvidaFreq04">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading41">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse41" aria-expanded="true" aria-controls="collapse41">
+                                    Posso desistir do meu plano?
+                                </button>
+                              </h2>
+                              <div id="collapse41" class="accordion-collapse collapse show" aria-labelledby="heading41" data-bs-parent="#duvidaFreq04">
+                                <div class="accordion-body">            
+                                    <p>Sim, desde que você não tenha utilizado o crédito do consórcio para a retirada do bem.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading42">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse42" aria-expanded="false" aria-controls="collapse42">
+                                  Como faço para desistir do meu plano?
+                                </button>
+                              </h2>
+                              <div id="collapse42" class="accordion-collapse collapse" aria-labelledby="heading23" data-bs-parent="#duvidaFreq04">
+                                <div class="accordion-body">
+                                  <p>Há duas formas de solicitar a desistência do plano:</p>
+                                  <ul>
+                                      <li>Entrando em contato com a Central de Atendimento ao Cliente no telefone (11) 2172-7007, de segunda à sexta-feira, das 8h as 20h e, aos sábados, das 9h as 15h (horário de Brasília);</li>
+                                      <li>Formalizando expressamente através de carta enviada ao Consórcio Nacional Honda.</li>
+                                  </ul>
+                                  <p>Além disso, se você ainda não retirou o bem, o cancelamento da cota de consórcio acontecerá automaticamente após o acúmulo de 3 parcelas em atraso. Neste caso, não há a necessidade de formalizar a solicitação. Após consumada a desistência, o consorciado passa à condição de Consorciado Excluído e concorrerá à contemplação através de sorteio realizado nas assembleias do grupo. Ao ser sorteado, o Consorciado Excluído receberá os valores a que tem direito.</p>
+                                </div>
+                              </div>
+                            </div> 
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading43">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse43" aria-expanded="false" aria-controls="collapse43">
+                                  Após o cancelamento da cota, como é a restituição de valores?
+                                </button>
+                              </h2>
+                              <div id="collapse43" class="accordion-collapse collapse" aria-labelledby="heading43" data-bs-parent="#duvidaFreq04">
+                                <div class="accordion-body">
+                                  <p>Se a sua cota pertencer a Lei 11.795 (nova Lei de consórcio), você passa a concorrer à contemplação através de sorteio realizado nas assembleias do grupo. Ao ser sorteado, o Consorciado Excluído receberá a restituição de valores. Caso a sua cota pertença a Circular 2.766, a restituição dos valores ocorre somente após o encerramento do grupo.</p>
+                                </div>
+                              </div>
+                            </div>                           
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading44">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse44" aria-expanded="false" aria-controls="collapse44">
+                                  Como desistir de uma compra online?
+                                </button>
+                              </h2>
+                              <div id="collapse44" class="accordion-collapse collapse" aria-labelledby="heading44" data-bs-parent="#duvidaFreq04">
+                                <div class="accordion-body">
+                                  <p>Para cancelar uma compra realizada pelo site, é necessário comunicar a desistência ao Consórcio Nacional Honda por meio de pedido formal de cancelamento no prazo legal de 7 dias após a data do preenchimento da proposta. Entre em contato com a Central de Atendimento ao Cliente no telefone (11) 2172-7007, de segunda à sexta-feira, das 8h as 20h e, aos sábados, das 9h as 15h (horário de Brasília).</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading45">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse45" aria-expanded="false" aria-controls="collapse45">
+                                  Como é a restituição de valores de uma compra online?
+                                </button>
+                              </h2>
+                              <div id="collapse45" class="accordion-collapse collapse" aria-labelledby="heading45" data-bs-parent="#duvidaFreq04">
+                                <div class="accordion-body">
+                                  <p>Para compras realizadas pelo site do Consórcio Nacional Honda e canceladas por meio de pedido formal de cancelamento no prazo legal de 7 dias após a data do preenchimento da proposta, a devolução do valor da primeira parcela ocorrerá por meio de depósito bancário na conta informada no prazo máximo de 20 dias corridos.</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>                        
+                      </div>
+                      <div class="tab-pane fade" id="pillDuv01-05" role="tabpanel" aria-labelledby="pills-05-tab">
+                        <h2 class="color-red mb-4">Consórcio</h2>
+
+                        <div class="accordion" id="duvidaFreq05">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading51">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse51" aria-expanded="true" aria-controls="collapse51">
+                                  O que é Consórcio?
+                              </button>
+                            </h2>
+                            <div id="collapse51" class="accordion-collapse collapse show" aria-labelledby="heading51" data-bs-parent="#duvidaFreq05">
+                              <div class="accordion-body">            
+                                  <p>Consórcio é a reunião de pessoas físicas e jurídicas em grupo, com prazo de duração e número de cotas previamente determinados, promovida por Administradora de Consórcio, com a finalidade de propiciar a seus integrantes, de forma igualitária, a aquisição de bens ou serviços, por meio de autofinanciamento.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading52">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse52" aria-expanded="false" aria-controls="collapse52">
+                                  O que é um Grupo de Consórcio?
+                              </button>
+                            </h2>
+                            <div id="collapse52" class="accordion-collapse collapse" aria-labelledby="heading23" data-bs-parent="#duvidaFreq05">
+                              <div class="accordion-body">
+                                <p>É a reunião de participantes em um grupo fechado, com o objetivo de possibilitar a cada consorciado, através da contribuição de todos, o recebimento do crédito referente a um bem ou conjunto de bens.</p>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading53">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse53" aria-expanded="false" aria-controls="collapse53">
+                                  Quem é responsável pelo regulamento do Consórcio?
+                              </button>
+                            </h2>
+                            <div id="collapse53" class="accordion-collapse collapse" aria-labelledby="heading53" data-bs-parent="#duvidaFreq05">
+                              <div class="accordion-body">
+                                <p>A normatização, coordenação, supervisão, fiscalização e controle das atividades do sistema de consórcios são realizados pelo Banco Central do Brasil.</p>
+                              </div>
+                            </div>
+                          </div>                           
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading54">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse54" aria-expanded="false" aria-controls="collapse54">
+                                  Quem representa o Grupo para defesa de seus direitos e interesses?
+                              </button>
+                            </h2>
+                            <div id="collapse54" class="accordion-collapse collapse" aria-labelledby="heading54" data-bs-parent="#duvidaFreq05">
+                              <div class="accordion-body">
+                                <p>PO Grupo é representado pela Administradora, ativa ou passivamente, em juízo ou fora dele, para a defesa dos direitos coletivos dos Consorciados, devendo sempre prevalecer os interesses do Grupo sobre todos os interesses individuais dos Consorciados.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading55">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse55" aria-expanded="false" aria-controls="collapse55">
+                                  Qual é o principal requisito para que o Grupo seja constituído?
+                              </button>
+                            </h2>
+                            <div id="collapse55" class="accordion-collapse collapse" aria-labelledby="heading55" data-bs-parent="#duvidaFreq05">
+                              <div class="accordion-body">
+                                <p>A viabilidade econômico-financeira do Grupo de Consórcio pressupõe a existência de recursos suficientes, na data da primeira assembleia geral ordinária, para a realização do número de contemplações por sorteio previsto contratualmente para o período, considerados os créditos de maior valor do Grupo.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading56">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse56" aria-expanded="false" aria-controls="collapse56">
+                                  Como é constituído um Grupo?
+                                </button>
+                              </h2>
+                              <div id="collapse56" class="accordion-collapse collapse" aria-labelledby="heading56" data-bs-parent="#duvidaFreq05">
+                                <div class="accordion-body">
+                                  <p>Cada cota adquirida chega ao Consórcio Nacional Honda para ser incluída em um Grupo. A quantidade máxima de cotas em um Grupo é o resultado da multiplicação do prazo do plano adquirido pela quantidade de contemplações mensais previstas, ou seja, se você adquiriu uma cota de consórcio no prazo de 50 meses e a quantidade de contemplações previstas por mês é de 4 bens, o seu grupo terá 200 participantes. Desde que observados os interesses coletivamente considerados, o Grupo será constituído para aquisição de mais de um modelo de automóvel ou motocicleta, todos da marca Honda, com valores diferentes, respeitado o limite percentual de 50% (cinquenta por cento) entre o valor do bem de maior valor em relação ao de menor valor.</p>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading57">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse57" aria-expanded="false" aria-controls="collapse57">
+                                  Existe prazo para formação do grupo?
+                                </button>
+                              </h2>
+                              <div id="collapse57" class="accordion-collapse collapse" aria-labelledby="heading57" data-bs-parent="#duvidaFreq05">
+                                <div class="accordion-body">
+                                  <p>Sim. Cada cota deverá ser agrupada no prazo de até 90 dias a contar do primeiro dia útil após a data da assinatura da Proposta de Adesão a Grupo de Consórcio. No caso de o Grupo não ser constituído neste prazo, o Consórcio Nacional Honda devolverá aos consumidores os valores pagos.</p>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading58">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse58" aria-expanded="false" aria-controls="collapse58">
+                                  O que vou receber após a formação do Grupo?
+                                </button>
+                              </h2>
+                              <div id="collapse58" class="accordion-collapse collapse" aria-labelledby="heading58" data-bs-parent="#duvidaFreq05">
+                                <div class="accordion-body">
+                                  <p>Após a formação do Grupo, você receberá o Cartão Cliente Especial e a Carta de Boas Vindas com a data, local e horários das 06 primeiras assembleias, contendo o seu código de acesso (grupo/cota e rd), o qual deve ser utilizado para entrar em contato com a Central de Atendimento pelo telefone (11) 2172-7007, que funciona de segunda à sexta-feira, das 08h as 20 horas e aos sábados, das 09h as 15 horas (horário de Brasília), como também para verificar o andamento do seu Plano de Consórcio em sua Concessionária Honda ou também através deste site. Mensalmente o Consórcio Nacional Honda (CNH) lhe enviará o slip (boleto bancário) para pagamento da sua parcela de Consórcio. Neste slip também serão inseridas informações importantes sobre o andamento de seu Grupo.</p>
+                                </div>
+                              </div>
+                          </div>
+                      </div>  
+                        
+                      </div>
+                      <div class="tab-pane fade" id="pillDuv01-06" role="tabpanel" aria-labelledby="pills-06-tab">
+                        <h2 class="color-red mb-4">Contemplação</h2>
+                    
+                        <div class="accordion" id="duvidaFreq06">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading61">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse61" aria-expanded="true" aria-controls="collapse61">
+                                O que é contemplação?
+                              </button>
+                            </h2>
+                            <div id="collapse61" class="accordion-collapse collapse show" aria-labelledby="heading61" data-bs-parent="#duvidaFreq06">
+                              <div class="accordion-body">            
+                                  <p>A contemplação é a atribuição ao Consorciado ativo do crédito para aquisição do bem, da mesma categoria à qual a cota esteja referenciada e para a restituição das parcelas pagas aos Consorciados excluídos (a restituição aos excluídos por contemplação somente é aplicável aos grupos formados após 06 de fevereiro de 2009). A contemplação é realizada exclusivamente através de sorteios e lances. O consorciado excluído somente concorre à contemplação por sorteio.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading62">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse62" aria-expanded="false" aria-controls="collapse62">
+                                Quais as formas de contemplação?
+                              </button>
+                            </h2>
+                            <div id="collapse62" class="accordion-collapse collapse" aria-labelledby="heading23" data-bs-parent="#duvidaFreq06">
+                              <div class="accordion-body">
+                                <p>Somente existem duas formas de contemplação: por sorteio ou por lance. A quitação antecipada do plano não dá direito à contemplação.</p>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading63">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse63" aria-expanded="false" aria-controls="collapse63">
+                                Como é realizado o sorteio?
+                              </button>
+                            </h2>
+                            <div id="collapse63" class="accordion-collapse collapse" aria-labelledby="heading63" data-bs-parent="#duvidaFreq06">
+                              <div class="accordion-body">
+                                <p>Através do 1º prêmio da extração da Loteria Federal que antecede a data da assembleia, é realizado sempre o mesmo cálculo para determinação da cota contemplada.</p>
+                              </div>
+                            </div>
+                          </div>                           
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading64">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse64" aria-expanded="false" aria-controls="collapse64">
+                                É possível pedir a exclusão da participação por sorteio?
+                              </button>
+                            </h2>
+                            <div id="collapse64" class="accordion-collapse collapse" aria-labelledby="heading64" data-bs-parent="#duvidaFreq06">
+                              <div class="accordion-body">
+                                <p>Não é possível, pois ao pagar as parcelas regularmente até a data do vencimento, a participação nos sorteios será automática e obrigatória para as cotas ainda não contempladas. Porém, após a contemplação você poderá pedir a desclassificação da cota e voltar a concorrer normalmente aos sorteios ou ofertar lances.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading65">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse65" aria-expanded="false" aria-controls="collapse65">
+                                Como é calculada a oferta de lance?
+                            </button>
+                            </h2>
+                            <div id="collapse65" class="accordion-collapse collapse" aria-labelledby="heading65" data-bs-parent="#duvidaFreq06">
+                              <div class="accordion-body">
+                                <p>O valor do lance corresponderá a percentual calculado sobre o valor do bem + taxa de administração + fundo de reserva. O valor a ser ofertado como lance é de livre escolha do Consorciado, podendo variar entre o valor mínimo, que é de 1º parcela, até o valor máximo, que é o correspondente ao valor para quitação do Plano de Consórcio.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading66">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse66" aria-expanded="false" aria-controls="collapse66">
+                                    Como faço para ofertar o meu lance?
+                                </button>
+                              </h2>
+                              <div id="collapse66" class="accordion-collapse collapse" aria-labelledby="heading66" data-bs-parent="#duvidaFreq06">
+                                <div class="accordion-body">
+                                    <p>Você pode efetuar lances:</p>
+                    
+                                    <ul>
+                                        <li>Diretamente em uma Concessionária Honda;</li>
+                                        <li>Através da Central de Atendimento ao Cliente, pelo telefone (11) 2172-7007, de segunda à sexta-feira, das 8h as 20h e aos sábados, das 9h as 15h (horário de Brasília);</li>
+                                        <li>Pelo site: <a href="https://www.consorcionacionalhonda.com.br/" target="_blank">www.consorcionacionalhonda.com.br</a>, acessando Serviços Online e clicando na opção "Oferta de Lance".</li>
+                                    </ul>
+                    
+                                    <p>Para grupos exclusivos, o horário limite que o sistema permite a inclusão do lance é até às 10h30 do dia da assembleia. Já para grupos pool, o horário limite é até às 13h30 do dia da assembleia.</p>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading67">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse67" aria-expanded="false" aria-controls="collapse67">
+                                    Posso efetuar o pagamento do lance com um bem usado?
+                                </button>
+                              </h2>
+                              <div id="collapse67" class="accordion-collapse collapse" aria-labelledby="heading67" data-bs-parent="#duvidaFreq06">
+                                <div class="accordion-body">
+                                  <p>Quando contemplado por lance, o Consorciado tem o prazo de 7 a 10 dias úteis (dependendo da série da Proposta de Adesão Grupo de Consórcio) para efetuar o pagamento, que deverá ser realizado mediante slip (boleto) específico para o pagamento do lance. Este poderá ser obtido na sua Concessionária Honda ou através da Central de Atendimento ao Cliente do CNH, pelo telefone (11) 2172-7007, de segunda à sexta-feira, das 8h as 20h e, aos sábados, das 9h as 15h (horário de Brasília).</p>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading68">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse68" aria-expanded="false" aria-controls="collapse68">
+                                    E se o meu lance for vencedor?
+                                </button>
+                              </h2>
+                              <div id="collapse68" class="accordion-collapse collapse" aria-labelledby="heading68" data-bs-parent="#duvidaFreq06">
+                                <div class="accordion-body">
+                                  <p>Caso a cota seja contemplada por lance, o pagamento deverá ser efetuado em até 7 ou em até 10 dias úteis da data da contemplação, dependendo do Grupo e do prazo que estiver especificado na Proposta de Adesão a Grupo de Consórcio. Compareça à sua Concessionária Honda para retirar o slip (boleto) para pagamento do lance ou imprima o slip diretamente através do site <a href="https://www.consorcionacionalhonda.com.br/" target="_blank">www.consorcionacionalhonda.com.br</a>.</p>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading69">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse69" aria-expanded="false" aria-controls="collapse69">
+                                    E se houver empate de lances?
+                                </button>
+                              </h2>
+                              <div id="collapse69" class="accordion-collapse collapse" aria-labelledby="heading69" data-bs-parent="#duvidaFreq06">
+                                <div class="accordion-body">
+                                  <p>Será contemplada a cota mais próxima da cota sorteada.</p>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading70">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse70" aria-expanded="false" aria-controls="collapse70">
+                                Após a contemplação posso adquirir um bem usado?
+                              </button>
+                            </h2>
+                            <div id="collapse70" class="accordion-collapse collapse" aria-labelledby="heading70" data-bs-parent="#duvidaFreq06">
+                              <div class="accordion-body">
+                                <p>Sim. Você poderá optar por um bem usado com até 3 anos de uso (incluindo o ano de fabricação), apresentando as garantias exigidas pelo Consórcio Nacional Honda.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading70a">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse70a" aria-expanded="false" aria-controls="collapse70a">
+                                Após a contemplação posso adquirir um bem usado?
+                              </button>
+                            </h2>
+                            <div id="collapse70a" class="accordion-collapse collapse" aria-labelledby="heading70a" data-bs-parent="#duvidaFreq06">
+                              <div class="accordion-body">
+                                <p>Sim. Você poderá optar por um bem usado com até 3 anos de uso (incluindo o ano de fabricação), apresentando as garantias exigidas pelo Consórcio Nacional Honda.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading70b">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse70b" aria-expanded="false" aria-controls="collapse70b">
+                                Após a contemplação quais documentos serão exigidos?
+                              </button>
+                            </h2>
+                            <div id="collapse70b" class="accordion-collapse collapse" aria-labelledby="heading70b" data-bs-parent="#duvidaFreq06">
+                              <div class="accordion-body">
+                                <p>Para formalizar o processo de contemplação é exigida a apresentação dos seguintes documentos originais na Concessionária Honda ou no fornecedor escolhido por você: CPF, RG, comprovante de residência e comprovante de renda.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading70c">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse70c" aria-expanded="false" aria-controls="collapse70c">
+                                Posso comprar um bem de valor menor ou maior que o crédito?
+                              </button>
+                            </h2>
+                            <div id="collapse70c" class="accordion-collapse collapse" aria-labelledby="heading70c" data-bs-parent="#duvidaFreq06">
+                              <div class="accordion-body">
+                                <p>Sim, se o bem que você for comprar possuir o valor menor que o de seu crédito, a diferença será utilizada para quitar as prestações a vencer, sempre na ordem inversa dos pagamentos, ou seja, a partir da quitação das últimas parcelas.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading70d">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse70d" aria-expanded="false" aria-controls="collapse70d">
+                                Posso receber o valor do meu crédito em dinheiro?
+                              </button>
+                            </h2>
+                            <div id="collapse70d" class="accordion-collapse collapse" aria-labelledby="heading70d" data-bs-parent="#duvidaFreq06">
+                              <div class="accordion-body">
+                                <p>Para receber o crédito em dinheiro, a cota deverá estar quitada e contemplada, sendo que os valores ficarão disponíveis após 180 dias contados da data da contemplação ou 60 dias após a realização da última assembleia do Grupo.</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>  
+                        
+                      </div> 
+                      <div class="tab-pane fade" id="pillDuv01-07" role="tabpanel" aria-labelledby="pills-07-tab">
+                        <h2 class="color-red mb-4">Contemplação</h2>
+                      
+                        <div class="accordion" id="duvidaFreq07">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading71">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse71" aria-expanded="true" aria-controls="collapse71">
+                                O que é fundo de reserva?
+                              </button>
+                            </h2>
+                            <div id="collapse71" class="accordion-collapse collapse show" aria-labelledby="heading71" data-bs-parent="#duvidaFreq07">
+                              <div class="accordion-body">            
+                                  <p>Fundo de reserva é um percentual mensal cobrado sobre o valor do bem, para compor um fundo financeiro do Grupo que poderá ser utilizado para situações contratualmente previstas. Entre as hipóteses de utilização do fundo reserva, destacam-se: Cobrir eventuais insuficiências de recursos do fundo comum; cobrir despesas decorrentes de eventuais demandas judiciais e extrajudiciais propostas por Consorciados ou por terceiros; cobrir eventuais insuficiências de valores relativos ao prêmio de seguro de vida - prestamista e quebra de garantia face a possível majoração no risco da cobertura; cobrir eventuais insuficiências de cobertura de sinistro de seguro de vida - prestamista e quebra de garantia originadas pelo inadimplemento total ou parcial dos participantes; cobrir despesas de impostos e tributos vigentes e também as concernentes aos porventura criados relativos à movimentação financeira ou com conotação assemelhada; cobrir despesas bancárias de responsabilidade exclusiva do Grupo; quitar débito de Consorciado inadimplente, após esgotados todos os meios de cobrança; contemplação, por sorteio, desde que não comprometida a utilização do fundo de reserva para as demais finalidades previstas no contrato. Havendo saldo remanescente do fundo de reserva, o valor será devolvido no final do Grupo aos Consorciados, proporcionalmente à contribuição de cada Consorciado.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading72">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse72" aria-expanded="false" aria-controls="collapse72">
+                                Gostaria de saber como faço para receber o meu fundo de reserva?
+                              </button>
+                            </h2>
+                            <div id="collapse72" class="accordion-collapse collapse" aria-labelledby="heading23" data-bs-parent="#duvidaFreq07">
+                              <div class="accordion-body">
+                                <p>O fundo de reserva estará disponível (descontados os valores que tiverem sido utilizados durante a vigência do seu Plano de Consórcio) após transcorridos 60 dias da data da última assembleia do Grupo. Nesta fase, o Consórcio Nacional Honda (CNH) disponibilizará os valores de direito de cada Consorciado através de crédito em conta corrente (desde que este tenha sido informada previamente pelo Consorciado). Após o crédito, o CNH comunica aos Consorciados, através de correspondência, especificando o valor a que têm direito e a data do depósito. Caso o consorciado receba comunicado sobre o fundo de reserva solicitando dados bancários para realização do depósito, o Consorciado deverá preencher todos os dados solicitados e remeter o formulário ao Consórcio Nacional Honda via Correio ou entrar em contato com a Central de Atendimento ao Cliente do CNH, através do telefone (11) 2172-7072, de segunda à sexta-feira, das 8h as 20h. e, aos sábados, das 9h as 15 h. (Horário de Brasília).Ao contatar a Central de Atendimento ao Cliente do CNH tenha sempre em mãos o seu código de acesso, que é formado pelo número do seu grupo/cota e rd, além do número do seu CPF e dos seus dados Bancários. Vale lembrar que o Consorciado tem o dever de manter todas as suas informações cadastrais e bancárias atualizadas perante o CNH durante todo o prazo de duração do seu Grupo. Obs.: Para sua segurança, informamos que o CNH não solicita informações por e-mail e nem acata solicitações para devolução de valores através de e-mail e fax.</p>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading73">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse73" aria-expanded="false" aria-controls="collapse73">
+                                Como é realizado o sorteio?
+                              </button>
+                            </h2>
+                            <div id="collapse73" class="accordion-collapse collapse" aria-labelledby="heading73" data-bs-parent="#duvidaFreq07">
+                              <div class="accordion-body">
+                                <p>Através do 1º prêmio da extração da Loteria Federal que antecede a data da assembleia, é realizado sempre o mesmo cálculo para determinação da cota contemplada.</p>
+                                <p>É possível pedir a exclusão da participação por sorteio? Não é possível, pois ao pagar as parcelas regularmente até a data do vencimento, a participação nos sorteios será automática e obrigatória para as cotas ainda não contempladas. Porém, após a contemplação você poderá pedir a desclassificação da cota e voltar a concorrer normalmente aos sorteios ou ofertar lances</p>
+                              </div>
+                            </div>
+                          </div>                           
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading74">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse74" aria-expanded="false" aria-controls="collapse74">
+                                Como é calculada a oferta de lance?
+                              </button>
+                            </h2>
+                            <div id="collapse74" class="accordion-collapse collapse" aria-labelledby="heading74" data-bs-parent="#duvidaFreq07">
+                              <div class="accordion-body">
+                                <p>Você pode ofertar seu lance:</p>
+                      
+                                <ul>
+                                  <li>Diretamente na Concessionária Honda;</li>
+                                  <li>Através da Central de Atendimento ao Cliente, pelo telefone (11) 2172-7007, de segunda à sexta-feira, das 8h as 20h e aos sábados, das 9h as 15h (horário de Brasília);</li>
+                                  <li>Pelo site: <a href="https://www.consorcionacionalhonda.com.br/" target="_blank">www.consorcionacionalhonda.com.br</a>, acessando Serviços Online e escolhendo a opção "Oferta de Lance".</li>
+                                </ul>
+                      
+                                <p>Para grupos exclusivos, o horário limite que o sistema permite a inclusão do lance é até às 10h30 do dia da assembleia. Já para grupos pool, o horário limite é até às 13h30 do dia da assembleia.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading75">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse75" aria-expanded="false" aria-controls="collapse75">
+                                Posso efetuar o pagamento do lance com um bem usado?
+                            </button>
+                            </h2>
+                            <div id="collapse75" class="accordion-collapse collapse" aria-labelledby="heading75" data-bs-parent="#duvidaFreq07">
+                              <div class="accordion-body">
+                                <p>Quando contemplado por lance, o Consorciado tem o prazo de 7 a 10 dias úteis (dependendo da série da Proposta de Adesão Grupo de Consórcio) para efetuar o pagamento, que deverá ser realizado mediante slip (boleto) específico para o pagamento do lance. Este poderá ser obtido na sua Concessionária Honda ou através da Central de Atendimento ao Cliente do CNH, pelo telefone (11) 2172-7007, de segunda à sexta-feira, das 8h as 20h e, aos sábados, das 9h as 15h (horário de Brasília).</p>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading76">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse76" aria-expanded="false" aria-controls="collapse76">
+                                E se o meu lance for o vencedor?
+                            </button>
+                            </h2>
+                            <div id="collapse76" class="accordion-collapse collapse" aria-labelledby="heading76" data-bs-parent="#duvidaFreq07">
+                              <div class="accordion-body">
+                                <p>Caso a cota seja contemplada por lance, o pagamento deverá ser efetuado em até 7 ou em até 10 dias úteis da data da contemplação, dependendo do Grupo e do prazo que estiver especificado na Proposta de Adesão a Grupo de Consórcio. Compareça à sua Concessionária Honda para retirar o slip (boleto) para pagamento do lance ou imprima o slip diretamente através do site <a href="https://www.consorcionacionalhonda.com.br/" target="_blank">www.consorcionacionalhonda.com.br</a>.</p>
+                              </div>
+                            </div>
+                          </div>   
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading77">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse77" aria-expanded="false" aria-controls="collapse77">
+                                E se houver empate de lances?
+                            </button>
+                            </h2>
+                            <div id="collapse77" class="accordion-collapse collapse" aria-labelledby="heading77" data-bs-parent="#duvidaFreq07">
+                              <div class="accordion-body">
+                                <p>Será contemplada a cota mais próxima da cota sorteada.</p>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading78">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse78" aria-expanded="false" aria-controls="collapse78">
+                                Após a contemplação, posso adquirir um bem usado?
+                            </button>
+                            </h2>
+                            <div id="collapse78" class="accordion-collapse collapse" aria-labelledby="heading78" data-bs-parent="#duvidaFreq07">
+                              <div class="accordion-body">
+                                <p>Sim. Você poderá optar por um bem usado com até 3 anos de uso (incluindo o ano de fabricação), apresentando as garantias exigidas pelo Consórcio Nacional Honda.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading79">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse79" aria-expanded="false" aria-controls="collapse79">
+                                Após a contemplação, quais documentos serão exigidos?
+                            </button>
+                            </h2>
+                            <div id="collapse79" class="accordion-collapse collapse" aria-labelledby="heading79" data-bs-parent="#duvidaFreq07">
+                              <div class="accordion-body">
+                                <p>Para formalizar o processo de contemplação é exigida a apresentação dos seguintes documentos originais na Concessionária Honda ou no fornecedor escolhido por você: CPF, RG, comprovante de residência e comprovante de renda.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading79">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse79" aria-expanded="false" aria-controls="collapse79">
+                                Após a contemplação, quais documentos serão exigidos?
+                            </button>
+                            </h2>
+                            <div id="collapse79" class="accordion-collapse collapse" aria-labelledby="heading79" data-bs-parent="#duvidaFreq07">
+                              <div class="accordion-body">
+                                <p>Para formalizar o processo de contemplação é exigida a apresentação dos seguintes documentos originais na Concessionária Honda ou no fornecedor escolhido por você: CPF, RG, comprovante de residência e comprovante de renda.</p>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading80">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse80" aria-expanded="false" aria-controls="collapse80">
+                                Posso comprar um bem de valor menor ou maior que o crédito?
+                            </button>
+                            </h2>
+                            <div id="collapse80" class="accordion-collapse collapse" aria-labelledby="heading80" data-bs-parent="#duvidaFreq07">
+                              <div class="accordion-body">
+                                <p>Sim, se o bem que você for comprar possuir o valor menor que o de seu crédito, a diferença será utilizada para quitar as prestações a vencer, sempre na ordem inversa dos pagamentos, ou seja, a partir da quitação das últimas parcelas.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading80a">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse80a" aria-expanded="false" aria-controls="collapse80a">
+                                Posso receber o valor do meu crédito em dinheiro?
+                            </button>
+                            </h2>
+                            <div id="collapse80a" class="accordion-collapse collapse" aria-labelledby="heading80a" data-bs-parent="#duvidaFreq07">
+                              <div class="accordion-body">
+                                <p>Para receber o crédito em dinheiro, a cota deverá estar quitada e contemplada, sendo que os valores ficarão disponíveis após 180 dias contados da data da contemplação ou 60 dias após a realização da última assembleia do Grupo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>    
+                      </div>
+                      <div class="tab-pane fade" id="pillDuv01-08" role="tabpanel" aria-labelledby="pills-08-tab">
+                        <h2 class="color-red mb-4">Contemplação</h2>
+                      
+                        <div class="accordion" id="duvidaFreq08">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading81">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse81" aria-expanded="true" aria-controls="collapse81">
+                                Proposta de Adesão a Grupo e Consórcio
+                              </button>
+                            </h2>
+                            <div id="collapse81" class="accordion-collapse collapse show" aria-labelledby="heading81" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">            
+                                  <p>Documento no qual consta o regulamento de funcionamento do Grupo de Consórcio ao qual você está aderindo. Ao assinar a Proposta, o interessado formaliza sua anuência às disposições contratuais e manifesta expressamente sua intenção de ingressar em Grupo do Consórcio Nacional Honda.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading82">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse82" aria-expanded="false" aria-controls="collapse82">
+                                Administradora de Consórcios
+                              </button>
+                            </h2>
+                            <div id="collapse82" class="accordion-collapse collapse" aria-labelledby="heading23" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">
+                                <p>Pessoa jurídica prestadora de serviços voltados à administração de Grupos de Consórcio, que deve ser autorizada pelo Banco Central do Brasil a formar Grupos e administrar os negócios e interesses dos Consorciados.</p>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading83">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse83" aria-expanded="false" aria-controls="collapse83">
+                                Alienação Fiduciária
+                              </button>
+                            </h2>
+                            <div id="collapse83" class="accordion-collapse collapse" aria-labelledby="heading83" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">
+                                <p>A alienação fiduciária de coisas móveis constitui forma de garantia do pagamento de uma dívida. Transfere ao credor fiduciário (Administradora de Consórcio) o domínio e a posse indireta do bem, permanecendo o devedor fiduciante (Consorciado contemplado) com a posse direta. O domínio é transferido sob condição resolutiva, pois a propriedade é transferida apenas como garantia do pagamento.</p>
+                              </div>
+                            </div>
+                          </div>                           
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading84">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse84" aria-expanded="false" aria-controls="collapse84">
+                                Assembleia Geral Extraordinária
+                              </button>
+                            </h2>
+                            <div id="collapse84" class="accordion-collapse collapse" aria-labelledby="heading84" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">
+                                <p>Assembleia Geral Extraordinária somente é realizada mediante convocação extraordinária do Grupo ou do Consórcio Nacional Honda para deliberar sobre questões excepcionais que não fazem parte das assembleias gerais ordinárias (assembleias mensais de contemplação).</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading85">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse85" aria-expanded="false" aria-controls="collapse85">
+                                Assembleia Geral Ordinária
+                            </button>
+                            </h2>
+                            <div id="collapse85" class="accordion-collapse collapse" aria-labelledby="heading85" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">
+                                <p>É a reunião mensal, destinada à contemplação dos Consorciados, na forma estabelecida na Proposta de Adesão a Grupo de Consórcio, bem como, a prestação de informações relevantes para o Grupo.</p>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading86">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse86" aria-expanded="false" aria-controls="collapse86">
+                                Autorização de Faturamento
+                            </button>
+                            </h2>
+                            <div id="collapse86" class="accordion-collapse collapse" aria-labelledby="heading86" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">
+                                <p>Documento expedido pelo Consórcio Nacional Honda, por solicitação do Consorciado contemplado, que permite a aquisição do bem a que a cota está referenciada.</p>
+                              </div>
+                            </div>
+                          </div>   
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading87">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse87" aria-expanded="false" aria-controls="collapse87">
+                                Consorciado
+                            </button>
+                            </h2>
+                            <div id="collapse87" class="accordion-collapse collapse" aria-labelledby="heading87" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">
+                                <p>Consorciado é a pessoa natural ou jurídica que integra o Grupo de Consórcio com o objetivo de comprar um bem e assume a obrigação de contribuir para o cumprimento integral dos objetivos do Grupo.</p>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading88">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse88" aria-expanded="false" aria-controls="collapse88">
+                                Contemplação
+                            </button>
+                            </h2>
+                            <div id="collapse88" class="accordion-collapse collapse" aria-labelledby="heading88" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">
+                                <p>Podendo ocorrer por sorteio ou lance, é a atribuição ao Consorciado do direito de utilizar o crédito para compra do bem a que sua cota está referenciada, cujo valor será o vigente na data da assembleia correspondente à sua contemplação ou crédito a que tem direito se o Consorciado for excluído.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading89">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse89" aria-expanded="false" aria-controls="collapse89">
+                                Consorciado Contemplado
+                              </button>
+                            </h2>
+                            <div id="collapse89" class="accordion-collapse collapse" aria-labelledby="heading89" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">
+                                <p>Consorciado a quem, por sorteio ou lance, foi atribuído o direito de utilizar o crédito.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading89a">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse89a" aria-expanded="false" aria-controls="collapse89a">
+                                Cota
+                            </button>
+                            </h2>
+                            <div id="collapse89a" class="accordion-collapse collapse" aria-labelledby="heading89a" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">
+                                <p>Cota é a parte que cabe a cada consorciado que participar de um grupo de consórcio. Para melhor identificação, cada Consorciado participante do Grupo recebe um número.</p>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading90">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse90" aria-expanded="false" aria-controls="collapse90">
+                                Consorciado Excluído
+                              </button>
+                            </h2>
+                            <div id="collapse90" class="accordion-collapse collapse" aria-labelledby="heading90" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">
+                                <p>Consorciado não contemplado que solicita expressamente sua exclusão do Grupo ou que deixa de pagar 4 prestações, consecutivas ou alternadas.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading90a">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse90a" aria-expanded="false" aria-controls="collapse90a">
+                                Fundo Comum
+                              </button>
+                            </h2>
+                            <div id="collapse90a" class="accordion-collapse collapse" aria-labelledby="heading90a" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">
+                                <p>Soma de importâncias recolhidas pelos participantes que se destinam às contemplações.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading90b">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse90a" aria-expanded="false" aria-controls="collapse90b">
+                                Fundo de Reserva
+                              </button>
+                            </h2>
+                            <div id="collapse90b" class="accordion-collapse collapse" aria-labelledby="heading90b" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">
+                                <p>O fundo de reserva é a garantia da saúde financeira do Grupo. Corresponde a um percentual pago na parcela e que irá servir para cobertura de eventual insuficiência de receita para assembleias de contemplação; para reserva financeira caso ocorra alto nível de inadimplência no Grupo; para cobertura da devolução de valores aos Consorciados excluídos; para pagamento de eventual débito de Consorciado inadimplente, após esgotados todos os meios de cobrança. Cabe ressaltar também que a existência de eventual saldo do fundo de reserva, ao término da vigência do Grupo é dividido entre todos os participantes, na proporção de sua contribuição.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading90c">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse90c" aria-expanded="false" aria-controls="collapse90c">
+                                Grupo
+                              </button>
+                            </h2>
+                            <div id="collapse90c" class="accordion-collapse collapse" aria-labelledby="heading90c" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">
+                                <p>Grupo de Consórcio é uma sociedade aberta constituída por Consorciados com a finalidade de propiciar a seus integrantes, de forma igualitária, a aquisição de bens ou serviços, por meio de autofinanciamento.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading90d">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse90d" aria-expanded="false" aria-controls="collapse90d">
+                                Saldo Devedor
+                              </button>
+                            </h2>
+                            <div id="collapse90d" class="accordion-collapse collapse" aria-labelledby="heading90d" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">
+                                <p>É o total de valores que o consorciado tem em aberto, quer para com o grupo, quer para com o Consórcio Nacional Honda.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading90e">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse90e" aria-expanded="false" aria-controls="collapse90e">
+                                Taxa de Administração
+                              </button>
+                            </h2>
+                            <div id="collapse90e" class="accordion-collapse collapse" aria-labelledby="heading90e" data-bs-parent="#duvidaFreq08">
+                              <div class="accordion-body">
+                                <p>É a remuneração paga pelo Consorciado ao Consórcio Nacional Honda como remuneração pelos serviços de formação, organização e administração do Grupo de consórcio até o encerramento deste.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>    
+                      </div>
+                      <div class="tab-pane fade" id="pillDuv01-09" role="tabpanel" aria-labelledby="pills-09-tab">
+                        <h2 class="color-red mb-4">Informações Gerais</h2>
+                      
+                        <div class="accordion" id="duvidaFreq09">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading91">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse91" aria-expanded="true" aria-controls="collapse91">
+                                Posso transferir a minha cota?
+                              </button>
+                            </h2>
+                            <div id="collapse91" class="accordion-collapse collapse show" aria-labelledby="heading91" data-bs-parent="#duvidaFreq09">
+                              <div class="accordion-body">            
+                                  <p>Sim, você poderá transferir seus direitos, deveres e obrigações a outra pessoa durante o Plano de Consórcio mediante anuência prévia do Consórcio Nacional Honda. Para que a transferência ocorra, você deverá estar com o pagamento das parcelas em dia e preencher o termo de cessão e transferência de cota. Para obter maiores informações, compareça a Concessionária Honda mais próxima.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading92">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse92" aria-expanded="false" aria-controls="collapse92">
+                                Já quitei o Consórcio, como faço para desalienar o bem?
+                              </button>
+                            </h2>
+                            <div id="collapse92" class="accordion-collapse collapse" aria-labelledby="heading23" data-bs-parent="#duvidaFreq09">
+                              <div class="accordion-body">
+                                <p>Após a quitação total do Consórcio, o CNH realizará a desalienação do bem automaticamente, no prazo de 15 dias corridos da data da assembleia que ocorrerá após o pagamento de quitação.</p>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading93">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse93" aria-expanded="false" aria-controls="collapse93">
+                                Se minha cota for cancelada, gostaria de saber como faço para reativá-la?
+                              </button>
+                            </h2>
+                            <div id="collapse93" class="accordion-collapse collapse" aria-labelledby="heading93" data-bs-parent="#duvidaFreq09">
+                              <div class="accordion-body">
+                                <p>Para verificar a possibilidade de reativação da cota, você deverá entrar em contato com a Central de Atendimento ao Cliente, através do telefone (11) 2172-7007, de segunda à sexta-feira, das 8 às 20 horas. e aos sábados das 9h as 15h. (horário de Brasília) ou comparecer à sua Concessionária Honda. Se a cota não foi reposta, a Central de Atendimento poderá reativar a cota até 30 dias antes da última assembleia do grupo.</p>
+                              </div>
+                            </div>
+                          </div>                           
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading94">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse94" aria-expanded="false" aria-controls="collapse94">
+                                É possível realizar a mudança de modelo do bem?
+                              </button>
+                            </h2>
+                            <div id="collapse94" class="accordion-collapse collapse" aria-labelledby="heading94" data-bs-parent="#duvidaFreq09">
+                              <div class="accordion-body">
+                                <p>O Consorciado não contemplado poderá, em uma única oportunidade, solicitar a mudança do bem base do plano referenciado na proposta de adesão por outro de mesma categoria, observado que o valor do bem substituto estará limitado ao valor dos bens de menor e maior valor já existentes no seu Grupo de Consórcio.</p>
+                                <ul>
+                                  <li>Se o bem solicitado for de valor maior em relação ao valor do bem base do plano, a diferença gerada deverá ser quitada através de boleto bancário emitido pela Concessionária Honda conveniada, até o seu vencimento;</li>
+                                  <li>Se o bem solicitado for de valor menor em relação ao valor do bem base do plano, a diferença paga a maior será considerada pagamento antecipado das prestações mensais vincendas, na ordem inversa a contar da última. Você pode efetuar uma simulação antes da efetivação. Para tanto, basta que você compareça à Concessionária Honda mais próxima.</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading95">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse95" aria-expanded="false" aria-controls="collapse95">
+                                Posso substituir o bem alienado (alienação fiduciária) por outro?
+                              </button>
+                            </h2>
+                            <div id="collapse95" class="accordion-collapse collapse" aria-labelledby="heading95" data-bs-parent="#duvidaFreq09">
+                              <div class="accordion-body">
+                                <p>Sim, você poderá substituir o bem alienado por outro de seu interesse, novo ou usado, com até 3 anos de uso (considerando o ano da fabricação), de valor igual ou superior ao saldo devedor. Ademais, você deverá cumprir as seguintes exigências:</p>
+                      
+                                <ul>
+                                  <li>O bem poderá ser novo ou usado, desde que tenha até 3 (três) anos de uso, considerando o ano de fabricação;</li>
+                                  <li>Apresentar certidão negativa de roubo, furto e multas;</li>
+                                  <li>Apresentar certificado de garantia de motor e câmbio de, no mínimo, 3 meses, emitido por concessionária da marca;</li>
+                                  <li>Carta de avaliação do bem, expedidos pela concessionária da marca;</li>
+                                  <li>Certificado de Registro do Veículo (CRV) em nome do vendedor, com as informações relativas à venda preenchidas e com firma reconhecida. Os formulários para substituição do bem alienado (alienação fiduciária) deverão ser preenchidos na Concessionária Honda mais próxima.</li>
+                                </ul>
+                      
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading96">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse96" aria-expanded="false" aria-controls="collapse96">
+                                Ao ser formado o Grupo de Consórcio do Consórcio Nacional Honda, o Consorciado possui alguma espécie de seguro?
+                              </button>
+                            </h2>
+                            <div id="collapse96" class="accordion-collapse collapse" aria-labelledby="heading96" data-bs-parent="#duvidaFreq09">
+                              <div class="accordion-body">
+                                <p>Sim, possui seguro de vida conjugado com seguro quebra de garantia em grupo, cujos valores integram as parcelas do Consórcio, sendo devidos por todos os Consorciados. O seguro de quebra de garantia tem por finalidade exclusiva cobrir o saldo do Grupo segurado no caso de insolvência de Consorciados contemplados. O seguro de vida - prestamista tem a finalidade de cobertura das parcelas vincendas em caso de óbito ou invalidez permanente do aderente. O seguro de vida - prestamista e quebra de garantia somente passará a vigorar a partir da realização da 1ª assembleia do Grupo.</p>
+                              </div>
+                            </div>
+                          </div>   
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading97">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse97" aria-expanded="false" aria-controls="collapse97">
+                                Qual a diferença entre o Plano de Consórcio e o plano de financiamento?
+                              </button>
+                            </h2>
+                            <div id="collapse97" class="accordion-collapse collapse" aria-labelledby="heading97" data-bs-parent="#duvidaFreq09">
+                              <div class="accordion-body">
+                                <p>No Plano de Consórcio não são cobrados juros sobre o valor do bem, mas apenas um acréscimo relativo à taxa de administração, fundo de reserva e seguro. No financiamento você pode comprar o bem assim que for aprovado o seu crédito, enquanto no consórcio você precisa esperar a contemplação da sua cota para comprar o bem. A contemplação é a atribuição do crédito ao Consorciado para a aquisição de bem ou serviço, bem como para a restituição das parcelas pagas, no caso dos Consorciados excluídos. A contemplação ocorre por meio de sorteio ou de lance, sendo que a contemplação por lance é exclusiva para os Consorciados ativos e é atribuída somente ao lance vencedor. Será considerado lance vencedor aquele que a oferta do lance representar o maior percentual em relação ao valor do bem. Sendo contemplado, o Consorciado ativo deverá dar entrada no processo de contemplação junto a sua Concessionária Honda ou outro fornecedor de seu interesse. O Consorciado excluído que for sorteado na assembleia geral também deverá dar entrada numa solicitação formal junto a sua Concessionária Honda, a fim de receber os valores a que tem direito da forma que lhe for mais conveniente. O Consórcio Nacional Honda comunicará o resultado da assembleia aos Consorciados contemplados através de carta, disponibilizará essas informações na Central de Atendimento ao Cliente, no site <a href="https://www.consorcionacionalhonda.com.br/" target="_blank">www.consorcionacionalhonda.com.br</a> e também nas Concessionárias Honda no dia imediatamente seguinte à data da realização da assembleia.</p>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading98">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse98" aria-expanded="false" aria-controls="collapse98">
+                                Posso desistir do meu plano?
+                            </button>
+                            </h2>
+                            <div id="collapse98" class="accordion-collapse collapse" aria-labelledby="heading98" data-bs-parent="#duvidaFreq09">
+                              <div class="accordion-body">
+                                <p>Sim, a qualquer momento, porém a desistência somente poderá ocorrer antes da contemplação. A desistência poderá ser formalizada expressamente através de carta enviada ao CNH ou poderá ocorrer automaticamente após o acúmulo de 3 parcelas em atraso. Após consumada a desistência, o consorciado passa à condição de Consorciado excluído e concorrerá à contemplação através de sorteio realizado nas assembleias do Grupo. Ao ser sorteado, o Consorciado excluído receberá os valores a que tem direito.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>    
+                      </div>
+                      <div class="tab-pane fade" id="pillDuv01-10" role="tabpanel" aria-labelledby="pills-10-tab">
+                        <h2 class="color-red mb-4">Nova Lei Consórcio</h2>
+                      
+                        <div class="accordion" id="duvidaFreq10">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading101">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse101" aria-expanded="true" aria-controls="collapse101">
+                                Para quem vale a nova Lei?
+                              </button>
+                            </h2>
+                            <div id="collapse101" class="accordion-collapse collapse show" aria-labelledby="heading101" data-bs-parent="#duvidaFreq10">
+                              <div class="accordion-body">            
+                                  <p>A lei é aplicável apenas aos grupos formados a partir de 06/02/2009.</p>
+                                  <p>Cliente cancelado ou desistente pode solicitar a devolução dos valores antes do encerramento do grupo? A regra para devolução de recursos antes do encerramento do grupo para os clientes excluídos (cota desistente ou cancelada) está condicionada a contemplação por sorteio e tem validade para os grupos formados a partir de 06/02/2009. Para os grupos formados até 05/02/2009 vale a regra anterior, ou seja, a devolução ocorrerá somente após 60 dias da última assembleia de contemplação do grupo.</p>
+                                  <p>Cliente ativo que solicitar cancelamento da cota terá direito a restituição dos valores pagos de imediato? Não. No sistema de consórcios não existe esta previsão, nem na antiga e sequer na nova regra.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading102">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse102" aria-expanded="false" aria-controls="collapse102">
+                                Cliente ativo pode utilizar o FGTS para ofertar um lance?
+                              </button>
+                            </h2>
+                            <div id="collapse102" class="accordion-collapse collapse" aria-labelledby="heading23" data-bs-parent="#duvidaFreq10">
+                              <div class="accordion-body">
+                                <p>A utilização do FGTS (Fundo de Garantia por Tempo de Serviço) é exclusiva para consórcios para aquisição de bens imóveis, não sendo possível utilizar os recursos do referido Fundo através do Consórcio Nacional Honda, uma vez que este trabalha exclusivamente com a formação de crédito para aquisição de automóveis, motocicletas, quadriciclos e produtos de força (motores de popa, roçadeiras e geradores da marca Honda).</p>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading103">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse103" aria-expanded="false" aria-controls="collapse103">
+                                Cliente ativo pode utilizar carta de crédito para quitação de financiamento?
+                              </button>
+                            </h2>
+                            <div id="collapse103" class="accordion-collapse collapse" aria-labelledby="heading103" data-bs-parent="#duvidaFreq10">
+                              <div class="accordion-body">
+                                <p>Para consorciados dos grupos formados a partir de 06/02/09, poderá ser utilizada a carta de crédito para quitação de financiamento.</p>
+                              </div>
+                            </div>
+                          </div>                           
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading104">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse104" aria-expanded="false" aria-controls="collapse104">
+                                Se a cota sorteada já estiver contemplada permanece a regra de sorteio da cota mais próxima?
+                              </button>
+                            </h2>
+                            <div id="collapse104" class="accordion-collapse collapse" aria-labelledby="heading104" data-bs-parent="#duvidaFreq10">
+                              <div class="accordion-body">
+                                <p>Se a cota sorteada já estiver contemplada (cota ativa e excluídos), permanece a regra de sorteio da cota mais próxima.</p>          
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading105">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse105" aria-expanded="false" aria-controls="collapse105">
+                                O consorciado contemplado cuja cota estiver quitada pode receber os valores em numerários?
+                              </button>
+                            </h2>
+                            <div id="collapse105" class="accordion-collapse collapse" aria-labelledby="heading105" data-bs-parent="#duvidaFreq10">
+                              <div class="accordion-body">
+                                <p>Se a cota estiver quitada o consorciado poderá receber os valores em numerário após 180 dias contados a partir da contemplação ou em 60 dias após o término do grupo, o que ocorrer primeiro.</p>
+                      
+                                <p>O crédito oriundo da contemplação pode ser utilizado para quitação de mais de um financiamento bancário? Em qualquer hipótese, mesmo se a cota estiver quitada, somente poderá quitar 01 (um) financiamento bancário.</p>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading106">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse106" aria-expanded="false" aria-controls="collapse106">
+                                O consorciado inadimplente que não foi excluído participa dos sorteios?
+                              </button>
+                            </h2>
+                            <div id="collapse106" class="accordion-collapse collapse" aria-labelledby="heading106" data-bs-parent="#duvidaFreq10">
+                              <div class="accordion-body">
+                                <p>O consorciado que estiver inadimplente não participa dos sorteios, somente participam do sorteio os consorciados ativos e excluídos.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>    
+                      </div>
+                      <div class="tab-pane fade" id="pillDuv01-11" role="tabpanel" aria-labelledby="pills-11-tab">
+                        <h2 class="color-red mb-4">Pagamentos</h2>
+                      
+                        <div class="accordion" id="duvidaFreq11">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading111">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse111" aria-expanded="true" aria-controls="collapse111">
+                                Como é realizado o pagamento para compras online?
+                              </button>
+                            </h2>
+                            <div id="collapse111" class="accordion-collapse collapse show" aria-labelledby="heading111" data-bs-parent="#duvidaFreq11">
+                              <div class="accordion-body">            
+                                  <p>Para compras realizadas pelo site do Consórcio Nacional Honda, há duas formas de pagamento da primeira parcela:</p>
+                                  
+                                  <ul>
+                                    <li>Boleto de Cobrança;</li>
+                                    <li>Cartão de Crédito.</li>
+                                  </ul>
+                      
+                                  <p>Após a primeira parcela, os demais pagamentos são realizados por slip (boleto de cobrança), enviado mensalmente para o endereço de correspondência cadastrado.</p>
+                      
+                                  <p>Observação: A compra está atrelada à formação de grupo para participação de sorteios e lances.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading112">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse112" aria-expanded="false" aria-controls="collapse112">
+                                Como faço para adquirir o boleto da parcela do mês?
+                              </button>
+                            </h2>
+                            <div id="collapse112" class="accordion-collapse collapse" aria-labelledby="heading23" data-bs-parent="#duvidaFreq11">
+                              <div class="accordion-body">
+                                <p>O boleto da parcela é encaminhado mensalmente para o endereço cadastrado no sistema da Administradora, com antecedência a data do vencimento. Para adquirir a segunda via do boleto, basta acessar Serviços Online, escolher a opção "Boleto Eletrônico". Se preferir, <a href="https://clientes.bancohonda.com.br/Seguranca/Login" target="_blank">clique aqui</a>.</p>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading113">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse113" aria-expanded="false" aria-controls="collapse113">
+                                Como faço para adquirir o boleto para pagamento do lance?
+                              </button>
+                            </h2>
+                            <div id="collapse113" class="accordion-collapse collapse" aria-labelledby="heading113" data-bs-parent="#duvidaFreq11">
+                              <div class="accordion-body">
+                                <p>Após a contemplação da cota, será concedido um prazo específico para pagamento do lance de acordo com a série do contrato:</p>
+                      
+                                <ul>
+                                  <li>Contratos Série D: 10 dias úteis;</li>
+                                  <li>Demais Contratos: 07 dias úteis.</li>
+                                </ul>
+                      
+                                <p>Para adquirir o boleto para pagamento do lance, basta acessar Serviços Online , escolher a opção "Boleto Eletrônico". Se preferir, <a href="https://clientes.bancohonda.com.br/Seguranca/Login" target="_blank">clique aqui</a>.
+                      
+                                </p>
+                              </div>
+                            </div>
+                          </div>                           
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading114">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse114" aria-expanded="false" aria-controls="collapse114">
+                                Meu pagamento não está constando no extrato. Como faço o acerto deste pagamento?
+                              </button>
+                            </h2>
+                            <div id="collapse114" class="accordion-collapse collapse" aria-labelledby="heading114" data-bs-parent="#duvidaFreq11">
+                              <div class="accordion-body">
+                                <p>Para o acerto do pagamento é necessário o envio do comprovante para o Consórcio Nacional Honda. Entre em contato com a Central de Atendimento ao Cliente no telefone (11) 2172-7007, de segunda à sexta-feira, das 8h as 20h e, aos sábados, das 9h as 15h (horário de Brasília).</p>          
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading115">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse115" aria-expanded="false" aria-controls="collapse115">
+                                Posso negociar as minhas parcelas em atraso?
+                              </button>
+                            </h2>
+                            <div id="collapse115" class="accordion-collapse collapse" aria-labelledby="heading115" data-bs-parent="#duvidaFreq11">
+                              <div class="accordion-body">
+                                <p>Em alguns casos, o Consórcio Nacional Honda oferece a possibilidade de negociar os valores em atraso. Consulte as condições com a Central de Atendimento ao Cliente no telefone (11) 2172-7007, de segunda à sexta-feira, das 8h as 20h e, aos sábados, das 9h as 15h (horário de Brasília).</p>
+                              </div>
+                            </div>
+                          </div> 
+                        </div>    
+                      </div>
+                      <div class="tab-pane fade" id="pillDuv01-12" role="tabpanel" aria-labelledby="pills-12-tab">
+                        <h2 class="color-red mb-4">Parcelas</h2>
+                      
+                        <div class="accordion" id="duvidaFreq12">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading121">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse121" aria-expanded="true" aria-controls="collapse121">
+                                Como faço para pagar as parcelas do meu Plano de Consórcio?
+                              </button>
+                            </h2>
+                            <div id="collapse121" class="accordion-collapse collapse show" aria-labelledby="heading121" data-bs-parent="#duvidaFreq12">
+                              <div class="accordion-body">            
+                                  <p>Após a realização da primeira assembleia, mensalmente o Consórcio Nacional Honda lhe enviará o slip (boleto de cobrança) contendo ficha de compensação bancária para pagamento em qualquer agência bancária até a data de seu vencimento. No slip também constarão informações sobre a posição do seu Grupo, sobre as cotas que foram contempladas por sorteio e lance, além de outras informações.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading122">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse122" aria-expanded="false" aria-controls="collapse122">
+                                Não recebi o meu slip (boleto de cobrança), como devo proceder para efetuar o pagamento?
+                              </button>
+                            </h2>
+                            <div id="collapse122" class="accordion-collapse collapse" aria-labelledby="heading23" data-bs-parent="#duvidaFreq12">
+                              <div class="accordion-body">
+                                <p>Caso não receba o slip (boleto) até a data do vencimento de sua parcela, você pode optar por uma das formas de pagamento abaixo:</p>
+                      
+                                <ul>
+                                  <li>Imprimir o slip (boleto) no próprio site. Basta acessar Serviços Online, escolher a opção "Boleto Eletrônico", clicar em "Slip de Parcela (2ª via)" e digitar seu Código de Acesso (grupo/cota e rd);</li>
+                                  <li>Comparecer a uma Concessionária Honda, levando com você o seu código de acesso (grupo/cota e rd) para solicitar uma segunda via do slip.</li>
+                                </ul>
+                      
+                                <div class="importante rounded-2 p-3 mb-3">
+                                  <i class="fa-solid fa-triangle-exclamation me-2"></i>
+                                  Importante: A impressão do slip somente será possível até a data da assembleia.
+                                </div>
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading123">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse123" aria-expanded="false" aria-controls="collapse123">
+                                O que acontece se o pagamento não for realizado em dia?
+                              </button>
+                            </h2>
+                            <div id="collapse123" class="accordion-collapse collapse" aria-labelledby="heading123" data-bs-parent="#duvidaFreq12">
+                              <div class="accordion-body">
+                                <p>O Consorciado ativo não contemplado ficará impedido de concorrer ao sorteio e também não poderá realizar lance na assembleia se não estiver em dia com os pagamentos.</p>
+                              </div>
+                            </div>
+                          </div>                           
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading124">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse124" aria-expanded="false" aria-controls="collapse124">
+                                Se eu pagar minha parcela após o vencimento do boleto, terei direito a concorrer na assembleia?
+                              </button>
+                            </h2>
+                            <div id="collapse124" class="accordion-collapse collapse" aria-labelledby="heading124" data-bs-parent="#duvidaFreq12">
+                              <div class="accordion-body">
+                                <p>Não. Você terá direito de concorrer na assembleia se efetuar o pagamento das parcelas em atraso juntamente com a parcela do mês até o vencimento do boleto da respectiva assembleia.</p>          
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading125">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse125" aria-expanded="false" aria-controls="collapse125">
+                                Se a minha cota estiver com parcelas em atraso, tenho a opção de negociar?
+                              </button>
+                            </h2>
+                            <div id="collapse125" class="accordion-collapse collapse" aria-labelledby="heading125" data-bs-parent="#duvidaFreq12">
+                              <div class="accordion-body">
+                                <p>Em alguns casos, o Consórcio Nacional Honda oferece a possibilidade de negociar os valores em atraso. Consulte as condições com a Central de Atendimento ao Cliente no telefone <a href="tel:+551121727007">(11) 2172-7007</a>, de segunda à sexta-feira, das 8 as 20h e, aos sábados, das 9 as 15h (horário de Brasília).</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading126">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse126" aria-expanded="false" aria-controls="collapse126">
+                                Posso alterar o vencimento da minha parcela?
+                              </button>
+                            </h2>
+                            <div id="collapse126" class="accordion-collapse collapse" aria-labelledby="heading126" data-bs-parent="#duvidaFreq12">
+                              <div class="accordion-body">
+                                <p>A data de vencimento da parcela permanece a mesma desde o início até o final do Grupo, não havendo possibilidade de alterações individuais. Esta data é escolhida no ato da aquisição da cota. O Consórcio Nacional Honda oferece várias opções de vencimento, a fim de atender a necessidade de cada consumidor, sendo relevante ressaltar que a data que melhor lhe convier deverá ser escolhida no momento da adesão ao Consórcio. Importante: A data de vencimento escolhida está sujeita a alteração antes da formação do Grupo, conforme disponibilidade de Grupos.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading127">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse127" aria-expanded="false" aria-controls="collapse127">
+                                Posso antecipar meus pagamentos? Como fazer?
+                              </button>
+                            </h2>
+                            <div id="collapse127" class="accordion-collapse collapse" aria-labelledby="heading127" data-bs-parent="#duvidaFreq12">
+                              <div class="accordion-body">
+                                <p>Sim, lembrando que todo pagamento efetuado como antecipação se dará na ordem inversa à dos vencimentos, ou seja, da última parcela para a primeira. A antecipação das parcelas poderá ser realizada utilizando o slip (boleto de pagamento), anotando o valor desejado no campo "Valor Cobrado". A antecipação não será considerada lance e, mesmo que implique na quitação da cota, não dará direito a contemplação.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading128">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse128" aria-expanded="false" aria-controls="collapse128">
+                                Posso quitar o saldo devedor da minha cota antecipadamente?
+                              </button>
+                            </h2>
+                            <div id="collapse128" class="accordion-collapse collapse" aria-labelledby="heading128" data-bs-parent="#duvidaFreq12">
+                              <div class="accordion-body">
+                                <p>Sim, porém a quitação antecipada da totalidade do Plano de Consórcio não dá direito à contemplação imediata.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading129">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse129" aria-expanded="false" aria-controls="collapse129">
+                                Ao quitar o Plano de Consórcio, eu recebo o bem?
+                              </button>
+                            </h2>
+                            <div id="collapse129" class="accordion-collapse collapse" aria-labelledby="heading129" data-bs-parent="#duvidaFreq12">
+                              <div class="accordion-body">
+                                <p>No sistema de Consórcio, o Consorciado recebe o bem através da contemplação por sorteio ou lance. Ao quitar o seu Plano de Consórcio antecipadamente, você deverá aguardar até que sua cota seja sorteada. Havendo interesse em quitar o Plano de Consórcio, como sugestão você poderá tentar dar uma oferta de lance no valor da quitação, lembrando que neste caso, embora suas chances aumentem, não existe garantia de contemplação, haja vista que para definição do lance vencedor é considerada a oferta que representar maior percentual em relação ao valor do bem. Assim, mesmo que sua oferta seja de quitação, podem ocorrer ofertas superiores à sua. O lance poderá ser efetuado através da Central de Atendimento ao Cliente do Consórcio Nacional Honda pelo telefone (11) 2172-7007; pelo site acessando Serviços Online e escolhendo a opção "Oferta de Lance"; ou na sua Concessionária Honda.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading130">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse130" aria-expanded="false" aria-controls="collapse130">
+                                O que é taxa de administração?
+                              </button>
+                            </h2>
+                            <div id="collapse130" class="accordion-collapse collapse" aria-labelledby="heading130" data-bs-parent="#duvidaFreq12">
+                              <div class="accordion-body">
+                                <p>A taxa de administração é o valor cobrado pelo CNH para formação, organização e administração do Grupo de Consórcio desde a 1ª assembleia até o encerramento do Grupo. Esta taxa é dividida pelo prazo de duração do Grupo e adicionada ao valor das parcelas. Em alguns grupos, conforme previsão contratual, o valor de taxa de administração é maior nas primeiras parcelas e menor nas últimas; no entanto, esta distribuição não afeta o percentual total da taxa de administração.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading130a">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse130a" aria-expanded="false" aria-controls="collapse130a">
+                                O que é fundo comum?
+                              </button>
+                            </h2>
+                            <div id="collapse130a" class="accordion-collapse collapse" aria-labelledby="heading130a" data-bs-parent="#duvidaFreq12">
+                              <div class="accordion-body">
+                                <p>Corresponde aos recursos do Grupo destinados à atribuição de crédito aos Consorciados contemplados para aquisição do bem e à restituição de valores aos Consorciados excluídos dos respectivos Grupos.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading130b">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse130b" aria-expanded="false" aria-controls="collapse130b">
+                                Como é composta a parcela mensal do Consórcio?
+                              </button>
+                            </h2>
+                            <div id="collapse130b" class="accordion-collapse collapse" aria-labelledby="heading130b" data-bs-parent="#duvidaFreq12">
+                              <div class="accordion-body">
+                                <p>A parcela mensal do Consórcio é composta pela soma dos percentuais destinados ao fundo comum, ao fundo de reserva, à taxa de administração e ao seguro de vida e quebra de garantia.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading130b">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse130b" aria-expanded="false" aria-controls="collapse130b">
+                                Como faço para obter o extrato da minha cota?
+                              </button>
+                            </h2>
+                            <div id="collapse130b" class="accordion-collapse collapse" aria-labelledby="heading130b" data-bs-parent="#duvidaFreq12">
+                              <div class="accordion-body">
+                                <p>O extrato mostrará os valores pagos das parcelas do seu Plano de Consórcio. Pode ser solicitado através da Central de Atendimento ao Cliente pelo telefone (11) 2172-7007, de segunda à sexta-feira, das 08h as 20h e aos sábados, das 09h as 15h (horário de Brasília); pelo site, acessando Serviços Online e escolhendo a opção "Extrato"; ou na sua Concessionária Honda.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading130c">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse130c" aria-expanded="false" aria-controls="collapse130c">
+                                O valor da parcela de consórcio pode variar?
+                              </button>
+                            </h2>
+                            <div id="collapse130c" class="accordion-collapse collapse" aria-labelledby="heading130c" data-bs-parent="#duvidaFreq12">
+                              <div class="accordion-body">
+                                <p>A parcela mensal do Consórcio é sempre calculada em função do valor do bem, ou seja, se houver variação no valor do bem cobrado pelo fabricante, a parcela também será corrigida, a fim de proporcionar ao Grupo acesso ao crédito sempre atualizado.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>    
+                      </div>
+                      <div class="tab-pane fade" id="pillDuv01-13" role="tabpanel" aria-labelledby="pills-13-tab">
+                        <h2 class="color-red mb-4">Planos</h2>
+                      
+                        <div class="accordion" id="duvidaFreq13">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading131">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse131" aria-expanded="true" aria-controls="collapse131">
+                                Plano Normal
+                              </button>
+                            </h2>
+                            <div id="collapse131" class="accordion-collapse collapse show" aria-labelledby="heading131" data-bs-parent="#duvidaFreq13">
+                              <div class="accordion-body">            
+                                  <p>Plano mais tradicional do Consórcio Nacional Honda, direcionado para a aquisição de motocicleta de baixa cilindrada. Oferece três prazos de pagamento diferentes: 12, 25 ou 72 meses, com suas respectivas taxas de administração. Previsão de 4 contemplações mensais*, sendo uma por sorteio e as demais por lance livre. Para informações adicionais, procure um Profissional de Vendas da concessionária mais próxima.</p>
+                      
+                                  <p><i>* O número de contemplações está condicionado à existência de saldo mensal no fundo comum do grupo.</i></p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading132">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse132" aria-expanded="false" aria-controls="collapse132">
+                                Plano Mega Fácil
+                              </button>
+                            </h2>
+                            <div id="collapse132" class="accordion-collapse collapse" aria-labelledby="heading23" data-bs-parent="#duvidaFreq13">
+                              <div class="accordion-body">
+                                <p>Plano direcionado para aquisição de motocicleta de baixa cilindrada, com parcelas acessíveis e mais chances de contemplação Oferece quatro prazos de pagamento diferentes: 36, 50, 60 ou 72 meses, com suas respectivas taxas de administração. Previsão de 13 contemplações mensais*, sendo uma por sorteio, duas por lance fixo de 15% sobre o valor do bem e as demais por lance livre. Amortização diferenciada do lance, com opção de reduzir o prazo de pagamento ou reduzir o valor das parcelas (em até 30% do valor original) Para informações adicionais, procure um Profissional de Vendas da concessionária mais próxima.</p>
+                      
+                                <p><i>* O número de contemplações está condicionado à existência de saldo mensal no fundo comum do grupo.</i></p>          
+                              </div>
+                            </div>
+                          </div> 
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading133">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse133" aria-expanded="false" aria-controls="collapse133">
+                                Plano Super Legal
+                              </button>
+                            </h2>
+                            <div id="collapse133" class="accordion-collapse collapse" aria-labelledby="heading133" data-bs-parent="#duvidaFreq13">
+                              <div class="accordion-body">
+                                <p>Plano direcionado para aquisição de motocicleta de baixa cilindrada, com parcelas acessíveis, mais chances de contemplação e crédito especial para despesas com a documentação da sua Honda. Oferece quatro prazos de pagamento diferentes: 36, 50, 60 ou 72 meses, com suas respectivas taxas de administração. Previsão de 12 contemplações mensais*, sendo uma por sorteio, duas por lance fixo de 15% sobre o valor do bem e as demais por lance livre. Amortização diferenciada do lance, com opção de reduzir o prazo de pagamento ou reduzir o valor das parcelas (em até 30% do valor original). Para informações adicionais, procure um Profissional de Vendas da concessionária mais próxima.</p>
+                      
+                                <p><i>* O número de contemplações está condicionado à existência de saldo mensal no fundo comum do grupo.</i></p>
+                              </div>
+                            </div>
+                          </div>                           
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading134">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse134" aria-expanded="false" aria-controls="collapse134">
+                                Plano Master
+                              </button>
+                            </h2>
+                            <div id="collapse134" class="accordion-collapse collapse" aria-labelledby="heading134" data-bs-parent="#duvidaFreq13">
+                              <div class="accordion-body">
+                                <p>Plano direcionado para a aquisição de motocicleta de alta cilindrada ou para quem planeja a troca do seu carro por um Honda 0km com parcelas acessíveis. Conta com prazo de pagamento de 72 meses e uma taxa de administração especial de 12%. Previsão de 7 contemplações mensais*, sendo uma por sorteio, duas por lance fixo de 15% sobre o valor do bem e as demais por lance livre. Amortização diferenciada do lance, com opção de reduzir o prazo de pagamento ou reduzir o valor das parcelas (em até 30% do valor original). Para informações adicionais, procure um Profissional de Vendas da concessionária mais próxima.</p>   
+                                <p><i>* O número de contemplações está condicionado à existência de saldo mensal no fundo comum do grupo.</i></p>       
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading135">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse135" aria-expanded="false" aria-controls="collapse135">
+                                Plano Especial
+                              </button>
+                            </h2>
+                            <div id="collapse135" class="accordion-collapse collapse" aria-labelledby="heading135" data-bs-parent="#duvidaFreq13">
+                              <div class="accordion-body">
+                                <p>Plano direcionado para a aquisição de automóvel. Conta com prazo de pagamento de 60 meses e uma taxa de administração especial de 10%. Previsão de 2 contemplações mensais*, sendo uma por sorteio e outra por lance livre. Para informações adicionais, procure um Profissional de Vendas da concessionária mais próxima.</p>
+                                <p><i>* O número de contemplações está condicionado à existência de saldo mensal no fundo comum do grupo.</i></p>
+                              </div>
+                            </div>
+                          </div>    
+                        </div>    
+                      </div>
+                      <div class="tab-pane fade" id="pillDuv01-14" role="tabpanel" aria-labelledby="pills-14-tab">
+                        <h2 class="color-red mb-4">Regulamento para compras online</h2>
+                      
+                        <div class="accordion" id="duvidaFreq14">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading141">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse141" aria-expanded="true" aria-controls="collapse141">
+                                Plano Normal
+                              </button>
+                            </h2>
+                            <div id="collapse141" class="accordion-collapse collapse show" aria-labelledby="heading141" data-bs-parent="#duvidaFreq14">
+                              <div class="accordion-body">            
+                                  <p>Plano mais tradicional do Consórcio Nacional Honda, direcionado para a aquisição de motocicleta de baixa cilindrada. Oferece três prazos de pagamento diferentes: 12, 25 ou 72 meses, com suas respectivas taxas de administração. Previsão de 4 contemplações mensais*, sendo uma por sorteio e as demais por lance livre. Para informações adicionais, procure um Profissional de Vendas da concessionária mais próxima.</p>
+                      
+                                  <p><i>* O número de contemplações está condicionado à existência de saldo mensal no fundo comum do grupo.</i></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>    
+                      </div>
+                      <div class="tab-pane fade" id="pillDuv01-15" role="tabpanel" aria-labelledby="pills-15-tab">
+                        <h2 class="color-red mb-4">Restituição de Valores</h2>
+                      
+                        <div class="accordion" id="duvidaFreq15">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading151">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse151" aria-expanded="true" aria-controls="collapse151">
+                                Tenho uma cota cancelada, gostaria de saber como faço para receber a devolução os valores pagos?
+                              </button>
+                            </h2>
+                            <div id="collapse151" class="accordion-collapse collapse show" aria-labelledby="heading151" data-bs-parent="#duvidaFreq15">
+                              <div class="accordion-body">            
+                                  <p>Para grupos formados antes de 06 de fevereiro de 2009, a restituição dos valores pagos para os Consorciados que foram excluídos do Grupo, será efetuada 60 dias após a última assembleia. Nesta fase, o Consórcio Nacional Honda efetuará a devolução de valores em conta corrente indicada pelo Consorciado, desde que seja ele o titular da conta.</p>
+                      
+                                  <p>Ao receber o comunicado sobre os valores que lhe serão restituídos, o Consorciado deverá preencher todos os dados solicitados e remeter o formulário ao Consórcio Nacional Honda via Correio ou entrar em contato com a Central de Atendimento ao Cliente do CNH, através do telefone (11) 2172-7072, de segunda à sexta-feira, das 8h as 20h e, aos sábados, das 9h as 15h. (Horário de Brasília).</p>
+                                    
+                                  <p>Para grupos formados após 06 de fevereiro de 2009, a devolução dos valores aos Consorciados excluídos ocorrerá quando a cota for sorteada (mesmo critério para cotas ativas). Assim que a sua cota for sorteada você passará a ter direito de restituição imediata do valor que for de seu direito. Este será depositado na sua conta corrente.</p>
+                                    
+                                  <p>Ao contatar a Central de Atendimento ao Cliente do CNH tenha sempre em mãos o seu código de acesso, que é formado pelo número do seu grupo/cota e rd, além do número do seu CPF e dos seus dados Bancários.</p>
+                                    
+                                  <p>Vale lembrar que o Consorciado tem o dever de manter todas as suas informações cadastrais e bancárias atualizadas perante o CNH durante todo o prazo de duração do seu Grupo.</p>
+                                    
+                                  <p><i>Obs.: Para sua segurança, informamos que o CNH não solicita informações por e-mail e nem acata solicitações para devolução de valores através de e-mail e fax.</i></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>    
+                      </div>
+                    </div>
+        
+                  </div>          
+              </div>
+            </div>            
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      
+        <div id="modalCookie" class="modal-dialog p-3">
+          <div class="modal-content">
+            <div class="modal-header mb-4">
+              <h5 class="modal-title">Daitan e os cookies</h5>
+            </div>
+            <div class="modal-body mb-4">
+              <div class="d-flex justify-content-start align-items-center">
+                <i class="fa-solid fa-cookie-bite fa-3x me-4"></i>
+                <p class="mb-0">                
+                  Utilizamos cookies para personalizar anúncios e melhorar a sua experiência na navegação do nosso site. Ao continuar navegando, você concorda com a nossa
+                  <a href="/politicas-privacidade">Políticas de Privacidade</a>.
+                </p>
+              </div>              
+            </div>
+            <div class="modal-footer">
+              <div class="d-flex justify-content-end align-items-center">
+                <button type="button" id="closeCookie" class="btn btn-primary">Continuar e Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+      <div id="fixed_button" class="position-fixed btn-whatsapp rounded-circle shadow-sm dropstart">
+        <a id="whatsapp_fixed" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="wa-item"><a href="https://api.whatsapp.com/send?phone=5511994326123" target="_blank">Agende a sua revisão</a></li>
+          <li class="wa-item"><a href="https://api.whatsapp.com/send?phone=5511976509981" target="_blank">Vendas</a></li>
+        </ul>
+      </div>
+
+      <div id="footerEndereco">
+        <div class="row">
+          <div id="regiao">
+            <p class="text-center"><small>Selecione a Região:</small></p>
+            <div id="regiaoNav" class="mb-1">
+              <a href="#" id="btn-sp" class="btn btn-primary">São Paulo</a>
+              <a href="#" id="btn-vp" class="btn btn-outline-primary">Vale do Paraíba</a>
+            </div>
+          </div>          
+          <div id="parentVerticalTab">
+            <ul class="resp-tabs-list hor_1">
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Ibirapuera 
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Jabaquara
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Pompéia
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot color-red me-2"></i>
+                  Sumaré
+                </li>
+            </ul>
+            <div class="resp-tabs-container hor_1">
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Ibirapuera, 2771 - Indianópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5536-9966
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-ibirapuera.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Jabaquara, 2371 - Mirandópolis,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 5591-0140
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-jabaquara.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                R. Carlos Vicari, 154 - Barra Funda,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 2102-0999
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-pompeia.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <div class="row mb-3">                                               
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <p>
+                                <i class="fa-solid fa-location-dot me-1"></i>
+                                <b>Endereço:</b><br>
+                                Av. Sumaré, 1421 - Perdizes,<br>
+                                São Paulo - SP, 04029-200
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                              <a href="#" target="_blank" class="btn btn-waze">
+                                <img src="img/ico-waze.svg" alt="Logo Waze">
+                                Waze
+                              </a>
+                              <a href="#" target="_blank" class="btn btn-googlemaps">
+                                <img src="img/ico-googlemaps.svg" alt="Logo Google Maps">
+                                Google Maps
+                              </a>  
+                            </div>
+                        </div>  
+                        
+                        <p class="mb-3">
+                          <i class="fa-solid fa-phone me-1"></i>
+                          <b>Telefone:</b> 11 3675-0655
+                        </p>
+
+                        <p class="mb-3">
+                          <i class="fa-solid fa-clock me-1"></i>
+                          <b>Horário de Funcionamento:</b><br>
+                          Seg. a Sex. das 8h às 19h | Sábado das 9h às 19h<br>
+                          Honda Parts: Seg. a Sex. das 8h às 18h | Sábado das 10h às 18h
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <img src="img/unidades/sp-sumare.webp" class="w-100 unidade-pic" alt="">
+                    </div>
+                  </div>                    
+                </div>
+            </div>
+          </div> 
+        </div>               
+      </div>  
+      <div id="footerLinks" class="py-5">
+        <div id="rowLink" class="pb-5">
+          <div class="row">
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">MODELOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Civic Type R</a></li>
+                <li><a href="#">Civic Híbrido</a></li>
+                <li><a href="#">New HR-V</a></li>
+                <li><a href="#">New City Hatchback</a></li>
+                <li><a href="#">New City Sedan</a></li>
+                <li><a href="#">Seminovos</a></li>              
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">SERVIÇOS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Agendamento</a></li>
+                <li><a href="#">Revisão Programada</a></li>
+                <li><a href="#">Reparos</a></li>
+                <li><a href="#">Catálogo de Peças</a></li>
+                <li><a href="#">Honda Access</a></li>         
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">CONSÓRCIO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Consórcio HR-V</a></li>
+                <li><a href="#">Consórcio New City</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">VENDAS ESPECIAIS</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Honda Conduz</a></li>
+                <li><a href="#">Taxistas</a></li>
+                <li><a href="#">Diplomatas</a></li>
+                <li><a href="#">Pessoa Jurídica</a></li>
+                <li><a href="#">Produtor Rural</a></li>
+              </ul>
+            </div>
+            
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">A DAITAN</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Sobre a Empresa</a></li>
+                <li><a href="#">Blog da Daitan</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-2 col-lg-2">
+              <p class="link-tile">FALE CONOSCO</p>
+  
+              <ul class="list-link">
+                <li><a href="#">Escreva para Nós</a></li>
+                <li><a href="#">Linha Direta</a></li>
+                <li><a href="#">Cadastro de E-mail</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+              </ul>
+            </div>   
+          </div>
+        </div>      
+          
+          <div class="row">
+            <div id="footerCopyright">
+              <img src="img/footer-ibama.webp" id="footerIbama" alt="Minha escolha faz a diferença no trânsito.">
+              <div id="footerLogo">
+                <img src="img/logo-daitan.svg" alt="">
+                <p><small>
+                  © Daitan Comércio de Veículos Ltda <br>
+                  CNPJ 67.375.899/0001-06. <a href="#">Políticas de Privacidade</a>
+                </small></p>
+              </div>
+            </div>
+          </div>
+
+          
+        
+      </div>
+
+    </footer>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="lib/vertical-responsive/js/easyResponsiveTabs.js"></script>
+    <script src="js/main.js" crossorigin="anonymous"></script> 
+
+    <script>
+      // Adicione um evento de clique ao botão #closeCookie
+      document.getElementById("closeCookie").addEventListener("click", function() {
+        // Feche o modal alterando a classe do elemento para "modal-dialog p-3 d-none"
+        document.getElementById("modalCookie").className = "modal-dialog p-3 d-none";
+      });
+
+      //Mostrar todos os items dos accordions em duvidas frequentes
+      const showAllItemsButton = document.getElementById("showAllItems");
+      const hiddenItems = document.querySelectorAll('.accordion-item.d-none');
+
+      showAllItemsButton.addEventListener("click", () => {
+          // Exibe todos os itens ocultos, removendo a classe "d-none".
+          hiddenItems.forEach(item => {
+              item.classList.remove('d-none');
+          });
+        
+      // Oculta o botão "Mostrar Todos os Itens" após ser clicado.
+      showAllItemsButton.style.display = 'none';
+      });
+    </script>
+
+   
+    
+</body>
+</html>
